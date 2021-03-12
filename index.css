@@ -7,6 +7,9 @@
     padding: 10px 10px 5px 10px;
 }
 
+#main_content {
+    padding-top: 10px;
+}
 
 #footer_wrap {
   display: none;
