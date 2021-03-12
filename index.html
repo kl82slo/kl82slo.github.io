@@ -6,6 +6,42 @@ title: Blog
   <link rel="stylesheet" href="/index.css" type="text/css"/>
 </head>
 
+<!-- start dovol javascript CODE-->
+<script src="menuscript.js" language="javascript" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="menustyle.css" media="screen, print" />
+<!-- end dovol javascript CODE-->
+<!-- start pozdrav CODE-->
+<script type="text/javascript">
+var d = new Date();
+var time = d.getHours();
+
+if (time < 10) 
+  {
+  document.write("<h3 style='color: #35C438;'>Good morning</h3>");
+  }
+else 
+	{
+	if (time < 17) 
+  		{
+  		document.write("<h3 style='color: #35C438;'>Good day</h3>");
+  		}
+	else 
+ 		{
+  		document.write("<h3 style='color: #35C438;'>Good evening</h3>");
+ 		}
+	}
+</script>
+   <!-- end pozdrav CODE-->
+   <!-- start dnevi CODE-->
+<script type="text/javascript">
+			danes = new Date().getDay();
+			dnevi = ["Sleepy Sunday", "Damn Monday", "Another Tuesday", "Again Wednesday", "Only Thursday?", "Finally Friday", "Super Saturday"];
+  		m = new Date().getMonth();
+			months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+			document.write("<h3 style='color: #35C438;'>Today is " + dnevi[danes] + months[m] +  "</h3>");
+	</script>
+    <!-- end dnevi CODE-->
+
 <body>
     {% include navigation.html %}
   </body>
