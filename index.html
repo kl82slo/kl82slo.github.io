@@ -17,17 +17,17 @@ var time = d.getHours();
 
 if (time < 10) 
   {
-  document.write("<h3 style='color: #35C438;'>Good morning</h3>");
+  document.write("<h3 style='color: #35C438;background-color:DodgerBlue'>Good morning</h3>");
   }
 else 
 	{
 	if (time < 17) 
   		{
-  		document.write("<h3 style='color: #35C438;'>Good day</h3>");
+  		document.write("<h3 style='color: #35C438;background-color:DodgerBlue'>Good day</h3>");
   		}
 	else 
  		{
-  		document.write("<h3 style='color: #35C438;'>Good evening</h3>");
+  		document.write("<h3 style='color: #35C438;background-color:DodgerBlue'>Good evening</h3>");
  		}
 	}
 </script>
@@ -38,13 +38,10 @@ else
 			dnevi = ["Sleepy Sunday", "Damn Monday", "Another Tuesday", "Again Wednesday", "Only Thursday?", "Finally Friday", "Super Saturday"];
   		m = new Date().getMonth();
 			months = ["January","February"," of March","April","May","June","July","August","September","October","November","December"];
-			document.write("<h3 style='color: #35C438;'>Today is " + dnevi[danes] + months[m] +  "</h3>");
+			document.write("<h3 style='color: #35C438;background-color:DodgerBlue'>Today is " + dnevi[danes] + months[m] +  "</h3>");
 	</script>
     <!-- end dnevi CODE-->
 
-<body>
-    {% include navigation.html %}
-  </body>
 
 <h1>Latest Posts</h1>
 
