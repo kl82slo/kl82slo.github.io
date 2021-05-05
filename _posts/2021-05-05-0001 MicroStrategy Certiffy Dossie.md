@@ -14,4 +14,4 @@ or on ![workstation](https://www2.microstrategy.com/producthelp/Current/Workstat
 
 If you can't. Chek if you have permition for 'Can certify content'
 
-![My helpful screenshot](20210505_0001/permition_certify.png){: class="post-img"}
+![Permition](/20210505_0001/permition_certify.png){: class="post-img"}
