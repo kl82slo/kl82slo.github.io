@@ -5,4 +5,5 @@ or on [workstation]
 (https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
 
 If you can't. Chek if you have permition for 'Can certify content'
+
 ![My helpful screenshot](20210505_0001/permition_certify.png)
