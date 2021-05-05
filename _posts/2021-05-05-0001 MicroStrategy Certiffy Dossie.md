@@ -5,4 +5,4 @@ or on workstation
 https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm
 
 if you can't chek settings for
-![My helpful screenshot]20210505_0001/permition_certify.png
+![My helpful screenshot](20210505_0001/permition_certify.png)
