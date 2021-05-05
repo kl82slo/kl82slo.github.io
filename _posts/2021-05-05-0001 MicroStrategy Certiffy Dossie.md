@@ -8,9 +8,9 @@ tags:
 comments: true
 ---
 
-You can Certify Dossie on ![web](https://community.microstrategy.com/s/article/KB440273-How-to-certify-a-dossier-in-MicroStrategy-Web-10-9-and-newer?language=en_US)
+You can Certify Dossie on [web](https://community.microstrategy.com/s/article/KB440273-How-to-certify-a-dossier-in-MicroStrategy-Web-10-9-and-newer?language=en_US)
 
-or on ![workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
+or on [workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
 
 If you can't. Chek if you have permition for 'Can certify content'
 
