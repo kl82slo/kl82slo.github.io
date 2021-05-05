@@ -12,4 +12,4 @@ You can Certify Dossie on [web](https://community.microstrategy.com/s/article/KB
 
 If you can't. Chek if you have permition for 'Can certify content'
 
-![Permition](https://github.com/kl82slo/kl82slo.github.io/blob/main/_posts/20210505_0001/permition_certify.png)
+![Permition](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/permition_certify.png)
