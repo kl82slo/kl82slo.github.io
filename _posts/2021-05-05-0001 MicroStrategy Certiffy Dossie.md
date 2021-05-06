@@ -9,7 +9,7 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
-You can Certify Dossie on [web](https://community.microstrategy.com/s/article/KB440273-How-to-certify-a-dossier-in-MicroStrategy-Web-10-9-and-newer?language=en_US) or on [workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
+You can Certify Dossier on [web](https://community.microstrategy.com/s/article/KB440273-How-to-certify-a-dossier-in-MicroStrategy-Web-10-9-and-newer?language=en_US) or on [workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
 
 ## MicroStrategy Web
 1. In MicroStrategy Web, right-click on a dossier and select Properties.
@@ -23,7 +23,7 @@ You can Certify Dossie on [web](https://community.microstrategy.com/s/article/KB
 ![Certified_end](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_end.png)
 
 ## Workstation
-1. Open the Workstatio
+1. Open the Workstation
 2. In the Navigation pane, click Dossiers
 3. Right-click the dossier you want to certify.
 4. Click Certify.
@@ -33,5 +33,5 @@ You can Certify Dossie on [web](https://community.microstrategy.com/s/article/KB
 You can also check who certified it and when.
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_By.png)
 
-If you can't. Chek if you have permition for 'Can certify content'
+If you can’t. Check if you have permission for ‘Can certify content’
 ![Permition](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/permition_certify.png)
