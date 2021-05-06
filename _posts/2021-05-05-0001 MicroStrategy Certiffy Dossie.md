@@ -19,8 +19,9 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 ![Certified](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified.png)
 
 3. Navigate to MicroStrategy Library and users will see the orange certified flag displayed for the dossier.
-                               ![Certified_end](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_end.png)
+<div class="verticalcenter">
  <img src="https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_end.png" alt="centered image" />
+</div>
 
 ## Workstation
 1. Open the Workstation
