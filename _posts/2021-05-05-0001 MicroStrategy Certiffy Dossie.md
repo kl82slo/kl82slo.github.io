@@ -13,10 +13,14 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 
 ## MicroStrategy Web
 1. In MicroStrategy Web, right-click on a dossier and select Properties.
-![Certified_dossier_properties](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_dossier_properties.png)
+ <p align="center">
+  <img width="379" height="437" src="https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_dossier_properties.png">
+</p>
 
 2. Check the Certified option and click Ok.
-![Certified](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified.png)
+ <p align="center">
+  <img width="435" height="286" src="https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified.png">
+</p>
 
 3. Navigate to MicroStrategy Library and users will see the orange certified flag displayed for the dossier.
  <p align="center">
