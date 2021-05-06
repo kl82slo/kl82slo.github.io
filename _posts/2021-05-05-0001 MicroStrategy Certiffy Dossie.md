@@ -22,7 +22,7 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 ![Certified_end](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_end.png)
 
 <p align="center"">
-   <img src="https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_end.png" width="20%" />
+   <img src="https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_end.png" width="30%" />
 </p>
                                                     
 ## Workstation
