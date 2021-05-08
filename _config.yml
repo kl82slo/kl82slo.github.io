@@ -3,3 +3,6 @@ theme: jekyll-theme-slate
 paginate: 4
 
 paginate_path: "/post/page:num/"
+
+description: kl82slo.github.io
+title: Klemen's Blog
