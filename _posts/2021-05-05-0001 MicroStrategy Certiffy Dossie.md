@@ -9,6 +9,8 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
+## Why do it?
+Certified items have typically been reviewed by trusted members of your organization and are considered official sources of content, based on reliable data.
 You can Certify Dossier on [web](https://community.microstrategy.com/s/article/KB440273-How-to-certify-a-dossier-in-MicroStrategy-Web-10-9-and-newer?language=en_US) or on [workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
 
 ## MicroStrategy Web
@@ -36,3 +38,7 @@ If you can’t. <br />
 
 Check if you have permission for ‘Can certify content’
 ![Permition](/img/20210505_0001/permition_certify.png)
+
+### Sources:
+[KB440273](https://community.microstrategy.com/s/article/KB440273-How-to-certify-a-dossier-in-MicroStrategy-Web-10-9-and-newer?language=en_US)
+[workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/Certifying_objects.htm)
