@@ -36,7 +36,7 @@ You can also check who certified it and when.
 If you can’t. <br />
 ![Verify](/img/20210505_0001/NoPermition.png)
 
-Check if you have permission for ‘Can certify content’
+Check if you have permission for ‘Can certify content’ <br />
 ![Permition](/img/20210505_0001/permition_certify.png)
 
 ### Sources:
