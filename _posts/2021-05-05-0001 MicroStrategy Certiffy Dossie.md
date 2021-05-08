@@ -18,7 +18,7 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 2. Check the Certified option and click Ok.
 ![Verify](/img/20210505_0001/Certified.png)
 
-3. Navigate to MicroStrategy Library and users will see the orange certified flag displayed for the dossier.
+3. Navigate to MicroStrategy Library and users will see the orange certified flag displayed for the dossier. <br />
 ![Verify](/img/20210505_0001/Certified_end.png)
  
 ## Workstation
