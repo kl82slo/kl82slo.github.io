@@ -19,15 +19,16 @@ Microstrategy transactions are separated in multiple categories
 - **PDF Export**
 
 ### ERROR
-#. Set new language in WEB 
+1. Set new language in WEB 
 
-#. Set the 'Number and Date Format' to 'Germany'
+2. Set the 'Number and Date Format' to 'Germany'
 
-#. Create dossier and use automatic lines like 'Average' or 'Max'.
+3. Create dossier and use automatic lines like 'Average' or 'Max'.
 
-#. Export to PDF
+4. Export to PDF
 
-#. PDF will export Average as 'Durchschnitt'
+5. PDF will export Average as 'Durchschnitt'
+
 
 ### SOLUTION
 1. Stop PDF Exporter in MicroStrategy Service Manager.
@@ -41,6 +42,7 @@ Microstrategy transactions are separated in multiple categories
 5. Add customer's MessageBundle file (in this case MessagesBundle_sl) 
 
 6. Add line to locales.xml 
+
 ```html
 <locale 
         locale-id="1060" 
