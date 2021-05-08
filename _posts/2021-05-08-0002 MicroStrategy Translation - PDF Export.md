@@ -31,22 +31,10 @@ Microstrategy transactions are separated in multiple categories
 3. Open PDFExporterService.jar directly by 7-Zip(right click -> 7-Zip -> Open archive)
 4. Navigate to target folder in 7-Zip: \PDFExporterService.jar\BOOT-INF\classes\descriptors\
 5. Add customer's MessageBundle file (in this case MessagesBundle_sl)
-5a. Add line to locales.xml <locale locale-id="1060" language="sl" country="SL" desc="Slovenscina" desc-id="" char-set="UTF-8" char-set-excel="UnicodeLittle"/>
+5a. Add line to locales.xml <locale locale-id="<font color='red'>1060</font>" language="<font color='red'>sl</font>" country="<font color='red'>SL</font>" desc="<font color='red'>Slovenscina</font>" desc-id="" char-set="UTF-8" char-set-excel="UnicodeLittle"/>
 6. Replace the PDFExporterService.jar file in installation folder by the updated one.
 7. Start PDF Exporter in MicroStrategy Service Manager.
 
-< code class=“highlighter-rouge”>a straightforward person</ code>
-
-<span style="color:blue">some *blue* text</span>
-
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
-
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
-
-<span style="color:blue">some *This is Blue italic.* text</span>
-
-em { color: blue } _this is blue_
-
-<font color='red'>test blue color font</font>
+<font color='red'>Slovenscina</font>
 
 
