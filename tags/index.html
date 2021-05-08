@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 ---
 {% capture tags %}
   {% for tag in site.tags %}
@@ -29,3 +29,7 @@ layout: default
         </div>
     </div>
 {% endfor %}
+
+<body>
+    {% include navigation.html %}
+</body>
