@@ -36,3 +36,5 @@ Microstrategy transactions are separated in multiple categories
 7. Start PDF Exporter in MicroStrategy Service Manager.
 
 < code class=“highlighter-rouge”>a straightforward person</ code>
+
+<span style="color:blue">some *blue* text</span>
