@@ -31,12 +31,12 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 1. Open the Workstation
 2. In the Navigation pane, click Dossiers
 3. Right-click the dossier you want to certify.
-4. Click Certify.
-
+4. Click Certify. <pr>
 ![Workstation](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Workstation.png)
 
-You can also check who certified it and when.
+You can also check who certified it and when.  <p align="center">
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_By.png)
+</p>
 
 If you can’t. <pr>
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/NoPermition.png)
