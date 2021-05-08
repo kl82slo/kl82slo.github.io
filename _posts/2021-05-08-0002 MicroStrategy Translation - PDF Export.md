@@ -35,7 +35,14 @@ Microstrategy transactions are separated in multiple categories
 
 5a. Add line to locales.xml 
 ```html
-<locale locale-id="1060" language="sl" country="SL" desc="Slovenscina" desc-id="" char-set="UTF-8" char-set-excel="UnicodeLittle"/>
+<locale 
+        locale-id="1060" 
+        language="sl" 
+        country="SL" 
+        desc="Slovenscina" 
+        desc-id="" 
+        char-set="UTF-8" 
+        char-set-excel="UnicodeLittle"/>
 ```
 
 6. Replace the PDFExporterService.jar file in installation folder by the updated one.
