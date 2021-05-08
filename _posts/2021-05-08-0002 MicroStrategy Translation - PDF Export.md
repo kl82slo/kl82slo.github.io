@@ -45,7 +45,7 @@ Microstrategy transactions are separated in multiple categories
 
     ```html
     <locale 
-            locale-id="1060"  <!-- Change this -->
+            locale-id="1060"  -- Change this
             language="sl"  <!-- Change this -->
             country="SL"  <!-- Change this -->
             desc="Slovenscina"  <!-- Change this -->
