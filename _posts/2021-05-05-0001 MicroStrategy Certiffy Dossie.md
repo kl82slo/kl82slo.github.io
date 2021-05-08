@@ -1,10 +1,10 @@
 ---
 layout: post
-title: MicroStrategy Certiffy Dossie
+title: MicroStrategy Certify Dossier
 tags:
 - Microstrategy
-- Dossie
-- Permition
+- Dossier
+- Permitions
 comments: true
 ---
 Dificulty ★☆☆☆☆
@@ -34,9 +34,8 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 4. Click Certify. <pr>
 ![Workstation](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Workstation.png)
 
-You can also check who certified it and when.  <p align="center">
+You can also check who certified it and when. 
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_By.png)
-</p>
 
 If you can’t. <pr>
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/NoPermition.png)
