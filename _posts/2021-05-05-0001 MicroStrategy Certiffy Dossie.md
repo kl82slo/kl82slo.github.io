@@ -39,6 +39,7 @@ You can also check who certified it and when.
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/Certified_By.png)
 
 If you can’t. 
+
 ![Verify](https://raw.githubusercontent.com/kl82slo/kl82slo.github.io/main/_posts/20210505_0001/NoPermition.png)
 
 Check if you have permission for ‘Can certify content’
