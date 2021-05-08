@@ -2,5 +2,5 @@
 layout: blog
 ---
 
-<H3>Tags</H3>
+<H3>About</H3>
 TO-DO
