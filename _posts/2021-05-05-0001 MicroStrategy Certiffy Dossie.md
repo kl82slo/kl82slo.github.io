@@ -11,7 +11,7 @@ Dificulty ★☆☆☆☆
 
 ## Why do it?
 Certified items have typically been reviewed by trusted members of your organization and are considered official sources of content, based on reliable data.
-You can Certify Dossier on [web](https://www2.microstrategy.com/producthelp/Current/ProjectDesignGuide/WebHelp/Lang_1033/Content/MicroStrategy_Web_and_Web_Universal.htm) or on [workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/home_workstation.htm)
+You can Certify Dossier on [Web](https://www2.microstrategy.com/producthelp/Current/ProjectDesignGuide/WebHelp/Lang_1033/Content/MicroStrategy_Web_and_Web_Universal.htm) or on [Workstation](https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/Content/home_workstation.htm).
 
 ## MicroStrategy Web
 1. In MicroStrategy Web, right-click on a dossier and select Properties. <br />
