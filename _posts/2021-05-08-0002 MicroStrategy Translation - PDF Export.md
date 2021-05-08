@@ -19,11 +19,11 @@ Microstrategy transactions are separated in multiple categories
 - **PDF Export**
 
 ERROR
-1) Set new language in WEB 
-2) Set the 'Number and Date Format' to 'Germany'
-3) Create dossier and use automatic lines like 'Average' or 'Max'.
-4) Export to PDF
-5) PDF will export Average as 'Durchschnitt'
+1. Set new language in WEB 
+2. Set the 'Number and Date Format' to 'Germany'
+3. Create dossier and use automatic lines like 'Average' or 'Max'.
+4. Export to PDF
+5. PDF will export Average as 'Durchschnitt'
 
 SOLUTION
 1. Stop PDF Exporter in MicroStrategy Service Manager.
