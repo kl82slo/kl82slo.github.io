@@ -43,7 +43,7 @@ Microstrategy transactions are separated in multiple categories
 
 6. Add line to locales.xml 
 
-    Change the values as peer your locale settings.
+    _Change the values as peer your locale settings._
     
     ```html
     <locale 
