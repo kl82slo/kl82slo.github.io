@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 title: Blog
 ---
 <head>
@@ -43,7 +43,6 @@ else
 	</script>
     <!-- end dnevi CODE-->
 
-<h1>Latest Posts</h1>
 
     <ul class="nav nav-pills nav-stacked">
     {% for post in paginator.posts %}
@@ -56,6 +55,7 @@ else
     </li>
     {% endfor %}
     </ul>
+
 
     {% if paginator.total_pages > 1 %}
     <ul class="pagination pull-right">
