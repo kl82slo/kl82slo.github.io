@@ -25,7 +25,7 @@ You can Certify Dossier on [web](https://community.microstrategy.com/s/article/K
 1. Open the Workstation
 2. In the Navigation pane, click Dossiers
 3. Right-click the dossier you want to certify.
-4. Click Certify. <pr>
+4. Click Certify. <br />
 ![Workstation](/img/20210505_0001/Workstation.png)
 
 You can also check who certified it and when. 
