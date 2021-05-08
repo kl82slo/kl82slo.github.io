@@ -31,6 +31,6 @@ SOLUTION
 3. Open PDFExporterService.jar directly by 7-Zip(right click -> 7-Zip -> Open archive)
 4. Navigate to target folder in 7-Zip: \PDFExporterService.jar\BOOT-INF\classes\descriptors\
 5. Add customer's MessageBundle file (in this case MessagesBundle_sl)
-5a. Add line to locales.xml <locale locale-id="<p style="color:red">1060"<p> language="sl" country="SL" desc="Slovenscina" desc-id="" char-set="UTF-8" char-set-excel="UnicodeLittle"/>
+5a. Add line to locales.xml <locale locale-id="1060" language="sl" country="SL" desc="Slovenscina" desc-id="" char-set="UTF-8" char-set-excel="UnicodeLittle"/>
 6. Replace the PDFExporterService.jar file in installation folder by the updated one.
 7. Start PDF Exporter in MicroStrategy Service Manager.
