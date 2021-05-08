@@ -34,3 +34,5 @@ SOLUTION
 5a. Add line to locales.xml <locale locale-id="1060" language="sl" country="SL" desc="Slovenscina" desc-id="" char-set="UTF-8" char-set-excel="UnicodeLittle"/>
 6. Replace the PDFExporterService.jar file in installation folder by the updated one.
 7. Start PDF Exporter in MicroStrategy Service Manager.
+
+< code class=“highlighter-rouge”>a straightforward person</ code>
