@@ -18,14 +18,14 @@ Microstrategy transactions are separated in multiple categories
 - Report data language
 - **PDF Export**
 
-## ERROR
+### ERROR
 1. Set new language in WEB 
 2. Set the 'Number and Date Format' to 'Germany'
 3. Create dossier and use automatic lines like 'Average' or 'Max'.
 4. Export to PDF
 5. PDF will export Average as 'Durchschnitt'
 
-## SOLUTION
+### SOLUTION
 1. Stop PDF Exporter in MicroStrategy Service Manager.
 2. Copy PDFExporterService.jar file to another location (e.g. folder Document in demo) so that it can be open directly.
 3. Open PDFExporterService.jar directly by 7-Zip(right click -> 7-Zip -> Open archive)
@@ -38,3 +38,15 @@ Microstrategy transactions are separated in multiple categories
 < code class=“highlighter-rouge”>a straightforward person</ code>
 
 <span style="color:blue">some *blue* text</span>
+
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
+
+<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+
+<span style="color:blue">some *This is Blue italic.* text</span>
+
+em { color: blue } _this is blue_
+
+<font color='red'>test blue color font</font>
+
+
