@@ -43,20 +43,19 @@ Microstrategy transactions are separated in multiple categories
 
 6. Add line to locales.xml 
 
+    Change the values as peer your locale settings.
+    
     ```html
     <locale 
-            locale-id="1060"  -- Change this
-            language="sl"  <!-- Change this -->
-            country="SL"  <!-- Change this -->
-            desc="Slovenscina"  <!-- Change this -->
-            desc-id="" 
-            char-set="UTF-8" 
+            locale-id="1060"
+            language="sl"
+            country="SL"
+            desc="Slovenscina"
+            desc-id=""
+            char-set="UTF-8"
             char-set-excel="UnicodeLittle"/>
     ```
 
 7. Replace the PDFExporterService.jar file in installation folder by the updated one.
 
 8. Start PDF Exporter in MicroStrategy Service Manager.
-
-
-
