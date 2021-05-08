@@ -48,9 +48,11 @@ else
     {% for post in paginator.posts %}
     <li>
         <a href="{{ post.url }}">
-            <div class="pull-right post-date">{{ post.date | date_to_string }}</div>
-            <div class="bold">{{ post.title }}</div>
-            <div>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</div>
+	    <div>
+                <span class="bold">{{ post.title }}</span>
+                <span class="pull-right post-date">{{ post.date | date_to_string }}</span>
+	    </div>    
+	    <div>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</div>
         </a>
     </li>
     {% endfor %}
