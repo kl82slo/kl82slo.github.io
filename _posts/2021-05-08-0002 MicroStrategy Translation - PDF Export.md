@@ -18,6 +18,9 @@ Microstrategy transactions are separated in multiple categories
 - Report data language
 - **PDF Export**
 
+### INTRO
+If you use added transactions you may come across an error where transactions on PDF export are not working correctly. Here is a quide what to do in this situation.
+
 ### ERROR
 1. Set new language in WEB 
 
