@@ -8,8 +8,6 @@ comments: true
 ---
 Dificulty ★★★★☆
 
-# IN DEVELOPMENT
-
 Microstrategy transactions are separated in multiple categories
 - Interface for WEB 
 - Interface for Library (In version 2021 not yet available)
