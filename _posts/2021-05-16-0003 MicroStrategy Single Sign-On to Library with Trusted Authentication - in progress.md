@@ -44,5 +44,10 @@ You will find input for 'Secret Key'
 
 And click 'Save'
 
+### Extra
+If at any time you need to check the secret key you can open
+<tomcat>\webapps\MicroStrategyLibrary\WEB-INF\classes\config\configOverride.properties
+and under identityToken.secretKey you will see your password
+
 ### Additional read
 [Single sign-on](https://www2.microstrategy.com/producthelp/Current/WebSDK/Content/topics/sso/SSO_Single_Sign-on.htm)
