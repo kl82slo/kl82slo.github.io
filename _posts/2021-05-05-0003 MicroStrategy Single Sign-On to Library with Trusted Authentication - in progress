@@ -2,15 +2,18 @@ Dificulty ★☆☆☆☆
 
 ### Library
 http://localhost:8080/MicroStrategyLibrary/admin
+![Login](/img/20210516_0003/Login.png)
 
 use the password in Default_accounts.txt
-
+![Password](/img/20210516_0003/Password.png)
+![PassEnterBlured](/img/20210516_0003/PassEnterBlured.png)
 
 
 
 Login
 
 Insert Secret Key
+![SecretKeyLibrary](/img/20210516_0003/SecretKeyLibrary.png)
 
 
 And click 'Save'
@@ -21,9 +24,10 @@ Go to http://localhost:8080/MicroStrategy/servlet/mstrWebAdmin
 Use the same password as in Library
 
 Under security
-
+![WebSecurity](/img/20210516_0003/WebSecurity.png)
 
 You will find input for 'Secret Key'
+![WebSecretKey](/img/20210516_0003/WebSecretKey.png)
 
 
 
