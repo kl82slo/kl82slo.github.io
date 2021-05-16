@@ -1,3 +1,12 @@
+---
+layout: post
+title: MicroStrategy Single Sign-On to Library with Trusted Authentication
+tags:
+- Microstrategy
+- Dossier
+- Permitions
+comments: true
+---
 Dificulty ★☆☆☆☆
 
 ### Library
