@@ -11,6 +11,8 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
+<h3 style='color: #35C438;'> "ricola"</h3>
+
 ### Introduction 
 When you are browsing MicroStrategy web and you want to open Library. You will be asked for credentials unles you set up Trusted Authentication. This is done through 'Secret Key' whitch has to be at least 5 charecters long.
  
