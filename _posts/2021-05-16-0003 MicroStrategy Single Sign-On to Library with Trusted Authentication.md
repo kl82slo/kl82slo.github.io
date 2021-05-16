@@ -50,4 +50,5 @@ If at any time you need to check the secret key you can open <br />
 and under identityToken.secretKey you will see your password <br />
 
 ### Additional read
-[Single sign-on](https://www2.microstrategy.com/producthelp/Current/WebSDK/Content/topics/sso/SSO_Single_Sign-on.htm)
+[Single_sign-on](https://www2.microstrategy.com/producthelp/Current/WebSDK/Content/topics/sso/SSO_Single_Sign-on.htm)
+[Web]
