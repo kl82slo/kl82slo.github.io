@@ -11,14 +11,12 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
-<h3 style='color: #35C438;'> "ricola"</h3>
-
 ### Introduction 
 When you are browsing MicroStrategy web and you want to open Library. You will be asked for credentials unles you set up Trusted Authentication. This is done through 'Secret Key' whitch has to be at least 5 charecters long.
  
 ### Library
 First go to
-http://localhost:8080/MicroStrategyLibrary/admin <br />
+http://<h4 style='color: #35C438;'> localhost:8080</h4>/MicroStrategyLibrary/admin <br />
 ![Login](/img/20210516_0003/Login.png)
 
 use the password in Default_accounts.txt <br />
