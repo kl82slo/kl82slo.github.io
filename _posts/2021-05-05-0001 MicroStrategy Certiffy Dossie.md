@@ -15,13 +15,13 @@ You can Certify Dossier on [Web](https://www2.microstrategy.com/producthelp/Curr
 
 ## MicroStrategy Web
 1. In MicroStrategy Web, right-click on a dossier and select Properties. <br />
-![Verify](/img/20210505_0001/Certified_dossier_properties.png)
+![Certified_dossier_properties](/img/20210505_0001/Certified_dossier_properties.png)
 
 2. Check the Certified option and click Ok. <br />
-![Verify](/img/20210505_0001/Certified.png)
+![Certified](/img/20210505_0001/Certified.png)
 
 3. Navigate to MicroStrategy Library and users will see the orange certified flag displayed for the dossier. <br />
-![Verify](/img/20210505_0001/Certified_end.png)
+![Certified_end](/img/20210505_0001/Certified_end.png)
  
 ## Workstation
 1. Open the Workstation
@@ -31,10 +31,10 @@ You can Certify Dossier on [Web](https://www2.microstrategy.com/producthelp/Curr
 ![Workstation](/img/20210505_0001/Workstation.png)
 
 You can also check who certified it and when. <br />
-![Verify](/img/20210505_0001/Certified_By.png)
+![ertified_By](/img/20210505_0001/Certified_By.png)
 
 If you can’t. <br />
-![Verify](/img/20210505_0001/NoPermition.png)
+![NoPermition](/img/20210505_0001/NoPermition.png)
 
 Check if you have permission for ‘Can certify content’ <br />
 ![Permition](/img/20210505_0001/permition_certify.png)
