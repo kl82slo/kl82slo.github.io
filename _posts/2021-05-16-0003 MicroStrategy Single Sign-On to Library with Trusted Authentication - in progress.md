@@ -45,8 +45,8 @@ You will find input for 'Secret Key'
 And click 'Save'
 
 ### Extra
-If at any time you need to check the secret key you can open
-<tomcat>\webapps\MicroStrategyLibrary\WEB-INF\classes\config\configOverride.properties
+If at any time you need to check the secret key you can open <br />
+<tomcat>\webapps\MicroStrategyLibrary\WEB-INF\classes\config\configOverride.properties <br />
 and under identityToken.secretKey you will see your password
 
 ### Additional read
