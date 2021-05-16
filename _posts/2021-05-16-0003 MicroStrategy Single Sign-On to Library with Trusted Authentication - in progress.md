@@ -25,7 +25,7 @@ use the password in Default_accounts.txt <br />
 and enter user mstr and password that is located under 'Tomcat'
 ![PassEnterBlured](/img/20210516_0003/PassEnterBlured.png)
 
-I Library go to 'Library Server' and insert Secret Key
+Then go to 'Library Server' and insert Secret Key
 ![SecretKeyLibrary](/img/20210516_0003/SecretKeyLibrary.png)
 
 And click 'Save'
@@ -33,14 +33,16 @@ And click 'Save'
 ### Microstrategy web
 Go to http://localhost:8080/MicroStrategy/servlet/mstrWebAdmin
 
-For login use the same password as in Library
+For login use the same password as in Library <br />
+![PassEnterBlured](/img/20210516_0003/PassEnterBlured.png)
 
-Under security
+Under security <br />
 ![WebSecurity](/img/20210516_0003/WebSecurity.png)
 
 You will find input for 'Secret Key'
 ![WebSecretKey](/img/20210516_0003/WebSecretKey.png)
 
+And click 'Save'
 
-
-
+### Additional read
+[Single sign-on](https://www2.microstrategy.com/producthelp/Current/WebSDK/Content/topics/sso/SSO_Single_Sign-on.htm)
