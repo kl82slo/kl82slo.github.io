@@ -1,5 +1,30 @@
 Dificulty ★☆☆☆☆
 
-First visit 
-http://<p style="color:red;">local</p>:8080/MicroStrategyLibrary/admin
+### Library
+http://localhost:8080/MicroStrategyLibrary/admin
+
+use the password in Default_accounts.txt
+
+
+
+
+Login
+
+Insert Secret Key
+
+
+And click 'Save'
+
+### Microstrategy web
+Go to http://localhost:8080/MicroStrategy/servlet/mstrWebAdmin
+
+Use the same password as in Library
+
+Under security
+
+
+You will find input for 'Secret Key'
+
+
+
 
