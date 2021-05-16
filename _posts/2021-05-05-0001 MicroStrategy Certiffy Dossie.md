@@ -4,7 +4,7 @@ title: MicroStrategy Certify Dossier
 tags:
 - Microstrategy
 - Dossier
-- Permitions
+- Permissions
 comments: true
 ---
 Dificulty ★☆☆☆☆
