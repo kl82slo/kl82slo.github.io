@@ -14,57 +14,41 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
-          
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>   
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-          
-          
-          
+      <header class="inner">
+        {% if site.github.is_project_page %}
+          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+        {% endif %}
 
-				<!-- start pozdrav CODE-->
-				<script type="text/javascript">
-				var d = new Date();
-				var time = d.getHours();
-				
-				if (time < 10) 
-				{
-						document.write("<h3 style='color: #35C438; text-align: center'>Good morning</h3>");
-				}
-				else 
-					{
-					if (time < 17) 
-						{
-						document.write("<h3 style='color: #35C438; text-align: center'>Good day</h3>");
-						}
-					else 
-						{
-						document.write("<h3 style='color: #35C438; text-align: center'>Good evening</h3>");
-						}
-					}
-				</script>
-				<!-- end pozdrav CODE-->
-				<!-- start dnevi CODE-->
-				<script type="text/javascript">
-							danes = new Date().getDay();
-							dnevi = ["Sleepy Sunday", "Damn Monday", "Another Tuesday", "Again Wednesday", "Only Thursday?", "Finally Friday", "Super Saturday"];
-							m = new Date().getMonth();
-							y = new Date().getFullYear();
-							months = [" of January "," of February "," of March "," of April "," of May "," of June "," of July "," of August "," of September "," of October "," of November "," of December "];
-							document.write("<h3 style='color: #35C438; text-align: center'>Today is " + dnevi[danes] + months[m] + y.toString() +"</h3>");
-					</script>
-				<!-- end dnevi CODE-->     
-          
-          
-          
-          
-          
-          
-          
-        </header>
+        <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+        <!-- start pozdrav CODE-->
+        <script type="text/javascript">
+        var d = new Date();
+        var time = d.getHours();
+
+        if (time < 10) {
+            document.write("<h3 style='color: #35C438; text-align: center'>Good morning</h3>");
+        } else {
+          if (time < 17) {
+            document.write("<h3 style='color: #35C438; text-align: center'>Good day</h3>");
+          } else {
+            document.write("<h3 style='color: #35C438; text-align: center'>Good evening</h3>");
+          }
+        }
+        </script>
+        <!-- end pozdrav CODE-->
+        <!-- start dnevi CODE-->
+        <script type="text/javascript">
+            danes = new Date().getDay();
+            dnevi = ["Sleepy Sunday", "Damn Monday", "Another Tuesday", "Again Wednesday", "Only Thursday?", "Finally Friday", "Super Saturday"];
+            m = new Date().getMonth();
+            y = new Date().getFullYear();
+            months = [" of January "," of February "," of March "," of April "," of May "," of June "," of July "," of August "," of September "," of October "," of November "," of December "];
+            document.write("<h3 style='color: #35C438; text-align: center'>Today is " + dnevi[danes] + months[m] + y.toString() +"</h3>");
+        </script>
+        <!-- end dnevi CODE-->
+      </header>
     </div>
 
     <!-- MAIN CONTENT -->
@@ -84,14 +68,14 @@
     </div>
 
     {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
     {% endif %}
   </body>
 </html>
