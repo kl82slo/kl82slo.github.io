@@ -4,7 +4,9 @@ title: MicroStrategy Single Sign-On to Library with Trusted Authentication
 tags:
 - Microstrategy
 - Dossier
-- Permitions
+- Web
+- Trusted Authentication
+- Permissions
 comments: true
 ---
 Dificulty ★☆☆☆☆
