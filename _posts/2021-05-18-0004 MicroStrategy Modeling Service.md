@@ -14,7 +14,7 @@ Dificulty ★★☆☆☆
 
 # Post in progress
 
-If you wish to use Workstation to manage standalone filters, facts, attributes, tables, and schema using the Filter Editor, Fact Editor, Attribute Editor, Schema Editor, and access Schema tab to lock, unlock, and reload (update) schema from the main Workstation window.
+If you wish to use Workstation to manage standalone filters, facts, attributes, tables, and schema using the Filter Editor, Fact Editor, Attribute Editor, Schema Editor, and access Schema tab to lock, unlock, and reload (update) schema.
 
 Then you need to set up Modeling Service
 
@@ -37,7 +37,6 @@ Open the Windows Service Application, right-click MicroStrategy Modeling Service
 Chek status in 
 http://localhost:9500/model/application/health
 
-< hide
 ### Modeling servise - With TLS
 Go to C:\Program Files (x86)\MicroStrategy\ModelingService\admin
 
@@ -58,8 +57,6 @@ Open the Windows Service Application, right-click MicroStrategy Modeling Service
 
 Chek status in 
 http://localhost:<font color='red'>modeling_service_https_port_number</font>/model/application/health
-
-/hide>
 
 Aditional read
 [Troubleshooting](https://www2.microstrategy.com/producthelp/Current/InstallConfig/en-us/Content/modeling_service_troubleshooting.htm)
