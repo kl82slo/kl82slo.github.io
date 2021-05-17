@@ -14,15 +14,20 @@ Dificulty ★★☆☆☆
 
 # Post in progress
 
+
+
+
+
+
 If you wish to use Workstation to manage standalone filters, facts, attributes, tables, and schema using the Filter Editor, Fact Editor, Attribute Editor, Schema Editor, and access Schema tab to lock, unlock, and reload (update) schema.
 
 Then you need to set up Modeling Service
 
-Worning you need at least vesrion 2021 update 1. If you use 2021 you will get the folowing error
-[!2021](/img/20210518_0004/version2021.png)
+Warning you need at least version 2021 update 1. If you use 2021 you will get the following error
+![2021](/img/20210518_0004/version2021.png)
 
 ### Library
-The proces is the same as in [Single-Sign-On-to-Library](https://kl82slo.github.io/2021/05/16/0003-MicroStrategy-Single-Sign-On-to-Library-with-Trusted-Authentication.html)
+The process is the same as in [Single-Sign-On-to-Library](https://kl82slo.github.io/2021/05/16/0003-MicroStrategy-Single-Sign-On-to-Library-with-Trusted-Authentication.html)
 and also the secret key that you used there is the same you will need here.
 
 ### Modeling servise - No TLS
