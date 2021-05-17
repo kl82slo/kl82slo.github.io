@@ -25,7 +25,7 @@ If you wish to use Workstation to manage standalone filters, facts, attributes, 
 
 Then you need to set up Modeling Service
 
-Warning you need at least version 2021 update 1. If you use 2021 you will get the following error
+<font color='red' font-size:20px>Warning</font> you need at least version 2021 update 1. If you use 2021 you will get the following error
 ![2021](/img/20210518_0004/version2021.png)
 
 ### Library
