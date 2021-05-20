@@ -6,5 +6,4 @@
 
 TO-DO
 
-Git available at
-https://github.com/kl82slo/kl82slo.github.io
+Git available at [kl82slo.github.io](https://github.com/kl82slo/kl82slo.github.io)
