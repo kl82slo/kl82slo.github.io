@@ -26,7 +26,7 @@ or IIS - C:/Program Files (x86)/MicroStrategy/Web ASPx/plugins
 in it create path /ConnectorForMap/WEB-INF/xml/config  <br />
 then create file mapConfig.xml  <br />
 and copy the folowing and change the key to the one you got in PREREQUISITES stage <br />
-    ```code 
+{% highlight bash %}
 <mc> 
   <ec>
     <apps>
@@ -34,7 +34,7 @@ and copy the folowing and change the key to the one you got in PREREQUISITES sta
     </apps>
   </ec>
 </mc>  
-    ```
+{% endhighlight %}
     
 if you also have [Mapbox](https://www.mapbox.com/) or [Google map](https://www2.microstrategy.com/producthelp/Current/GISHelp/WebHelp/Lang_1033/Content/Google_Setup.htm) key insert them like
 
@@ -66,20 +66,20 @@ tomcat/webapps/MicroStrategyLibrary/plugins/
 and restart tomcat (and IIS if you use it for web)
 
 ### Aditonal read
-[Setup for integration with Google Maps](https://www2.microstrategy.com/producthelp/Current/GISHelp/WebHelp/Lang_1033/Content/Google_Setup.htm)
+[Setup for integration with Google Maps](https://www2.microstrategy.com/producthelp/Current/GISHelp/WebHelp/Lang_1033/Content/Google_Setup.htm)  <br />
 [ESRI maps for MicroStrategy Web and MicroStrategy Library products](https://community.microstrategy.com/s/article/KB45064-How-to-activate-cloud-based-ESRI-maps-for-MicroStrategy?language=en_US)
 
 ### Errors
-If you get error
-'error. com.microstrategy.utils.cache.CacheException: Connection timed out: connect'
+If you get error  <br />
+'error. com.microstrategy.utils.cache.CacheException: Connection timed out: connect'  <br />
 [!ESRIConnectionError](/img/20210520-0005/EsriConnectionError.png)
 
-or
-'com.microstrategy.utils.cache.CacheException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.'
+or  <br />
+'com.microstrategy.utils.cache.CacheException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.'  <br />
 [!ESRIConnectionError1](/img/20210520-0005/EsriConnectionError1.png)
 
-Then most likly you are using Proxy Server and need to enter detailes in
-http://<font color='red'>localhost:8080</font>/MicroStrategy/servlet/mstrWebAdmin
+Then most likly you are using Proxy Server and need to enter detailes in  <br />
+http://<font color='red'>localhost:8080</font>/MicroStrategy/servlet/mstrWebAdmin  <br />
 [!EsriProxy](/img/20210520-0005/EsriProxy.png)
 [For more detailes read KB202342](https://community.microstrategy.com/s/article/KB202342-Support-using-proxy-server-to-send-HTTP-request-to-ESRI?language=en_US)
 
