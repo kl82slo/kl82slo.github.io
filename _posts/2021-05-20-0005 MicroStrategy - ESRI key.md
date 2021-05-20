@@ -72,7 +72,7 @@ and restart tomcat (and IIS if you use it for web)
 ### Errors
 If you get error  <br />
 'error. com.microstrategy.utils.cache.CacheException: Connection timed out: connect'  <br />
-![ESRIConnectionError](/img/0520_0005/EsriConnectionError.png)
+![ESRIConnectionError](/img/20210520_0005/EsriConnectionError.png)
 
 or  <br />
 'com.microstrategy.utils.cache.CacheException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.'  <br />
