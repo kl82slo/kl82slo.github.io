@@ -74,6 +74,7 @@ If you get error
 [!ESRIConnectionError](/img/20210520-0005/EsriConnectionError.png)
 
 or
+'com.microstrategy.utils.cache.CacheException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.'
 [!ESRIConnectionError1](/img/20210520-0005/EsriConnectionError1.png)
 
 Then most likly you are using Proxy Server and need to enter detailes in
