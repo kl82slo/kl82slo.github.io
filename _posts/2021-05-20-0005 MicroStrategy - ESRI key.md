@@ -11,8 +11,8 @@ Dificulty ★☆☆☆☆
 ### PREREQUISITES
 
 Before configuring cloud-based ESRI maps, obtain a free ESRI Map Key by
-[MicroStrategy Download site](https://community.microstrategy.com/s/products)
-![Generate_key](/img/20210520_0005/Generate_key.png)
+[MicroStrategy Download site](https://community.microstrategy.com/s/products)<br />
+![Generate_key](/img/20210520_0005/Generate_key.png) <br />
 or by contacting MicroStrategy tehnical support (Dont forget to provide DSI)
 
 in case of [Mapbox https://www.mapbox.com/](https://www.mapbox.com/)
