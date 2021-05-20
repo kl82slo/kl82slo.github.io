@@ -1,5 +1,5 @@
 ---
-- layout: blog
+ layout: blog
 ---
 
 <h3>About</h3>
