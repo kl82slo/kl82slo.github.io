@@ -76,7 +76,7 @@ If you get error  <br />
 
 or  <br />
 'com.microstrategy.utils.cache.CacheException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.'  <br />
-[!ESRIConnectionError1](/img/20210520_0005/EsriConnectionError1.png)
+[!ESRIConnectionError1](/img/20210520_0005/EsriConnectionError1.gif)
 
 Then most likly you are using Proxy Server and need to enter detailes in  <br />
 http://<font color='red'>localhost:8080</font>/MicroStrategy/servlet/mstrWebAdmin  <br />
