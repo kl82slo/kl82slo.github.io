@@ -15,17 +15,17 @@ Before configuring cloud-based ESRI maps, obtain a free ESRI Map Key by
 ![Generate_key](/img/20210520_0005/Generate_key.png) <br />
 or by contacting MicroStrategy tehnical support (Dont forget to provide DSI)
 
-in case of [Mapbox https://www.mapbox.com/](https://www.mapbox.com/)
+in case of [Mapbox go to https://www.mapbox.com/](https://www.mapbox.com/)
 
 ### MicroStrategy Version 10.6+
 
 First go to  <br />
 tomcat - tomcat/webapps/Microstrategy/plugins  <br />
-or IIS - C:/Program Files (x86)/MicroStrategy/Web ASPx/plugins
+or if you use IIS - C:/Program Files (x86)/MicroStrategy/Web ASPx/plugins
 
 in it create path /ConnectorForMap/WEB-INF/xml/config  <br />
 then create file mapConfig.xml  <br />
-and copy the folowing and change the key to the one you got in PREREQUISITES stage <br />
+and copy the folowing. Then change the key to the one you got in PREREQUISITES stage <br />
 {% highlight bash %}
 <mc> 
   <ec>
