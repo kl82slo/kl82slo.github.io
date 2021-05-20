@@ -12,7 +12,7 @@ Dificulty ★☆☆☆☆
 
 Before configuring cloud-based ESRI maps, obtain a free ESRI Map Key by
 [MicroStrategy Download site](https://community.microstrategy.com/s/products)
-[!Generate_key] (/img/20210520/Generate_key.png)
+[!Generate_key] (/img/20210520_0005/Generate_key.png)
 or by contacting MicroStrategy tehnical support (Dont forget to provide DSI)
 
 in case of [Mapbox https://www.mapbox.com/](https://www.mapbox.com/)
@@ -72,15 +72,15 @@ and restart tomcat (and IIS if you use it for web)
 ### Errors
 If you get error  <br />
 'error. com.microstrategy.utils.cache.CacheException: Connection timed out: connect'  <br />
-[!ESRIConnectionError](/img/20210520/EsriConnectionError.png)
+[!ESRIConnectionError](/img/0520_0005/EsriConnectionError.png)
 
 or  <br />
 'com.microstrategy.utils.cache.CacheException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.'  <br />
-[!ESRIConnectionError1](/img/20210520/EsriConnectionError1.png)
+[!ESRIConnectionError1](/img/20210520_0005/EsriConnectionError1.png)
 
 Then most likly you are using Proxy Server and need to enter detailes in  <br />
 http://<font color='red'>localhost:8080</font>/MicroStrategy/servlet/mstrWebAdmin  <br />
-[!EsriProxy](/img/20210520/EsriProxy.png)
+[!EsriProxy](/img/20210520_0005/EsriProxy.png)
 [For more detailes read KB202342](https://community.microstrategy.com/s/article/KB202342-Support-using-proxy-server-to-send-HTTP-request-to-ESRI?language=en_US)
 
 if you are still experiencing problems make sure that there are no traffic restrictions for the following addresses:
