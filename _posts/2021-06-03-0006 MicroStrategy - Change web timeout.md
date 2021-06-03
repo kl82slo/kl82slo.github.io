@@ -16,7 +16,7 @@ Difficulty  ★★☆☆☆
 ### To chek status of timeout
 1) Go to http://localhost:8080/MicroStrategy/servlet/mstrWeb (Tomcat) or http://localhost/MicroStrategy/asp/ (IIS) and log in as administrator<br />
 2) Open any project<br />
-3) On the right side click 'Administrator' and select 'Preferences'<br />
+3) On the right side click (user) 'Administrator' and select 'Preferences'<br />
 
 ![ADMIN_Preferecnes](/img/20210603_0006/ADMIN_Preferecnes.png)
 
