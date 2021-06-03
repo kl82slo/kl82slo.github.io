@@ -6,7 +6,7 @@ tags:
 - Web timeout
 comments: true
 ---
-Dificulty ★★☆☆☆
+Difficulty  ★★☆☆☆
 
 
 # in progress
@@ -103,7 +103,7 @@ and chenge setting to <br />
 #### IIS
 [KB35666] (https://community.microstrategy.com/s/article/KB35666-How-to-edit-the-setting-for-the-Request-execution)
 
-Open IIS go to Sites/Default Web Site/ MicroStragy and find 'Session State'
+Open IIS go to Sites/Default Web Site/ MicroStrategy and find 'Session State'
 ![Session_State](/img/20210603_0006/Session_State.png)
 
 and change setting for 'Time-out (in minutes)' <br />
