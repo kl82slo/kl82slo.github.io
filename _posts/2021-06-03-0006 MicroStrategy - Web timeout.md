@@ -1,10 +1,20 @@
+---
+layout: post
+title: MicroStrategy - Web timeout
+tags:
+- Microstrategy
+- Web timeout
+comments: true
+---
+Dificulty ★★☆☆☆
+
+
 # in progress
 
 
 
-
 ### To chek status of timeout
-1) Go to http://localhost:8080/MicroStrategy/asp/Main.aspx and log in as administrator<br />
+1) Go to http://localhost:8080/MicroStrategy/servlet/mstrWeb (Tomcat) or http://localhost/MicroStrategy/asp/ (IIS) and log in as administrator<br />
 2) Open any project<br />
 3) On the right side click 'Administrator' and select 'Preferences'<br />
 
@@ -37,7 +47,7 @@ Input (time how long users can be loged in) values in seconds.<br />
 1,5h --> 5400 <br />
 2h   --> 7200 <br />
 
-Restart intelligence server<br />
+### Restart intelligence server
 #### Windows
 Start/Microstrategy Tools/Service Manager
 ![Service Manager](/img/2021-06-03-0006/Service_Manager.png)
@@ -45,7 +55,7 @@ Start/Microstrategy Tools/Service Manager
 and restart
 ![Intelligence_Restart](/img/2021-06-03-0006/Intelligence_Restart.png)
 
-to see changes you will also need to restart tomcat/IIS but it is not needed at this time.
+to see changes you might also need to restart tomcat/IIS but it is not needed at this time.
 
 #### Linux
 go to 
@@ -67,4 +77,11 @@ Wait until status is 'stoped' and then enter
 mstrctl -s IntelligenceServer start
 {% endhighlight %}
 
+To see changes you might also need to restart tomcat/IIS but it is not needed at this time.
+
+### Change HTTP seassion timeout
+#### Tomcat
+
+  
+  
 
