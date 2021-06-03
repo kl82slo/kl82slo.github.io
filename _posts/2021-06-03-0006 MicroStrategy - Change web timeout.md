@@ -84,8 +84,7 @@ mstrctl -s IntelligenceServer start
 
 To see changes you might also need to restart tomcat/IIS but it is not needed at this time.
 
-### Change HTTP seassion timeout
-#### Tomcat [KB12966](https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
+### Change HTTP seassion timeout Tomcat [KB12966](https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
 Go to <br />
 C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\conf <br />
 and open 'web.xml' <br />
@@ -123,7 +122,7 @@ cd <Tomcat Root>/bin/
 and you are done <br />
 ![Tomcat_Final](/img/20210603_0006/Final.png)
   
-#### IIS
+### Change HTTP seassion timeout IIS
 Open IIS go to Sites/Default Web Site/ MicroStrategy and find 'Session State'
 ![Session_State](/img/20210603_0006/Session_State.png)
 
