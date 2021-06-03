@@ -26,7 +26,7 @@ Difficulty  ★★☆☆☆
 5) Under 'General' find 'Session timeout warning'<br />
 ![Seassion_timeot](/img/20210603_0006/Seassion_timeot.png)
 
-The first number is inteligence server seassion timeout<br />
+The first number is inteligence server seassion timeout and is controled by MicroStrategy<br />
 The second is HTTP seassion controled by Tomcat/IIS<br />
 
 
