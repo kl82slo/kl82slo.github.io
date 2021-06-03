@@ -38,14 +38,15 @@ The second is HTTP seassion controled by Tomcat/IIS<br />
 1) Log into Developer as 'Administrator'<br />
 2) Right clik on 'Project source'<br />
 3) Select 'Configure MicroStrategy Intelligence Server'<br />
-4) Under 'Governing Rules/Default/Genreal' you will find <br />
+![Developer_Configure_Microstrategy_Intelligence_Server](/img/20210603_0006/Developer_Configure_Microstrategy_Intelligence_Server.png)<br />
+5) Under 'Governing Rules/Default/Genreal' you will find <br />
 {% highlight bash %}
 User session idle time (sec):     
 Web user session idle time (sec):
 {% endhighlight %}
 ![Microstrategy_Intelligence_Server_Configuration_Session_Idle](/img/20210603_0006/Microstrategy_Intelligence_Server_Configuration_Session_Idle.png)<br /> <br />
 More info on what they mean [KB220558](https://community.microstrategy.com/s/article/KB220558-How-do-user-session-idle-timeouts-work-in-MicroStrategy?language=en_US)  <br />
-![Developer_Configure_Microstrategy_Intelligence_Server](/img/20210603_0006/Developer_Configure_Microstrategy_Intelligence_Server.png)
+
 
 Input (time how long users can be loged in) values in seconds.<br />
 1h   --> 3600 <br />
