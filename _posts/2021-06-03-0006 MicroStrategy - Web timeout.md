@@ -4,27 +4,27 @@
 
 
 ### To chek status of timeout
-1) Go to http://localhost:8080/MicroStrategy/asp/Main.aspx and log in as administrator
-2) Open any project
-3) On the right side click 'Administrator' and select 'Preferences'
+1) Go to http://localhost:8080/MicroStrategy/asp/Main.aspx and log in as administrator<br />
+2) Open any project<br />
+3) On the right side click 'Administrator' and select 'Preferences'<br />
 
 ![ADMIN_Preferecnes](/img/2021-06-03-0006/ADMIN_Preferecnes1.png)
 
-4) Select 'Project Defaults' 
+4) Select 'Project Defaults' <br />
 ![Project_Default](/img/2021-06-03-0006/Project_Default.png)
 
-5) Under 'General' find 'Session timeout warning'
+5) Under 'General' find 'Session timeout warning'<br />
 ![Seassion_timeot](/img/2021-06-03-0006/Seassion_timeot.png)
 
-The first number is inteligence server seassion timeout
-The second is HTTP seassion controled by Tomcat/IIS
+The first number is inteligence server seassion timeout<br />
+The second is HTTP seassion controled by Tomcat/IIS<br />
 
 
 ### Changing inteligence server seassion timeout
-1) Log into Developer as 'Administrator'
-2) Right clik on 'Project source'
-3) Select 'Configure MicroStrategy Intelligence Server'
-4) Under 'Governing Rules/Default/Genreal' you will find 
+1) Log into Developer as 'Administrator'<br />
+2) Right clik on 'Project source'<br />
+3) Select 'Configure MicroStrategy Intelligence Server'<br />
+4) Under 'Governing Rules/Default/Genreal' you will find <br />
 {% highlight bash %}
 User session idle time (sec):     
 Web user session idle time (sec):
@@ -32,16 +32,39 @@ Web user session idle time (sec):
 More info on what they mean [KB220558](https://community.microstrategy.com/s/article/KB220558-How-do-user-session-idle-timeouts-work-in-MicroStrategy?language=en_US)
 ![Developer_Configure_Microstrategy_Intelligence_Server](/img/2021-06-03-0006/Developer_Configure_Microstrategy_Intelligence_Server.png)
 
-Input (time how long users can be loged in) values in seconds.
-1h   --> 3600 
-1,5h --> 5400
-2h   --> 7200
+Input (time how long users can be loged in) values in seconds.<br />
+1h   --> 3600 <br />
+1,5h --> 5400 <br />
+2h   --> 7200 <br />
 
-Restart intelligence server
+Restart intelligence server<br />
+#### Windows
+Start/Microstrategy Tools/Service Manager
+![Service Manager](/img/2021-06-03-0006/Service_Manager.png)
 
+and restart
+![Intelligence_Restart](/img/2021-06-03-0006/Intelligence_Restart.png)
 
+to see changes you will also need to restart tomcat/IIS but it is not needed at this time.
 
+#### Linux
+go to 
+{% highlight bash %}
+cd <MicroStrategy Home>/bin
+{% endhighlight %}
+  
+Enter
+{% highlight bash %}
+mstrctl -s IntelligenceServer stop
+{% endhighlight %}
 
+{% highlight bash %}
+mstrctl -s IntelligenceServer gs
+{% endhighlight %}
 
+Wait until status is 'stoped' and then enter
+{% highlight bash %}
+mstrctl -s IntelligenceServer start
+{% endhighlight %}
 
 
