@@ -39,7 +39,8 @@ The second is HTTP seassion controled by Tomcat/IIS<br />
 User session idle time (sec):     
 Web user session idle time (sec):
 {% endhighlight %}
-More info on what they mean [KB220558](https://community.microstrategy.com/s/article/KB220558-How-do-user-session-idle-timeouts-work-in-MicroStrategy?language=en_US)
+[Microstrategy_Intelligence_Server_Configuration_Session_Idle](/img/20210603_0006/Microstrategy_Intelligence_Server_Configuration_Session_Idle.png)<br />
+More info on what they mean [KB220558](https://community.microstrategy.com/s/article/KB220558-How-do-user-session-idle-timeouts-work-in-MicroStrategy?language=en_US)  <br />
 ![Developer_Configure_Microstrategy_Intelligence_Server](/img/20210603_0006/Developer_Configure_Microstrategy_Intelligence_Server.png)
 
 Input (time how long users can be loged in) values in seconds.<br />
@@ -49,10 +50,10 @@ Input (time how long users can be loged in) values in seconds.<br />
 
 ### Restart intelligence server
 #### Windows
-Start/Microstrategy Tools/Service Manager
+Start/Microstrategy Tools/Service Manager <br />
 ![Service Manager](/img/20210603_0006/Service_Manager.png)
 
-and restart
+and restart <br />
 ![Intelligence_Restart](/img/20210603_0006/Intelligence_Restart.png)
 
 to see changes you might also need to restart tomcat/IIS but it is not needed at this time.
@@ -81,10 +82,10 @@ To see changes you might also need to restart tomcat/IIS but it is not needed at
 
 ### Change HTTP seassion timeout
 #### Tomcat
-[KB12966] (https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
-Go to
-C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\conf
-and open 'web.xml'
+[KB12966](https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
+Go to <br />
+C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\conf <br />
+and open 'web.xml' <br />
 ![Tomcat_web](/img/20210603_0006/Tomcat_web.png)  
 
 in it find 
@@ -99,10 +100,27 @@ and chenge setting to <br />
 1,5h --> 90 <br />
 2h   --> 120 <br />  
   
+##### Restart Tomcat - Windows 
+Start services
+![Services](/img/20210603_0006/Services.png)    
+
+Find Tomcat and select restart
+![Tomcat_Restart](/img/20210603_0006/Tomcat_Restart.png) 
+
+##### Restart Tomcat - Linux 
+{% highlight bash %}
+cd <Tomcat Root>/bin/
+./shutdown.sh
+{% endhighlight %}
+  
+{% highlight bash %}
+./startup.sh
+{% endhighlight %}
+  
+and you are done <br />
+![Tomcat_Final](/img/20210603_0006/Final.png)
   
 #### IIS
-[KB35666] (https://community.microstrategy.com/s/article/KB35666-How-to-edit-the-setting-for-the-Request-execution)
-
 Open IIS go to Sites/Default Web Site/ MicroStrategy and find 'Session State'
 ![Session_State](/img/20210603_0006/Session_State.png)
 
@@ -112,10 +130,10 @@ and change setting for 'Time-out (in minutes)' <br />
 2h   --> 120 <br />
 ![Session_State_2](/img/20210603_0006/Session_State_2.png)
 
-Restart IIS 
+Restart IIS <br />
 ![IIS_Stop](/img/20210603_0006/IIS_Stop.png)
 
-and you are done
+and you are done <br />
 ![IIS_Final](/img/20210603_0006/Final.png)
   
 ### Aditional read  
