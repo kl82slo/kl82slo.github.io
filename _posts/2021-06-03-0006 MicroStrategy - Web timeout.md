@@ -39,7 +39,7 @@ The second is HTTP seassion controled by Tomcat/IIS<br />
 User session idle time (sec):     
 Web user session idle time (sec):
 {% endhighlight %}
-![Microstrategy_Intelligence_Server_Configuration_Session_Idle](/img/20210603_0006/Microstrategy_Intelligence_Server_Configuration_Session_Idle.png)<br />
+![Microstrategy_Intelligence_Server_Configuration_Session_Idle](/img/20210603_0006/Microstrategy_Intelligence_Server_Configuration_Session_Idle.png)<br /> <br />
 More info on what they mean [KB220558](https://community.microstrategy.com/s/article/KB220558-How-do-user-session-idle-timeouts-work-in-MicroStrategy?language=en_US)  <br />
 ![Developer_Configure_Microstrategy_Intelligence_Server](/img/20210603_0006/Developer_Configure_Microstrategy_Intelligence_Server.png)
 
@@ -99,10 +99,10 @@ and chenge setting to <br />
 2h   --> 120 <br />  
   
 ##### Restart Tomcat - Windows 
-Start services
-![Services](/img/20210603_0006/Services.png)    
+Start services <br />
+![Services](/img/20210603_0006/Services.png) <br />    
 
-Find Tomcat and select restart
+Find Tomcat and select restart<br />
 ![Tomcat_Restart](/img/20210603_0006/Tomcat_Restart.png) 
 
 ##### Restart Tomcat - Linux 
