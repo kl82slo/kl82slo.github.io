@@ -18,7 +18,7 @@ Difficulty  ★★☆☆☆
 2) Open any project<br />
 3) On the right side click 'Administrator' and select 'Preferences'<br />
 
-![ADMIN_Preferecnes](/img/20210603_0006/ADMIN_Preferecnes1.png)
+![ADMIN_Preferecnes](/img/20210603_0006/ADMIN_Preferecnes.png)
 
 4) Select 'Project Defaults' <br />
 ![Project_Default](/img/20210603_0006/Project_Default.png)
