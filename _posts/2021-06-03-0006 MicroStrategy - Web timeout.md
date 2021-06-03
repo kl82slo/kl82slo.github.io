@@ -48,8 +48,7 @@ Input (time how long users can be loged in) values in seconds.<br />
 1,5h --> 5400 <br />
 2h   --> 7200 <br />
 
-### Restart intelligence server
-#### Windows
+#### Restart intelligence server - Windows
 Start/Microstrategy Tools/Service Manager <br />
 ![Service Manager](/img/20210603_0006/Service_Manager.png)
 
@@ -58,7 +57,7 @@ and restart <br />
 
 to see changes you might also need to restart tomcat/IIS but it is not needed at this time.
 
-#### Linux
+#### Restart intelligence server - Linux
 go to 
 {% highlight bash %}
 cd <MicroStrategy Home>/bin
