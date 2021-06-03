@@ -82,7 +82,23 @@ To see changes you might also need to restart tomcat/IIS but it is not needed at
 ### Change HTTP seassion timeout
 #### Tomcat
 [KB12966] (https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
+Go to
+C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\conf
+and open 'web.xml'
+![Tomcat_web](/img/2021-06-03-0006/Tomcat_web.png)  
 
+in it find 
+{% highlight bash %}
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+{% endhighlight %}
+  
+and chenge setting to <br />
+1h   --> 60 <br />
+1,5h --> 90 <br />
+2h   --> 120 <br />  
+  
   
 #### IIS
 [KB35666] (https://community.microstrategy.com/s/article/KB35666-How-to-edit-the-setting-for-the-Request-execution)
@@ -90,7 +106,7 @@ To see changes you might also need to restart tomcat/IIS but it is not needed at
 Open IIS go to Sites/Default Web Site/ MicroStragy and find 'Session State'
 ![Session_State](/img/2021-06-03-0006/Session_State.png)
 
-and change setting for 'Time-out (in minutes)'
+and change setting for 'Time-out (in minutes)' <br />
 1h   --> 60 <br />
 1,5h --> 90 <br />
 2h   --> 120 <br />
@@ -104,6 +120,5 @@ and you are done
   
 ### Aditional read  
 [KB441269 What are the timeout settings controlled by the Web server?](https://community.microstrategy.com/s/article/What-are-the-timeout-settings-controlled-by-the-Web-Server?language=en_US)
-  
-  
-
+ 
+[KB12867 How timeout settings in MicroStrategy Web and the MicroStrategy Intelligence Server affect users in MicroStrategy Web](https://community.microstrategy.com/s/article/KB12867-How-timeout-settings-in-MicroStrategy-Web-and-the)
