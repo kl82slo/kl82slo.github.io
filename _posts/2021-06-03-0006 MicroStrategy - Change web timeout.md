@@ -24,10 +24,10 @@ and log in as administrator<br />
 
 ![ADMIN_Preferecnes](/img/20210603_0006/ADMIN_Preferecnes.png)
 
-4) Select 'Project Defaults' <br />
+5) Select 'Project Defaults' <br />
 ![Project_Default](/img/20210603_0006/Project_Default.png)
 
-5) Under 'General' find 'Session timeout warning'<br />
+6) Under 'General' find 'Session timeout warning'<br />
 ![Seassion_timeot](/img/20210603_0006/Seassion_timeot.png)
 
 The first number is inteligence server seassion timeout and is controled by MicroStrategy<br />
