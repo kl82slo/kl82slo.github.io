@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MicroStrategy - Web timeout
+title: MicroStrategy - Change web timeout
 tags:
 - Microstrategy
 - Web timeout
