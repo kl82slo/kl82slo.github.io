@@ -81,7 +81,29 @@ To see changes you might also need to restart tomcat/IIS but it is not needed at
 
 ### Change HTTP seassion timeout
 #### Tomcat
+[KB12966] (https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
 
+  
+#### IIS
+[KB35666] (https://community.microstrategy.com/s/article/KB35666-How-to-edit-the-setting-for-the-Request-execution)
+
+Open IIS go to Sites/Default Web Site/ MicroStragy and find 'Session State'
+![Session_State](/img/2021-06-03-0006/Session_State.png)
+
+and change setting for 'Time-out (in minutes)'
+1h   --> 60 <br />
+1,5h --> 90 <br />
+2h   --> 120 <br />
+![Session_State_2](/img/2021-06-03-0006/Session_State_2.png)
+
+Restart IIS 
+![IIS_Stop](/img/2021-06-03-0006/IIS_Stop.png)
+
+and you are done
+![IIS_Final](/img/2021-06-03-0006/Final.png)
+  
+### Aditional read  
+[KB441269 What are the timeout settings controlled by the Web server?](https://community.microstrategy.com/s/article/What-are-the-timeout-settings-controlled-by-the-Web-Server?language=en_US)
   
   
 
