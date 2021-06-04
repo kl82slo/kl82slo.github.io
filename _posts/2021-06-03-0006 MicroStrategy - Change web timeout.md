@@ -58,7 +58,7 @@ Start/Microstrategy Tools/Service Manager <br />
 ![Service Manager](/img/20210603_0006/Service_Manager.png)
 
 and restart <br />
-![Intelligence_Restart](/img/20210603_0006/Intelligence_Restart.png)
+![Intelligence_Restart](/img/20210603_0006/Intelligence_Restart_blurd.png)
 
 to see changes you might also need to restart tomcat/IIS but it is not needed at this time.
 
@@ -124,7 +124,7 @@ and you are done <br />
   
 ### Change HTTP seassion timeout IIS
 Open IIS go to Sites/Default Web Site/ MicroStrategy and find 'Session State'
-![Session_State](/img/20210603_0006/Session_State.png)
+![Session_State](/img/20210603_0006/Session_State_hiden.png)
 
 and change setting for 'Time-out (in minutes)' <br />
 1h   --> 60 <br />
