@@ -8,11 +8,6 @@ comments: true
 ---
 Difficulty  ★★☆☆☆
 
-
-# in progress
-
-
-
 ### To chek status of timeout
 1) Go to <br />
 http://localhost:8080/MicroStrategy/servlet/mstrWeb (Tomcat) <br />
