@@ -14,12 +14,12 @@ Dificulty ★☆☆☆☆
 
 
 When you get an error like 
-![compliance](/img/20210620_0007/compliance_hidden.png)
+![License_manager1](/img/20210620_0007/License_manager1.png)
 
 and you have alredy fixed the issue but the error remains. 
-![License_manager](/img/20210620_0007/License_manager.png)
+![compliance](/img/20210620_0007/compliance_hidden.png)
 
-![License_manager1](/img/20210620_0007/License_manager1.png)
+![compliance1](/img/20210620_0007/compliance1.png)
 
 Then open 'Licence manager'
 ![Open_licence_manager](/img/20210620_0007/Open_licence_manager.png)
