@@ -11,7 +11,7 @@ Dificulty ★☆☆☆☆
 
 ![License_manager1](/img/20210620_0007/License_manager1.png)
 
-and you have already fixed the issue but the error remains. <br />
+and you have already fixed the issue but the error remains. (pictures are from different error) <br />
 ![compliance](/img/20210620_0007/compliance_hidden.png)
 
 ![compliance1](/img/20210620_0007/compliance1.png)
