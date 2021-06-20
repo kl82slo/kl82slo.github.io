@@ -20,7 +20,7 @@ Then open 'Licence manager' <br />
 ![Open_licence_manager](/img/20210620_0007/Open_licence_manager.png)
 
 Go to 'Audit' <by /> 
-Double click Intelligence  <br /> 
+Double click 'Intelligence'  <br /> 
 log into server <br /> 
 and click 'Compliance Check' <br />
 ![Open_licence_manager](/img/20210620_0007/Compliance_Check_hiden.png)
