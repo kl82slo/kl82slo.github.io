@@ -9,10 +9,6 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
-
-# in development
-
-
 When you get an error like <br />
 ![License_manager1](/img/20210620_0007/License_manager1.png)
 
@@ -28,3 +24,5 @@ Go to 'Audit' <br />
 Duble click Intelligence and log into server <br />
 ![Open_licence_manager](/img/20210620_0007/Compliance_Check_hiden.png)
 
+If you don't know witch privilege you need to remove check 
+[Privileges by License Type](https://www2.microstrategy.com/producthelp/current/Workstation/WebHelp/Lang_1033/Content/privileges_by_license_type.htm)
