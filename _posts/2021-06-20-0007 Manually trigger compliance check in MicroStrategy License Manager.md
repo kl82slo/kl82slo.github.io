@@ -22,6 +22,7 @@ Then open 'Licence manager' <br />
 
 Go to 'Audit' <br />
 Duble click Intelligence and log into server <br />
+and clik 'Complience Check' <br />
 ![Open_licence_manager](/img/20210620_0007/Compliance_Check_hiden.png)
 
 If you don't know witch privilege you need to remove check 
