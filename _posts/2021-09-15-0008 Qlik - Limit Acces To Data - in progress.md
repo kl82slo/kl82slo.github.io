@@ -17,7 +17,7 @@ Dificulty ★★★☆☆
 
   
  
-## Lets create some basic data
+## Lets create some demo data
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png){:height="90%" width="90%"} 
 
 {% highlight sql %}
@@ -33,7 +33,7 @@ SELECT '002' as Connecting_Column
   
   
   
-![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png){:height="50%" width="50%"}
+![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png){:height="75%" width="75%"}
 
 In the first grid lets add 'Connecting_Column' and 'Shown_Data'
   
@@ -78,7 +78,7 @@ SELECT '002' as Connecting_Column
 {% endhighlight %}
 
 And we will get all current data <br />
-![D2_ALL](/img/20210915_0008/D2_ALL.png){:height="50%" width="50%"}
+![D2_ALL](/img/20210915_0008/D2_ALL.png){:height="75%" width="75%"}
   
 Now if we change REDUCTION table <br />
 
@@ -112,7 +112,7 @@ SELECT '002' as Connecting_Column
 {% endhighlight %}
   
 
-![D3_Limit](/img/20210915_0008/D3_Limit.png){:height="50%" width="50%"}  
+![D3_Limit](/img/20210915_0008/D3_Limit.png){:height="75%" width="75%"}  
   
 ## Lets add more data
   
@@ -149,7 +149,7 @@ SELECT '003' as Connecting_Column
 ;
 {% endhighlight %}  
 
-![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="50%" width="50%"}   
+![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="75%" width="75%"}   
 
 ## Change ACCES to *  
 
@@ -189,7 +189,7 @@ SELECT '003' as Connecting_Column
 
 {% endhighlight %}  
   
-![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="50%" width="50%"}     
+![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="75%" width="75%"}     
   
 ## Move limitation to Database
 ![D4_New_Limit](/img/20210915_0008/SQL1.png){:height="75%" width="75%"}
