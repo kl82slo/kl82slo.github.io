@@ -19,7 +19,7 @@ Dificulty ★★★☆☆
  
 ## Lets create some basic data
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png)
-  ![Certified](/img/20210505_0001/Certified.png)
+
 {% highlight sql %}
 [Random_Data]:
 SELECT '001'  as Connecting_Column
