@@ -18,7 +18,7 @@ Dificulty ★★★☆☆
   
  
 ## Lets create some basic data
-![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png)
+![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png){:height="90%" width="90%"} 
 
 {% highlight sql %}
 [Random_Data]:
@@ -40,7 +40,7 @@ In the first grid lets add 'Connecting_Column' and 'Shown_Data'
 In a seperate grid add function OSuser()
   
 {% highlight sql %}
-    =OSuser()
+=OSuser()
 {% endhighlight %}
 
 In the second grind you will find your user and group.  
@@ -77,10 +77,10 @@ SELECT '002' as Connecting_Column
 ;
 {% endhighlight %}
 
-And we will get all current data
+And we will get all current data <br />
 ![D2_ALL](/img/20210915_0008/D2_ALL.png){:height="50%" width="50%"}
   
-Now if we change REDUCTION table
+Now if we change REDUCTION table <br />
 
 {% highlight sql %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
@@ -192,9 +192,9 @@ SELECT '003' as Connecting_Column
 ![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="50%" width="50%"}     
   
 ## Move limitation to Database
-![D4_New_Limit](/img/20210915_0008/SQL1.png)  
-![D4_New_Limit](/img/20210915_0008/SQL2.png)    
-  
+![D4_New_Limit](/img/20210915_0008/SQL1.png){:height="75%" width="75%"}
+![D4_New_Limit](/img/20210915_0008/SQL2.png){:height="75%" width="75%"}
+
 {% highlight bash %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
 
@@ -205,7 +205,7 @@ LOAD ACCESS, USERID, REDUCTION;
 SELECT [ACCESS]
       ,upper([USERID]) as USERID
       ,[REDUCTION]
-  FROM [dbo].[A_SECURITY];
+FROM [dbo].[A_SECURITY];
 Section Application;
 
 
@@ -229,10 +229,10 @@ SELECT '003'   as Connecting_Column
 ;
 
 {% endhighlight %} <br />
-![Post_SQL](/img/20210915_0008/Post_SQL.png){:height="70%" width="70%"}     
+![Post_SQL](/img/20210915_0008/Post_SQL.png){:height="75%" width="75%"}     
   
 And if we change data to <br />
 ![Post_SQL1](/img/20210915_0008/Post_SQL1.png){:height="50%" width="50%"}       
 
 we will get  <br />
-![Post_SQL2](/img/20210915_0008/Post_SQL2.png){:height="70%" width="70%"}    
+![Post_SQL2](/img/20210915_0008/Post_SQL2.png){:height="75%" width="75%"}    
