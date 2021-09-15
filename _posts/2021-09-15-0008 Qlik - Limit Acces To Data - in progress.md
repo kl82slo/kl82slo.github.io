@@ -14,7 +14,7 @@ Dificulty ★★★☆☆
 
 
 ## Why do it?
-TO-DO
+
   
  
 ## Lets create some basic data
@@ -33,7 +33,7 @@ SELECT '002' as Connecting_Column
   
   
   
-![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png)
+![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png){:height="50%" width="50%"}
 
 In the first grid lets add 'Connecting_Column' and 'Shown_Data'
   
@@ -78,7 +78,7 @@ SELECT '002' as Connecting_Column
 {% endhighlight %}
 
 And we will get all current data
-![D2_ALL](/img/20210915_0008/D2_ALL.png)  
+![D2_ALL](/img/20210915_0008/D2_ALL.png){:height="50%" width="50%"}
   
 Now if we change REDUCTION table
 
@@ -112,7 +112,7 @@ SELECT '002' as Connecting_Column
 {% endhighlight %}
   
 
-![D3_Limit](/img/20210915_0008/D3_Limit.png)  
+![D3_Limit](/img/20210915_0008/D3_Limit.png){:height="50%" width="50%"}  
   
 ## Lets add more data
   
@@ -149,7 +149,7 @@ SELECT '003' as Connecting_Column
 ;
 {% endhighlight %}  
 
-![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png)   
+![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="50%" width="50%"}   
 
 ## Change ACCES to *  
 
@@ -189,7 +189,7 @@ SELECT '003' as Connecting_Column
 
 {% endhighlight %}  
   
-![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png)     
+![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="50%" width="50%"}     
   
 ## Move limitation to Database
 ![D4_New_Limit](/img/20210915_0008/SQL1.png)  
@@ -229,10 +229,10 @@ SELECT '003'   as Connecting_Column
 ;
 
 {% endhighlight %}
-![Post_SQL](/img/20210915_0008/Post_SQL.png)     
+![Post_SQL](/img/20210915_0008/Post_SQL.png){:height="50%" width="50%"}     
   
 And if we change data to
-![Post_SQL1](/img/20210915_0008/Post_SQL1.png)       
+![Post_SQL1](/img/20210915_0008/Post_SQL1.png){:height="50%" width="50%"}       
 
 we will get  
-![Post_SQL2](/img/20210915_0008/Post_SQL2.png)    
+![Post_SQL2](/img/20210915_0008/Post_SQL2.png){:height="50%" width="50%"}    
