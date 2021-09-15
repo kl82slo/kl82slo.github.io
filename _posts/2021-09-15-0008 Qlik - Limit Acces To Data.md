@@ -20,7 +20,7 @@ Dificulty ★☆☆☆☆
 ## Lets create some basic data
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png)
   
-    ```sql
+{% highlight bash %}
     [Random_Data]:
     SELECT '001'  as Connecting_Column
           ,'piko' as Shown_Data
@@ -28,12 +28,25 @@ Dificulty ★☆☆☆☆
      SELECT '002' as Connecting_Column
           ,'miko' as Shown_Data     
     ;
-    ```
+{% endhighlight %}
+  
+  
+  
   
 ![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png)
 
+In the first grid lets add 'Connecting_Column' and 'Shown_Data'
   
+In a seperate grid add function OSuser()
   
-    ```sql
+{% highlight bash %}
     =OSuser()
-    ```
+{% endhighlight %}
+
+In the second grind you will find your user and group.  
+  
+## First limitation
+
+  
+  
+  
