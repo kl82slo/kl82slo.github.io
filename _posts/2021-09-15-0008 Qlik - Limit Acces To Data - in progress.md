@@ -228,11 +228,11 @@ SELECT '003'   as Connecting_Column
       ,'zingo' as Shown_Data    
 ;
 
-{% endhighlight %}
-![Post_SQL](/img/20210915_0008/Post_SQL.png){:height="50%" width="50%"}     
+{% endhighlight %} <br />
+![Post_SQL](/img/20210915_0008/Post_SQL.png){:height="70%" width="70%"}     
   
-And if we change data to
+And if we change data to <br />
 ![Post_SQL1](/img/20210915_0008/Post_SQL1.png){:height="50%" width="50%"}       
 
-we will get  
-![Post_SQL2](/img/20210915_0008/Post_SQL2.png){:height="50%" width="50%"}    
+we will get  <br />
+![Post_SQL2](/img/20210915_0008/Post_SQL2.png){:height="70%" width="70%"}    
