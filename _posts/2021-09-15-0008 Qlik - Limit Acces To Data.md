@@ -19,8 +19,8 @@ Dificulty ★☆☆☆☆
  
 ## Lets create some basic data
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png)
-
-{% highlight sql %}
+  
+```sql
 [Random_Data]:
 SELECT '001'  as Connecting_Column
       ,'piko' as Shown_Data
@@ -28,7 +28,8 @@ SELECT '001'  as Connecting_Column
  SELECT '002' as Connecting_Column
       ,'miko' as Shown_Data     
 ;
-{% endhighlight %}
+```
+
   
   
 
