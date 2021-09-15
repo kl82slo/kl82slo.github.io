@@ -20,15 +20,16 @@ Dificulty ★☆☆☆☆
 ## Lets create some basic data
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png)
   
-```sql
-[Random_Data]:
-SELECT '001'  as Connecting_Column
-      ,'piko' as Shown_Data
-      union
- SELECT '002' as Connecting_Column
-      ,'miko' as Shown_Data     
-;
-```
+    ```sql
+    [Random_Data]:
+    SELECT '001'  as Connecting_Column
+          ,'piko' as Shown_Data
+          union
+     SELECT '002' as Connecting_Column
+          ,'miko' as Shown_Data     
+    ;
+    ```
+  
 
   
   
