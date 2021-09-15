@@ -30,7 +30,10 @@ Dificulty ★☆☆☆☆
     ;
     ```
   
+![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png)
 
   
   
-
+    ```sql
+    =OSuser()
+    ```
