@@ -117,7 +117,7 @@ SELECT '002' as Connecting_Column
 ## Lets add more data
   
 {% highlight sql %}
-LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx (qlik-test_qliksvc)';
+LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
 
 
 Section Access;
@@ -156,7 +156,7 @@ SELECT '003' as Connecting_Column
 TO-DO - why
   
 {% highlight bash %}
-LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx (qlik-test_qliksvc)';
+LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
 
 
 Section Access;
