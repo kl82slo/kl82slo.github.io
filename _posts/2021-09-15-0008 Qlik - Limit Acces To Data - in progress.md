@@ -14,7 +14,7 @@ Dificulty ★★★☆☆
 
 
 ## Why do it?
-<TO-DO>
+TO-DO
   
  
 ## Lets create some basic data
@@ -153,7 +153,7 @@ SELECT '003' as Connecting_Column
 
 ## Change ACCES to *  
 
-<TO-DO - why>  
+TO-DO - why
   
 {% highlight bash %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx (qlik-test_qliksvc)';
