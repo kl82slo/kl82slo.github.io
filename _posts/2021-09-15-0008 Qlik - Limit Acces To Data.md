@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qlik - Limit Acces To Data
+title: Qlik - Limit Acces To Data (in progress)
 tags:
 - Qlik
 - Section Acces
@@ -32,12 +32,12 @@ SELECT '002' as Connecting_Column
   
   
   
-  
+And show it in Qlik  
+In the first grid lets add 'Connecting_Column' and 'Shown_Data'
+In a seperate grid add function OSuser()
 ![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png){:height="75%" width="75%"}
 
-In the first grid lets add 'Connecting_Column' and 'Shown_Data'
-  
-In a seperate grid add function OSuser()
+
   
 {% highlight sql %}
 =OSuser()
