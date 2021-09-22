@@ -110,7 +110,7 @@ You will see examples as we proceed.
 
 
   
-  
+Current whole code
 {% highlight sql %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
 
