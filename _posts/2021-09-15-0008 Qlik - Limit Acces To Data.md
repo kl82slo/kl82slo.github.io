@@ -14,9 +14,12 @@ Dificulty ★★★☆☆
 
 
 ## Why do it?
+In some cases you need to limit what users can see in certan qlik files. 
+This solution means that users do not need to reload data. 
+And will only see the data that he is allowed to see.
+But in case you have huge quantity of rows it will affect the performance of opening qlik files.
 
-  
- 
+
 ## Lets create some demo data
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png){:height="90%" width="90%"} 
 
