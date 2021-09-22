@@ -21,7 +21,7 @@ But in case you have huge quantity of rows it will affect the performance of ope
 
 
 ## Lets create some demo data
-In data load create <br />
+In data load create some data<br />
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png){:height="90%" width="90%"} 
 
 <br />
@@ -34,9 +34,8 @@ SELECT '002'  as Connecting_Column
       ,'miko' as Shown_Data     
 ;
 {% endhighlight %}
+
 <br />
-  
-  
 And show it in Qlik  
 In the first grid lets add 'Connecting_Column' and 'Shown_Data' <br />
 In a seperate grid add function OSuser() <br />
@@ -83,6 +82,8 @@ USER, QLIK-TEST\baz ,  3
 Section Application; 
 {% endhighlight %}
 
+<br />
+
 For REDUCTION - you can use difrent name
 {% highlight sql %}  
 REDUCTION:
@@ -96,6 +97,7 @@ REDUCTION , Connecting_Column
 It just represents groups of filters like in current example user in group 1 can see 001 and 002 in Connecting Column. <br />
 You will see examples as we proceed.
 
+<br />
 
 
 
@@ -143,7 +145,7 @@ And we will get all current data <br />
 ![D2_ALL](/img/20210915_0008/D2_ALL.png){:height="75%" width="75%"}
   
 
-  
+  <br />
   
 Now if we change REDUCTION table <br />
 
@@ -261,7 +263,7 @@ SELECT '003' as Connecting_Column
 {% highlight bash %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
 
-
+And change select to database
 Section Access;
 [Security]:
 LOAD ACCESS, USERID, REDUCTION;
@@ -277,7 +279,6 @@ LOAD REDUCTION, Connecting_Column;
 SELECT [REDUCTION]
       ,Connecting_Column
       from dbo.A_REDUCTION;
-
 
 
 [Random_Data]:
