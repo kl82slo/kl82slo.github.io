@@ -30,7 +30,7 @@ In data load create <br />
 SELECT '001'  as Connecting_Column
       ,'piko' as Shown_Data
       union
-SELECT '002' as Connecting_Column
+SELECT '002'  as Connecting_Column
       ,'miko' as Shown_Data     
 ;
 {% endhighlight %}
@@ -65,11 +65,11 @@ Section Application;
 
 This part creates hidden table that is used in Qlik and recognizes logged in user with user in this table.<br />
 In ACCESS input USER or ADMIN or * <br />
-In USERID input user as 'UserDirectory' + '/' + 'UserId' or use *<br />
+In USERID input user as 'UserDirectory' + '/' + 'UserId' or use * <br />
 REDUCTION for this one you can use any name but you will have to connect to it later. It specifies in which group of filters user belongs.<br />
 
 If you want to add multiple user just add lines betwen [] like
-{% highlight sql %}  
+{% highlight sql %}
 Section Access;
 [Security]:
 LOAD * inline [
@@ -93,7 +93,7 @@ REDUCTION , Connecting_Column
 ];
 {% endhighlight %}
 
-It just represents groups of filters like in current example user in group 1 can see 001 and 002 in Connecting Column.
+It just represents groups of filters like in current example user in group 1 can see 001 and 002 in Connecting Column. <br />
 You will see examples as we proceed.
 
 
@@ -217,8 +217,6 @@ SELECT '003' as Connecting_Column
 ![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="75%" width="75%"}   
 
 ## Change ACCES to *  
-
-TO-DO - why
   
 {% highlight bash %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
@@ -257,8 +255,8 @@ SELECT '003' as Connecting_Column
 ![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="75%" width="75%"}     
   
 ## Move limitation to Database
-![D4_New_Limit](/img/20210915_0008/SQL1.png){:height="50%" width="50%"}
-![D4_New_Limit](/img/20210915_0008/SQL2.png){:height="50%" width="50%"}
+![D4_New_Limit](/img/20210915_0008/SQL1.png){:height="50%" width="50%"} <br />
+![D4_New_Limit](/img/20210915_0008/SQL2.png){:height="50%" width="50%"} <br />
 
 {% highlight bash %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
