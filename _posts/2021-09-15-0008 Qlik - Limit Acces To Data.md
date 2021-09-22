@@ -21,9 +21,10 @@ But in case you have huge quantity of rows it will affect the performance of ope
 
 
 ## Lets create some demo data
-In data load create
+In data load create <br />
 ![BASIC_DATA](/img/20210915_0008/BASIC_DATA.png){:height="90%" width="90%"} 
 
+<br />
 {% highlight sql %}
 [Random_Data]:
 SELECT '001'  as Connecting_Column
@@ -33,12 +34,13 @@ SELECT '002' as Connecting_Column
       ,'miko' as Shown_Data     
 ;
 {% endhighlight %}
-  
+<br />
   
   
 And show it in Qlik  
 In the first grid lets add 'Connecting_Column' and 'Shown_Data' <br />
 In a seperate grid add function OSuser() <br />
+<br />
 ![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png){:height="75%" width="75%"}
 
 
@@ -66,7 +68,7 @@ In ACCESS input USER or ADMIN or * <br />
 In USERID input user as 'UserDirectory' + '/' + 'UserId' or use *<br />
 REDUCTION for this one you can use any name but you will have to connect to it later. It specifies in which group of filters user belongs.<br />
 
-If you want to add multiple user yust add lines betwen [] like
+If you want to add multiple user just add lines betwen [] like
 {% highlight sql %}  
 Section Access;
 [Security]:
@@ -255,8 +257,8 @@ SELECT '003' as Connecting_Column
 ![D4_New_Limit](/img/20210915_0008/D4_New_Limit.png){:height="75%" width="75%"}     
   
 ## Move limitation to Database
-![D4_New_Limit](/img/20210915_0008/SQL1.png){:height="75%" width="75%"}
-![D4_New_Limit](/img/20210915_0008/SQL2.png){:height="75%" width="75%"}
+![D4_New_Limit](/img/20210915_0008/SQL1.png){:height="50%" width="50%"}
+![D4_New_Limit](/img/20210915_0008/SQL2.png){:height="50%" width="50%"}
 
 {% highlight bash %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
