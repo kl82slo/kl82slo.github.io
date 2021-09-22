@@ -33,8 +33,8 @@ SELECT '002' as Connecting_Column
   
   
 And show it in Qlik  
-In the first grid lets add 'Connecting_Column' and 'Shown_Data'
-In a seperate grid add function OSuser()
+In the first grid lets add 'Connecting_Column' and 'Shown_Data' <br />
+In a seperate grid add function OSuser() <br />
 ![BASIC_DATA_01](/img/20210915_0008/BASIC_DATA_01.png){:height="75%" width="75%"}
 
 
@@ -46,6 +46,62 @@ In a seperate grid add function OSuser()
 In the second grind you will find your user and group.  
   
 ## First limitation
+  
+{% highlight sql %}  
+Section Access;
+[Security]:
+LOAD * inline [
+ACCESS, USERID, REDUCTION
+ADMIN, QLIK-TEST\qliksvc ,  1
+];
+Section Application; 
+{% endhighlight %}
+
+This part creates hidden table that is used in Qlik and recognizes logged in user with user in this table.<br />
+In ACCESS input USER or ADMIN or * <br />
+In USERID input user as 'UserDirectory' + '/' + 'UserId' or use *<br />
+REDUCTION for this one you can use any name but you will have to connect to it later. It specifies in which group of filters user belongs.<br />
+
+If you want to add multiple user yust add lines betwen [] like
+{% highlight sql %}  
+Section Access;
+[Security]:
+LOAD * inline [
+ACCESS, USERID, REDUCTION
+ADMIN, QLIK-TEST\qliksvc ,  1
+ADMIN, QLIK-TEST\foo ,  1
+USER, QLIK-TEST\bar ,  2
+USER, QLIK-TEST\baz ,  3
+*, QLIK-TEST\quux ,  3
+];
+Section Application; 
+{% endhighlight %}
+
+For REDUCTION - you can use difrent name
+{% highlight sql %}  
+REDUCTION:
+LOAD * inline [
+REDUCTION , Connecting_Column
+1 , 001
+1 , 002
+];
+{% endhighlight %}
+
+It just represents groups of filters like in current example user in group 1 can see 001 and 002 in Connecting Column.
+You will see examples as we proceed.
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
 {% highlight sql %}
 LIB CONNECT TO 'Microsoft_SQL_Server_192.xxx.xxx.xxx';
@@ -76,9 +132,12 @@ SELECT '002' as Connecting_Column
       ,'miko' as Shown_Data     
 ;
 {% endhighlight %}
-
-And we will get all current data <br />
+<br />
+And we will get all current data <br /> 
 ![D2_ALL](/img/20210915_0008/D2_ALL.png){:height="75%" width="75%"}
+  
+
+  
   
 Now if we change REDUCTION table <br />
 
