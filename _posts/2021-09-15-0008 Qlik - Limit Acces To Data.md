@@ -94,7 +94,7 @@ REDUCTION , Connecting_Column
 ];
 {% endhighlight %}
 
-It just represents groups of filters like in current example user in group 1 can see 001 and 002 in Connecting Column. <br />
+It represents groups of filters like in current example user in group 1 can see 001 and 002 in Connecting Column. <br />
 You will see examples as we proceed.
 
 <br />
