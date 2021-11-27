@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qlik - Limit Acces To Data (in progress)
+title: Qlik - Limit Acces To Data
 tags:
 - Qlik
 - Section Acces
