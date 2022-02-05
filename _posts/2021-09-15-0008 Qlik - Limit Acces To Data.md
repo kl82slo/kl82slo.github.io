@@ -9,9 +9,6 @@ comments: true
 ---
 Dificulty ★★★☆☆
 
-# IN PROGRESS
-
-
 
 ## Why do it?
 In some cases you need to limit what users can see in certan qlik files. <br />
