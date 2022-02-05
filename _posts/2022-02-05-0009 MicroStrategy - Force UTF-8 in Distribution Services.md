@@ -2,7 +2,7 @@
 layout: post
 title: Qlik - Limit Acces To Data
 tags:
-- Microstrategy
+- MicroStrategy
 - Distribution Services
 - UTF-8
 comments: true
@@ -14,8 +14,7 @@ Dificulty ★★★★☆
 When directly exporting report to text file it will be exported as 'UTF-8' but when using 'Distribution Services' it will be genereted as 'UCS-2 LE BOM' insted of 'UTF-8'
 
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 * {
   box-sizing: border-box;
@@ -102,5 +101,3 @@ function openTab(tabName) {
 }
 </script>
 
-</body>
-</html> 
