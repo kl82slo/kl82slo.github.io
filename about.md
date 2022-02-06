@@ -59,19 +59,19 @@ button:hover, a:hover {
 <h2 style="text-align:center" href="https://github.com/kl82slo/kl82slo.github.io">kl82slo.github.io</h2>
 
 <div class="card">
-  <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:100%">
+  <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:90%">
   <h1>Klemen Vrhovšek</h1>
   <p class="title">BI Analytic</p>
   <p href="https://www.crmt.com/">CRMT</p>
      <div style="margin: 24px 0;">
       
       <a href="https://www.credential.net/e6e7597e-2173-4501-ad4a-dab1ae706dda#gs.ovl60o">
-      <img alt="SCI" src="/img/Info/SCI.png" style="width=150" height="70">
+      <img alt="SCI" src="/img/Info/SCI.png" style="width=300">
       </a>
       <!--- SCI --->
                                                                                                                  
        <a href="https://www.credential.net/f90c2f05-ee25-414c-91ef-ed39f1e75dc7#gs.ovl66e">
-       <img alt="ANL" src="/img/Info/ANL.png" style="width=150" height="70"> 
+       <img alt="ANL" src="/img/Info/ANL.png" style="width=250"> 
        </a>
        <!--- ANL --->  
        
