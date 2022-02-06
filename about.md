@@ -56,13 +56,13 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center">[kl82slo.github.io](https://github.com/kl82slo/kl82slo.github.io)</h2>
+<h2 style="text-align:center" href="https://github.com/kl82slo/kl82slo.github.io">kl82slo.github.io</h2>
 
 <div class="card">
   <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:100%">
   <h1>Klemen Vrhovšek</h1>
   <p class="title">BI Analytic</p>
-  <p>CRMT</p>
+  <p href="https://www.crmt.com/">CRMT</p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fa fa-dribbble"></i></a> 
     <a href="#"><i class="fa fa-twitter"></i></a>  
