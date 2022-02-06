@@ -67,7 +67,7 @@ body {
 
 <!-- Full-width columns: (hidden by default) -->
 <div id="b1" class="containerTab">
-  <p>
+
     
     
     
@@ -81,7 +81,7 @@ body {
 In the end it shud look like   <br /> 
 ![DSNotUseUnicodeForPT](/img/20220205_0009/DSNotUseUnicodeForPT.png)
 
-  </p>
+  
 </div>
 
 <div id="b2" class="containerTab" >
