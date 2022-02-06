@@ -56,7 +56,7 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center">kl82slo.github.io</h2>
+<h2 style="text-align:center">[kl82slo.github.io](https://github.com/kl82slo/kl82slo.github.io)</h2>
 
 <div class="card">
   <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:100%">
