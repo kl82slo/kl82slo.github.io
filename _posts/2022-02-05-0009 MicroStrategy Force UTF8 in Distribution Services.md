@@ -37,10 +37,12 @@ body {
   text-align: center;
   font-size: 25px;
   cursor: pointer;
+  color: white;
 }
 
 .containerTab {
   padding: 20px;
+  color: white;
 }
 
 /* Clear floats after the columns */
