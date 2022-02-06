@@ -37,12 +37,10 @@ body {
   text-align: center;
   font-size: 25px;
   cursor: pointer;
-  color: white;
 }
 
 .containerTab {
   padding: 20px;
-  color: white;
 }
 
 /* Clear floats after the columns */
@@ -52,13 +50,6 @@ body {
   clear: both;
 }
 
-/* Closable button inside the container tab */
-.closebtn {
-  float: right;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
 </style>
 </head>
 <body>
@@ -80,16 +71,53 @@ body {
 <!-- Full-width columns: (hidden by default) -->
 <div id="b1" class="containerTab" style="display:none;background:green">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <p>In the Windows Registry, locate the following: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\MicroStrategy\DSS Server\Castor\
+  <p>
+    
+    
+    
+1) In the Windows Registry, locate the following: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\MicroStrategy\DSS Server\Castor\
 
-Create a DWORD registry key entry "DSNotUseUnicodeForPT" with value = 1</p>
+2) Create a DWORD registry key entry "DSNotUseUnicodeForPT" with value = 1
+![DSNotUseUnicodeForPT00](/img/20220205_0009/DSNotUseUnicodeForPT.png00)    
+![DSNotUseUnicodeForPT01](/img/20220205_0009/DSNotUseUnicodeForPT.png01)  
+![DSNotUseUnicodeForPT01](/img/20220205_0009/DSNotUseUnicodeForPT.png02)
+    
+In the end it shud look like   
+![DSNotUseUnicodeForPT](/img/20220205_0009/DSNotUseUnicodeForPT.png)
+
+  </p>
 </div>
 
 <div id="b2" class="containerTab" style="display:none;background:blue">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <p>In the MSIReg.reg file, locate the following: [HKEY_LOCAL_MACHINE\SOFTWARE\MicroStrategy\DSS Server\Castor]
-  
-Create an entry "DSNotUseUnicodeForPT "=dword:00000001</p>
+  <p>
+    
+    
+    
+1) In the MSIReg.reg file, locate the following: [HKEY_LOCAL_MACHINE\SOFTWARE\MicroStrategy\DSS Server\Castor]
+
+2) Create an entry "DSNotUseUnicodeForPT "=dword:00000001
+
+In the end it shud look like
+{% highlight bash %}
+"DSHostName"=""
+"DSMaxConn"=dword:000003e8
+"DSNumAggregateThreads"=dword:00000004
+"DSNumDecompressThreads"=dword:00000001
+"DSNumDeserializeThreads"=dword:00000004
+"DSNumReceiverThreads"=dword:00000001
+"DSPort"=dword:00007621
+"HomePath"="/var/opt/MicroStrategy/IntelligenceServer"
+"IgnoreAllExceptions"=dword:00000000
+"MaintenanceModeEnabled"=dword:00000001
+"ProcessAffinity"=""
+"UseServerOSLocaleinFallback"="0"
+"DSNotUseUnicodeForPT "=dword:00000001    
+{% endhighlight %}
+    
+    
+    
+  </p>
 </div>
 
 <p> The Intelligence Server needs to be restarted for the changes to take effect </p>
