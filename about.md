@@ -63,6 +63,9 @@ button:hover, a:hover {
   <h1>Klemen Vrhovšek</h1>
   <p class="title">BI Analytic</p>
   <p href="https://www.crmt.com/">CRMT</p>
+     <div style="margin: 24px 0;">
+    <a href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><i class="fa fa-linkedin"></i></a>        
+     </div>
   <div style="margin: 24px 0;">
     <!--- <a href="#"><i class="fa fa-dribbble"></i></a>  --->
     <!--- <a href="#"><i class="fa fa-twitter"></i></a>   --->
