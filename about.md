@@ -64,10 +64,10 @@ button:hover, a:hover {
   <p class="title">BI Analytic</p>
   <p href="https://www.crmt.com/">CRMT</p>
   <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
+    <!--- <a href="#"><i class="fa fa-dribbble"></i></a>  --->
+    <!--- <a href="#"><i class="fa fa-twitter"></i></a>   --->
+    <a href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><i class="fa fa-linkedin"></i></a>  
+    <a href="https://www.facebook.com/kl82slo"><i class="fa fa-facebook"></i></a> 
   </div>
   <p><button>Contact</button></p>
 </div>
