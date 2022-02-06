@@ -75,12 +75,11 @@ body {
 <br /><br />
 2) Create a DWORD registry key entry "DSNotUseUnicodeForPT" with value = 1 <br /> 
 <img src="/img/20220205_0009/DSNotUseUnicodeForPT00.png" alt="DSNotUseUnicodeForPT00">
-![DSNotUseUnicodeForPT00](/img/20220205_0009/DSNotUseUnicodeForPT00.png)  <br /> 
-![DSNotUseUnicodeForPT01](/img/20220205_0009/DSNotUseUnicodeForPT01.png)  <br /> 
-![DSNotUseUnicodeForPT01](/img/20220205_0009/DSNotUseUnicodeForPT02.png)  <br /> 
+<img src="/img/20220205_0009/DSNotUseUnicodeForPT01.png" alt="DSNotUseUnicodeForPT01">
+<img src="/img/20220205_0009/DSNotUseUnicodeForPT02.png" alt="DSNotUseUnicodeForPT02">
     <br /> 
 In the end it shud look like   <br /> 
-![DSNotUseUnicodeForPT](/img/20220205_0009/DSNotUseUnicodeForPT.png)
+<img src="/img/20220205_0009/DSNotUseUnicodeForPT.png" alt="DSNotUseUnicodeForPT">
 
   
 </div>
