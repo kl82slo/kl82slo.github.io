@@ -61,7 +61,7 @@ button:hover, a:hover {
 <div class="card">
   <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:100%">
   <h1>Klemen Vrhovšek</h1>
-  <p class="title">BI analytic</p>
+  <p class="title">BI Analytic</p>
   <p>CRMT</p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fa fa-dribbble"></i></a> 
