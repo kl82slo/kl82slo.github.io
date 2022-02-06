@@ -73,11 +73,11 @@ body {
     
 1) Open Windows Registry, locate the following: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\MicroStrategy\DSS Server\Castor\
 <br /><br />
-2) Right clik and chose 'DWORD (32-bit) Value'
+2) Right clik and chose 'DWORD (32-bit) Value'                                           <br />
 <img src="/img/20220205_0009/DSNotUseUnicodeForPT00.png" alt="DSNotUseUnicodeForPT00">   <br />
-3) Enter "DSNotUseUnicodeForPT"                                                         
+3) Enter "DSNotUseUnicodeForPT"                                                         <br /> 
 <img src="/img/20220205_0009/DSNotUseUnicodeForPT01.png" alt="DSNotUseUnicodeForPT01">   <br />
-4) Set Value at 1
+4) Set Value at 1                                                                       <br />
 <img src="/img/20220205_0009/DSNotUseUnicodeForPT02.png" alt="DSNotUseUnicodeForPT02">    <br /> 
 In the end it shud look like   <br /> 
 <img src="/img/20220205_0009/DSNotUseUnicodeForPT.png" alt="DSNotUseUnicodeForPT">
