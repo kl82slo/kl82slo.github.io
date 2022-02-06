@@ -40,11 +40,6 @@ body {
   color: white;
 }
 
-.containerTab {
-  padding: 20px;
-  color: white;
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
