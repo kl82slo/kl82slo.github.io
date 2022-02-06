@@ -74,6 +74,7 @@ body {
 1) In the Windows Registry, locate the following: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\MicroStrategy\DSS Server\Castor\
 <br /><br />
 2) Create a DWORD registry key entry "DSNotUseUnicodeForPT" with value = 1 <br /> 
+<img src="/img/20220205_0009/DSNotUseUnicodeForPT00.png" alt="DSNotUseUnicodeForPT00">
 ![DSNotUseUnicodeForPT00](/img/20220205_0009/DSNotUseUnicodeForPT00.png)  <br /> 
 ![DSNotUseUnicodeForPT01](/img/20220205_0009/DSNotUseUnicodeForPT01.png)  <br /> 
 ![DSNotUseUnicodeForPT01](/img/20220205_0009/DSNotUseUnicodeForPT02.png)  <br /> 
