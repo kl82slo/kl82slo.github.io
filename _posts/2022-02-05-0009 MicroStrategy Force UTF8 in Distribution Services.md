@@ -72,7 +72,6 @@ body {
 
 <!-- Full-width columns: (hidden by default) -->
 <div id="b1" class="containerTab">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <p>
     
     
@@ -91,7 +90,6 @@ In the end it shud look like
 </div>
 
 <div id="b2" class="containerTab" >
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <p>
     
     
