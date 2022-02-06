@@ -59,7 +59,7 @@ button:hover, a:hover {
 <h2 style="text-align:center">kl82slo.github.io</h2>
 
 <div class="card">
-  <img src="/img/info/klemenv.jpg" alt="Klemenv" style="width:100%">
+  <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:100%">
   <h1>Klemen Vrhovšek</h1>
   <p class="title">BI analytic</p>
   <p>CRMT</p>
