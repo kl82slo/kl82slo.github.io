@@ -57,7 +57,9 @@ button:hover, a:hover {
 <body>
 
 <h2 style="text-align:center"  href="https://github.com/kl82slo/kl82slo.github.io ">kl82slo.github.io</h2>
-
+ 
+<h1><a href="https://github.com/kl82slo/kl82slo.github.io">heading</a></h1>
+ 
 <div class="card">
   <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:90%">
   <h1>Klemen Vrhovšek</h1>
