@@ -62,7 +62,7 @@ button:hover, a:hover {
   <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:90%">
   <h1>Klemen Vrhovšek</h1>
   <p class="title">BI Analytic</p>
-  <p href="https://www.crmt.com/">CRMT</p>
+  <p> <a href="https://www.crmt.com/">CRMT</a></p>
      <div style="margin: 24px 0;">
       
       <a href="https://www.credential.net/e6e7597e-2173-4501-ad4a-dab1ae706dda#gs.ovl60o">
