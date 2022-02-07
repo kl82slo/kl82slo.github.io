@@ -19,7 +19,7 @@ Git available at [kl82slo.github.io](https://github.com/kl82slo/kl82slo.github.i
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 330px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -66,12 +66,12 @@ button:hover, a:hover {
      <div style="margin: 24px 0;">
       
       <a href="https://www.credential.net/e6e7597e-2173-4501-ad4a-dab1ae706dda#gs.ovl60o">
-      <img alt="SCI" src="/img/Info/SCI.png" style="width=130" height="130">
+      <img alt="SCI" src="/img/Info/SCI.png" style="width=145" height="145">
       </a>
       <!--- SCI --->
                                                                                                                  
        <a href="https://www.credential.net/f90c2f05-ee25-414c-91ef-ed39f1e75dc7#gs.ovl66e">
-       <img alt="ANL" src="/img/Info/ANL.png" style="width=130" height="130"> 
+       <img alt="ANL" src="/img/Info/ANL.png" style="width=145" height="145"> 
        </a>
        <!--- ANL --->  
       
