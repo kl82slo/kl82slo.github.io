@@ -56,7 +56,7 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center" href="https://github.com/kl82slo/kl82slo.github.io">kl82slo.github.io</h2>
+<h2><a style="text-align:center" href="https://github.com/kl82slo/kl82slo.github.io">kl82slo.github.io</a></h2>
 
 <div class="card">
   <img src="/img/Info/klemenv.jpg" alt="Klemenv" style="width:90%">
@@ -84,7 +84,7 @@ button:hover, a:hover {
     <a href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><i class="fa fa-linkedin"></i></a>  
      <!--- <a href="https://www.facebook.com/kl82slo"><i class="fa fa-facebook"></i></a>   --->
   </div>
-  <p><button>Contact</button></p>
+<!---  <p><button>Contact</button></p> --->
 </div>
 
 </body>
