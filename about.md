@@ -83,10 +83,10 @@ button:hover, a:hover {
   <div style="margin: 24px 0;">
     <!--- <a href="#"><i class="fa fa-dribbble"></i></a>  --->
     <!--- <a href="#"><i class="fa fa-twitter"></i></a>   --->
-    <a href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><i class="fa fa-linkedin"></i></a>  
+    <!---  <a href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><i class="fa fa-linkedin"></i></a>   --->
      <!--- <a href="https://www.facebook.com/kl82slo"><i class="fa fa-facebook"></i></a>   --->
   </div>
-<p><button>Contact</button></p>
+<p><button href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/" >Linkedin</button></p>
 </div>
 
 </body>
