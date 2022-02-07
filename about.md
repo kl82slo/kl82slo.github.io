@@ -66,7 +66,7 @@ button:hover, a:hover {
      <div style="margin: 24px 0;">
       
       <a href="https://www.credential.net/e6e7597e-2173-4501-ad4a-dab1ae706dda#gs.ovl60o">
-      <img alt="SCI" src="/img/Info/SCI.png" style="width=130" height="130">
+      <img alt="SCI" src="/img/Info/SCI.png" style="width=135" height="135">
       </a>
       <!--- SCI --->
                                                                                                                  
@@ -75,10 +75,7 @@ button:hover, a:hover {
        </a>
        <!--- ANL --->  
       
-              <a href="https://www.credential.net/f90c2f05-ee25-414c-91ef-ed39f1e75dc7#gs.ovl66e">
-       <img alt="ANL" src="/img/Info/ANL.png" style="width=135" height="135"> 
-       </a>
-       <!--- ANL --->  
+
        
      </div>
   <div style="margin: 24px 0;">
