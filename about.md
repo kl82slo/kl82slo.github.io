@@ -15,7 +15,7 @@ Git available at [kl82slo.github.io](https://github.com/kl82slo/kl82slo.github.i
 
 <html>
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://github.com/kl82slo/kl82slo.github.io/blob/main/assets/css/font-awesome.min.css">
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
