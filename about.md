@@ -6,13 +6,6 @@
 
 # in progress
 
-
-
-
-Git available at [kl82slo.github.io](https://github.com/kl82slo/kl82slo.github.io)
-
-
-
 <html>
 <head>
     <!--- <link rel="stylesheet" href="https://kl82slo.github.io/assets/css/font-awesome.min.css">   --->
