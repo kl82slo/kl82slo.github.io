@@ -84,7 +84,7 @@ button:hover, a:hover {
     <!---  <a href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><i class="fa fa-linkedin"></i></a>   --->
      <!--- <a href="https://www.facebook.com/kl82slo"><i class="fa fa-facebook"></i></a>   --->
   </div>
-<p href="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><button>Linkedin</button></p>
+<p onclick="https://www.linkedin.com/in/klemen-vrhov%C5%A1ek/"><button>Linkedin</button></p>
 </div>
 
 </body>
