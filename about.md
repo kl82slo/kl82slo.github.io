@@ -2,7 +2,7 @@
  layout: blog
 ---
 
-<h3 style="text-align:center">About</h3>
+<h1 style="text-align:center">About</h1>
 
 
 
