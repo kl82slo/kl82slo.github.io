@@ -9,7 +9,7 @@ comments: true
 ---
 Dificulty ★★★★☆
 
-#IN PROGRESS
+
 
 
 ## The error
