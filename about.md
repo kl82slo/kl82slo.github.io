@@ -4,7 +4,7 @@
 
 <h3>About</h3>
 
-# in progress
+
 
 <html>
 <head>
