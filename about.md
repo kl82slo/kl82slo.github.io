@@ -67,7 +67,16 @@ button:hover, a:hover {
        <img alt="ANL" src="/img/Info/ANL.png" style="width=145" height="145"> 
        </a>
        <!--- ANL --->  
+
+       <a href="https://www.credential.net/3c50540d-a575-4bb3-bbce-79dfba2b3ac6#gs.ueo8sx">
+       <img alt="ANA" src="/img/Info/ANA.png" style="width=145" height="145"> 
+       </a>
+       <!--- ANA --->  
       
+       <a href="https://www.credential.net/1d028544-2961-4bcf-8c6e-a70474c10f71#gs.uekvdw">
+       <img alt="DVL" src="/img/Info/DVL.png" style="width=145" height="145"> 
+       </a>
+       <!--- DVL --->  
 
        
      </div>
