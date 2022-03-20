@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MicroStrategy Distribution Services Bursting email
+title: MicroStrategy - Distribution Services - Bursting email
 tags:
 - MicroStrategy
 - Distribution Services
