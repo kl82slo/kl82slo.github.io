@@ -14,15 +14,11 @@ Dificulty ★★☆☆☆
 ## Intro
 If we want to use table as source for emails and filters 
 
-TODO
-
 ## Source
-For this exaple I will be using the folowing report
-
+For this exaple I will be using the folowing report   <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/0_Drzave.png)
 
-And for easier understanding of the folowing here are the sources for it
-
+And for easier understanding of the folowing here are the sources for it   <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/1_F_Countires.png)
 
 ![BASIC_DATA_01](/img/20220319_0010/2_D_Countries.png)
@@ -41,7 +37,7 @@ CREATE TABLE [dbo].[Email_Bursting](
 ) 
 {% endhighlight %}
 
-input some data
+input some data   <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/3_Email.png)
 
 ## Registring new table in MicroStrategy
@@ -55,14 +51,14 @@ and set the Parent/Chiled corectly
 If you have difrent reqirements don't forget to limit them on report
 ![BASIC_DATA_01](/img/20220319_0010/5.png)
 
-Result for first email
+Result for first email   <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/7_email_1.png)
 
-Result for second email
+Result for second email   <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/8_email_2.png)
 
 ## Subscription
-Once ready go to subscription and set
+Once ready go to subscription and set 'Burst' to email.
 
 ![BASIC_DATA_01](/img/20220319_0010/11_DC_Burst.png)
 
