@@ -12,13 +12,13 @@ Dificulty ★★☆☆☆
 # In progress
 
 ## Intro
-If we want to use table as source for emails and filters 
+How to use table as source for emails and filters whithin distribution service.
 
 ## Source
-For this exaple I will be using the folowing report   <br /> 
+For this example I will be using the following report  <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/0_Drzave.png)
 
-And for easier understanding of the folowing here are the sources for it   <br /> 
+And for easier understanding of the following here are the sources for it   <br /> 
 ![BASIC_DATA_01](/img/20220319_0010/1_F_Countires.png)
 
 ![BASIC_DATA_01](/img/20220319_0010/2_D_Countries.png)
@@ -41,14 +41,14 @@ input some data   <br />
 ![BASIC_DATA_01](/img/20220319_0010/3_Email.png)
 
 ## Registring new table in MicroStrategy
-When you import the new table don't forget to set Email as format type 'Email'.
+When you import the new table don't forget to set Email as 'Form format' type 'Email'.
 ![BASIC_DATA_01](/img/20220319_0010/4.png)
 
-and set the Parent/Chiled corectly
+and set the Parent/Child correctly
 ![BASIC_DATA_01](/img/20220319_0010/6.png)
 
 ## Limiting reports
-If you have difrent reqirements don't forget to limit them on report
+If you have different requirements don't forget to limit them on report
 ![BASIC_DATA_01](/img/20220319_0010/5.png)
 
 Result for first email   <br /> 
