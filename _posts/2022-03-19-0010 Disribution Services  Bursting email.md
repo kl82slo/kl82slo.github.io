@@ -32,12 +32,26 @@ The first thing you need to do is create a new table with
 {% highlight sql %}  
 CREATE TABLE [dbo].[Email_Bursting](
 	  Country	[smallint]  NULL
-	, Email		[nchar](70) NULL
-	, Report	[nchar](20) NULL
+	, Email		[varchar](70) NULL
+	, Report	[varchar](20) NULL
 ) 
 {% endhighlight %}
 
 input some data   <br /> 
+{% highlight sql %}  
+INSERT INTO [dbo].[Email_Bursting]
+           ([Country]
+           ,[Email]
+           ,[Report])
+     VALUES
+          (705,'demo_email1.gmail.com','Report 1')
+	, (191,'demo_email1.gmail.com','Report 1')
+	, (642,'demo_email1.gmail.com','Report 1')
+	, (705,'demo_email2.gmail.com','Report 1')
+	, (300,'demo_email3.gmail.com','Report 1')
+	, (724,'demo_email3.gmail.com','Report 2')
+{% endhighlight %}
+
 ![BASIC_DATA_01](/img/20220319_0010/3_Email.png)
 
 ## Registring new table in MicroStrategy
