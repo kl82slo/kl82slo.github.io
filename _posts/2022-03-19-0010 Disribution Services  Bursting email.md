@@ -35,9 +35,10 @@ CREATE TABLE [dbo].[Email_Bursting](
 	, Email		[varchar](70) NULL
 	, Report	[varchar](20) NULL
 ) 
+
 {% endhighlight %}
 
-input some data   <br /> 
+input some data   
 {% highlight sql %}  
 INSERT INTO [dbo].[Email_Bursting]
            ([Country]
@@ -50,6 +51,7 @@ INSERT INTO [dbo].[Email_Bursting]
 	, (705,'demo_email2.gmail.com','Report 1')
 	, (300,'demo_email3.gmail.com','Report 1')
 	, (724,'demo_email3.gmail.com','Report 2')
+	
 {% endhighlight %}
 
 ![BASIC_DATA_01](/img/20220319_0010/3_Email.png)
@@ -73,7 +75,6 @@ Result for second email   <br />
 
 ## Subscription
 Once ready go to subscription and set 'Burst' to email.
-
 ![BASIC_DATA_01](/img/20220319_0010/11_DC_Burst.png)
 
 ![BASIC_DATA_01](/img/20220319_0010/12_DB_Burst_Email.png)
