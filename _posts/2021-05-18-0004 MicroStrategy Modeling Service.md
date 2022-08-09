@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workstation - Modeling Service (unf)
+title: Workstation - Modeling Service (discontinued 2021 version only)
 tags:
 - Microstrategy
 - Modeling Service
@@ -9,17 +9,6 @@ comments: true
 ---
 Dificulty ★★☆☆☆
 
-
-
-
-# Post in progress
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /><br />
 
 If you wish to use Workstation to manage standalone filters, facts, attributes, tables, and schema using the Filter Editor, Fact Editor, Attribute Editor, Schema Editor, and access Schema tab to lock, unlock, and reload (update) schema.
 
