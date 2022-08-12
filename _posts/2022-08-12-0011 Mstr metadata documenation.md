@@ -66,8 +66,8 @@ For attributes the sql is pretty straight forward since we only need to find con
 {% highlight sql %}  
 WITH parameters AS (
 SELECT '9229CB8F-4DFA-4925-9CD1-0CFF9E9E11A5' AS PROJECT_ID
-),
-atributes AS (
+)
+, atributes AS (
 	SELECT
 			PROJECT_ID
 		,	OBJECT_ID      AS ATT_GUID
@@ -170,8 +170,8 @@ For metrics things get complicated since we need connection between metric, fact
 ------ ReportStatistics ------
 WITH parameters AS (
 SELECT '9229CB8F-4DFA-4925-9CD1-0CFF9E9E11A5' AS PROJECT_ID
-),
-metric AS (
+)
+, metric AS (
 	SELECT
 			i.PROJECT_ID
 		,	i.OBJECT_ID       AS METRIC_GUID
@@ -250,7 +250,6 @@ metric AS (
 	AND DEPNOBJ_TYPE IN (13)	/*fact*/
 	AND PROJECT_ID	 IN (SELECT PROJECT_ID FROM parameters)
 )
-
 , rltd_Fact_To_Table AS (
 	SELECT
 			PROJECT_ID  AS PROJECT_ID
@@ -277,10 +276,10 @@ metric AS (
     LEFT JOIN fact                                 rAC
          ON     met.PROJECT_ID	= rAC.PROJECT_ID
          AND    met.FACT_GUID	= rAC.FACT_GUID
-   LEFT JOIN rltd_Fact_To_Table                    FTF
+    LEFT JOIN rltd_Fact_To_Table                   FTF
          ON     met.PROJECT_ID	= FTF.PROJECT_ID
          AND    met.FACT_GUID	= ftf.FACT_GUID
-   LEFT JOIN columns                               col
+    LEFT JOIN columns                              col
          ON	rAC.PROJECT_ID  = col.PROJECT_ID
          AND	FTF.COLUMN_GUID	= col.COLUMN_GUID
     LEFT JOIN rltd_TableColumn                     rTC
@@ -313,8 +312,8 @@ Since we use metrics inside metrics we need to include them to.
 ------ ReportStatistics ------
 WITH parameters AS (
 SELECT '9229CB8F-4DFA-4925-9CD1-0CFF9E9E11A5' AS PROJECT_ID
-),
-metric AS (
+)
+, metric AS (
 	SELECT
 			i.PROJECT_ID
 		,	i.OBJECT_ID       AS METRIC_GUID
@@ -403,7 +402,8 @@ metric AS (
 	    OBJECT_TYPE  IN (13)	/*fact*/
 	AND DEPNOBJ_TYPE IN (26)	/*column*/
 	AND PROJECT_ID	 IN (SELECT PROJECT_ID FROM parameters)
-), rltd_Metric_to_Metric AS (
+)
+, rltd_Metric_to_Metric AS (
 	SELECT
 			PROJECT_ID  AS PROJECT_ID
 		,	OBJECT_ID   AS METRIC_GUID
@@ -432,7 +432,6 @@ metric AS (
 	ON  M2.METRIC_GUID_DOWN = M3.METRIC_GUID
 	AND M2.PROJECT_ID = M3.PROJECT_ID
 )
-
 , metrtics_and_final_facts as (
  select PROJECT_ID, METRIC_GUID, m2 as FACT_GUID from  metric_to_metric_conection
 where   (
@@ -445,7 +444,6 @@ union
  select PROJECT_ID, METRIC_GUID, m4 as FACT_GUID from  metric_to_metric_conection
 where  (
    m4 in (select FACT_GUID from fact))
-
 )
     SELECT distinct
     	  met.PROJECT_ID
@@ -476,7 +474,7 @@ where  (
     LEFT JOIN metric                               m
         ON	met.PROJECT_ID	= m.PROJECT_ID
         AND     met.METRIC_GUID = m.METRIC_GUID
-       WHERE rTC.column_guid is not null
+    WHERE    rTC.column_guid is not null
         AND  tab.TABLE_GUID  is not null
 {% endhighlight %}
 
@@ -493,8 +491,8 @@ If you want to know which report uses which attribute you can do it like this
  
 WITH parameters AS (
 SELECT '9229CB8F-4DFA-4925-9CD1-0CFF9E9E11A5' AS PROJECT_ID
-),
-atributes AS (
+)
+, atributes AS (
 	SELECT
 			PROJECT_ID
 		,	OBJECT_ID      AS ATT_GUID
@@ -556,7 +554,8 @@ atributes AS (
 	    OBJECT_TYPE IN (12)   /*atributes*/ 
 	AND DEPNOBJ_TYPE IN (26)  /*column*/
 	AND PROJECT_ID IN (SELECT PROJECT_ID FROM parameters) 
-), rltd_ReportAtribute AS (
+)
+, rltd_ReportAtribute AS (
       SELECT
 	   	PROJECT_ID     AS PROJECT_ID
 	   ,	OBJECT_ID      AS REP_GUID
@@ -566,7 +565,8 @@ atributes AS (
 	    OBJECT_TYPE  IN (3)   /*report*/	
 	AND DEPNOBJ_TYPE IN (12)  /*atribute*/
 	AND PROJECT_ID IN (SELECT PROJECT_ID FROM parameters) 
-), reports AS (
+)
+, reports AS (
 	SELECT
 		PROJECT_ID
 	   ,	OBJECT_ID      AS REP_GUID
@@ -629,8 +629,8 @@ And same for metrics
 ------ ReportStatistics ------
 WITH parameters AS (
 SELECT '9229CB8F-4DFA-4925-9CD1-0CFF9E9E11A5' AS PROJECT_ID
-),
-metric AS (
+)
+, metric AS (
 	SELECT
 			i.PROJECT_ID
 		,	i.OBJECT_ID       AS METRIC_GUID
@@ -719,7 +719,8 @@ metric AS (
 	    OBJECT_TYPE  IN (13)	/*fact*/
 	AND DEPNOBJ_TYPE IN (26)	/*column*/
 	AND PROJECT_ID	 IN (SELECT PROJECT_ID FROM parameters)
-), rltd_Metric_to_Metric AS (
+)
+, rltd_Metric_to_Metric AS (
 	SELECT
 			PROJECT_ID  AS PROJECT_ID
 		,	OBJECT_ID   AS METRIC_GUID
@@ -748,7 +749,6 @@ metric AS (
 	ON  M2.METRIC_GUID_DOWN = M3.METRIC_GUID
 	AND M2.PROJECT_ID = M3.PROJECT_ID
 )
-
 , metrtics_and_final_facts as (
  select PROJECT_ID, METRIC_GUID, m2 as FACT_GUID from  metric_to_metric_conection
 where   (
@@ -761,9 +761,9 @@ union
  select PROJECT_ID, METRIC_GUID, m4 as FACT_GUID from  metric_to_metric_conection
 where  (
    m4 in (select FACT_GUID from fact))
-
-), rltd_ReportMetric AS (
-		SELECT
+)
+, rltd_ReportMetric AS (
+	SELECT
 			PROJECT_ID     AS PROJECT_ID
 		,	OBJECT_ID      AS REP_GUID
 		,	DEPN_OBJID     AS METRIC_GUID
@@ -772,8 +772,9 @@ where  (
 	    OBJECT_TYPE  IN (3)   /*report*/	
 	AND DEPNOBJ_TYPE IN (4)   /*metric*/
 	AND PROJECT_ID IN (SELECT PROJECT_ID FROM parameters) 
-), reports AS (
-		SELECT
+)
+, reports AS (
+	SELECT
 			PROJECT_ID
 		,	OBJECT_ID      AS REP_GUID
 		,	OBJECT_TYPE    AS REP_TYPE_ID
@@ -785,7 +786,6 @@ where  (
 	    OBJECT_TYPE IN (3)  /*reports*/
 	AND PROJECT_ID IN (SELECT PROJECT_ID FROM parameters)
 	AND OBJECT_STATE = 0
-
 )
     SELECT distinct
     	  met.PROJECT_ID
@@ -806,10 +806,10 @@ where  (
     LEFT JOIN fact                                 rAC
         ON	met.PROJECT_ID	= rAC.PROJECT_ID
         AND     met.FACT_GUID	= rAC.FACT_GUID
-   LEFT JOIN rltd_Fact_To_Table                    FTF
+    LEFT JOIN rltd_Fact_To_Table                   FTF
         ON	met.PROJECT_ID	= FTF.PROJECT_ID
         AND     met.FACT_GUID	= ftf.FACT_GUID
-   LEFT JOIN columns                               col
+    LEFT JOIN columns                              col
         ON	rAC.PROJECT_ID  = col.PROJECT_ID
         AND	FTF.COLUMN_GUID	= col.COLUMN_GUID
     LEFT JOIN rltd_TableColumn                     rTC
@@ -821,7 +821,7 @@ where  (
     LEFT JOIN metric                               m
         ON	met.PROJECT_ID	= m.PROJECT_ID
         AND     met.METRIC_GUID = m.METRIC_GUID
-	LEFT JOIN reports                          rep
+    LEFT JOIN reports                              rep
         ON	rRM.PROJECT_ID  = rep.PROJECT_ID
         AND     rRM.REP_GUID    = rep.REP_GUID
      WHERE rTC.column_guid is not null
