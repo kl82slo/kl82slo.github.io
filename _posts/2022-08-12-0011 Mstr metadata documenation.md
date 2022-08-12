@@ -13,9 +13,7 @@ Dificulty ★☆☆☆☆
 
 
 ## Intro
-Following the idea from [mstr-metadata-tables](http://khaidoan.wikidot.com/mstr-metadata-tables)
-
-we can use this logic to create documentation how each attribute/fact is connected to which table/column.
+Following the idea from [mstr-metadata-tables](http://khaidoan.wikidot.com/mstr-metadata-tables) we can use this logic to create documentation how each attribute/fact is connected to which table/column.
 
 ## Understanding difrent types
 
@@ -177,7 +175,7 @@ metric AS (
 	SELECT
 			i.PROJECT_ID
 		,	i.OBJECT_ID       AS METRIC_GUID
-		--,	i.OBJECT_TYPE  AS ATT_TYPE_ID
+		--,	i.OBJECT_TYPE     AS ATT_TYPE_ID
 		,	i.OBJECT_NAME     AS METRIC_NAME
 		,	i.CREATE_TIME     AS METRIC_CREATE_TIME
 		,	i.MOD_TIME        AS METRIC_MOD_TIME
@@ -192,7 +190,7 @@ metric AS (
 	SELECT
 			i.PROJECT_ID
 		,	i.OBJECT_ID       AS FACT_GUID
-		--,	i.OBJECT_TYPE  AS ATT_TYPE_ID
+		--,	i.OBJECT_TYPE	  AS ATT_TYPE_ID
 		,	i.OBJECT_NAME     AS FACT_NAME
 		,	i.CREATE_TIME     AS FACT_CREATE_TIME
 		,	i.MOD_TIME        AS FACT_MOD_TIME
@@ -206,7 +204,7 @@ metric AS (
 	SELECT
 			i.PROJECT_ID
 		,	i.OBJECT_ID       AS TABLE_GUID
-		--,	i.OBJECT_TYPE  AS TABLE_TYPE_ID
+		--,	i.OBJECT_TYPE     AS TABLE_TYPE_ID
 		,	i.OBJECT_NAME     AS TABLE_NAME
 		,	i.CREATE_TIME     AS TABLE_CREATE_TIME
 		,	i.MOD_TIME        AS TABLE_MOD_TIME
@@ -267,14 +265,14 @@ metric AS (
 
     SELECT distinct
     	  met.PROJECT_ID
-		, rTC.TABLE_GUID
+	, rTC.TABLE_GUID
     	, met.METRIC_GUID
-		, met.FACT_GUID
-		, rTC.COLUMN_GUID
-		, m.METRIC_NAME
+	, met.FACT_GUID
+	, rTC.COLUMN_GUID
+	, m.METRIC_NAME
     	, rAC.FACT_NAME
     	, col.COLUMN_NAME	AS DB_Column
-		, tab.TABLE_NAME	AS DB_Table
+	, tab.TABLE_NAME	AS DB_Table
     FROM rltd_Metric_fact                          met
     LEFT JOIN fact                                 rAC
          ON     met.PROJECT_ID	= rAC.PROJECT_ID
@@ -451,14 +449,14 @@ where  (
 )
     SELECT distinct
     	  met.PROJECT_ID
-		, rTC.TABLE_GUID
+	, rTC.TABLE_GUID
     	, met.METRIC_GUID
-		, met.FACT_GUID
-		, rTC.COLUMN_GUID
-		, m.METRIC_NAME
+	, met.FACT_GUID
+	, rTC.COLUMN_GUID
+	, m.METRIC_NAME
     	, rAC.FACT_NAME
     	, col.COLUMN_NAME	AS DB_Column
-		, tab.TABLE_NAME	AS DB_Table
+	, tab.TABLE_NAME	AS DB_Table
     FROM metrtics_and_final_facts                  met
     LEFT JOIN fact                                 rAC
         ON	met.PROJECT_ID	= rAC.PROJECT_ID
@@ -517,7 +515,7 @@ atributes AS (
 		,	i.OBJECT_NAME  AS TABLE_NAME
 		,	i.CREATE_TIME  AS TABLE_CREATE_TIME
 		,	i.MOD_TIME     AS TABLE_MOD_TIME
-	FROM DSSMDOBJINFO	i
+	FROM DSSMDOBJINFO i
 	WHERE
 	    i.OBJECT_TYPE IN (53) /*tables*/
 	AND PROJECT_ID IN (SELECT PROJECT_ID FROM parameters)
@@ -530,7 +528,7 @@ atributes AS (
 		,	i.OBJECT_NAME  AS COLUMN_NAME
 		,	i.CREATE_TIME  AS COLUMN_CREATE_TIME
 		,	i.MOD_TIME     AS COLUMN_MOD_TIME
-	FROM DSSMDOBJINFO	i
+	FROM DSSMDOBJINFO i
 	WHERE
 	    i.OBJECT_TYPE IN (26) /*column*/
 	AND PROJECT_ID IN (SELECT PROJECT_ID FROM parameters)
@@ -669,7 +667,7 @@ metric AS (
 		,	i.OBJECT_NAME   AS TABLE_NAME
 		,	i.CREATE_TIME   AS TABLE_CREATE_TIME
 		,	i.MOD_TIME 	AS TABLE_MOD_TIME
-	FROM DSSMDOBJINFO	i
+	FROM DSSMDOBJINFO i
 	WHERE
 	    i.OBJECT_TYPE IN (53)   /*table*/
 	AND i.PROJECT_ID  IN (SELECT PROJECT_ID FROM parameters)
@@ -683,7 +681,7 @@ metric AS (
 		,	i.OBJECT_NAME	AS COLUMN_NAME
 		,	i.CREATE_TIME	AS COLUMN_CREATE_TIME
 		,	i.MOD_TIME      AS COLUMN_MOD_TIME
-	FROM DSSMDOBJINFO	i
+	FROM DSSMDOBJINFO i
 	WHERE
 	    i.OBJECT_TYPE IN (26)	/*column*/
 	AND i.PROJECT_ID  IN (SELECT PROJECT_ID FROM parameters)
@@ -826,7 +824,6 @@ where  (
 	LEFT JOIN reports                          rep
         ON	rRM.PROJECT_ID  = rep.PROJECT_ID
         AND     rRM.REP_GUID    = rep.REP_GUID
-
-       WHERE rTC.column_guid is not null
+     WHERE rTC.column_guid is not null
         AND  tab.TABLE_GUID  is not null
 {% endhighlight %}
