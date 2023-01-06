@@ -8,9 +8,6 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
-### in progess
-
-
 ## How to cancel execution subscription if condition not met
 
 In this example we will chek how to cancel excecution of distribution service subscription because data is not yet ready and want to keep previus export of files.
