@@ -34,15 +34,19 @@ If you use added transactions you may come across an error where transactions on
 ### SOLUTION
 1. Stop PDF Exporter in MicroStrategy Service Manager.
 
-2. Copy PDFExporterService.jar file to another location (e.g. folder Document in demo) so that it can be open directly.
+2. Open location "C:\Program Files (x86)\MicroStrategy\Export"
 
-3. Open PDFExporterService.jar directly by 7-Zip(right click -> 7-Zip -> Open archive)
+3. Copy PDFExporterService.jar file to another location (e.g. folder Document in demo) so that it can be open directly.
 
-4. Navigate to target folder in 7-Zip: \PDFExporterService.jar\BOOT-INF\classes\descriptors\
+4. Create backup to another location.
 
-5. Add customer's MessageBundle file (in this case MessagesBundle_sl) 
+5. Open previusly created copy of PDFExporterService.jar with 7-Zip(right click -> 7-Zip -> Open archive)
 
-6. Add line to locales.xml 
+6. Navigate to target folder in 7-Zip: \PDFExporterService.jar\BOOT-INF\classes\descriptors\
+
+7. Add customer's MessageBundle file (in this case MessagesBundle_sl) 
+
+8. Add line to locales.xml 
 
     _Change the values as peer your locale settings._
     
@@ -57,6 +61,6 @@ If you use added transactions you may come across an error where transactions on
             char-set-excel="UnicodeLittle"/>
     ```
 
-7. Replace the PDFExporterService.jar file in installation folder by the updated one.
+9. Replace the PDFExporterService.jar file in installation folder by the updated one.
 
-8. Start PDF Exporter in MicroStrategy Service Manager.
+10. Start PDF Exporter in MicroStrategy Service Manager.
