@@ -96,6 +96,9 @@ and chenge setting to <br />
 1h   --> 60 <br />
 1,5h --> 90 <br />
 2h   --> 120 <br />  
+
+Then make the same change in 
+C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\webapps\MicroStrategy\WEB-INF\web.xml 
   
 ##### Restart Tomcat - Windows 
 Start services <br />
