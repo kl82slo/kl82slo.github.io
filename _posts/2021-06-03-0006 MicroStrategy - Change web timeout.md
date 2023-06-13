@@ -81,9 +81,9 @@ To see changes you might also need to restart tomcat/IIS but it is not needed at
 
 ### Change HTTP seassion timeout Tomcat [KB12966](https://community.microstrategy.com/s/article/KB12966-How-to-configure-the-web-session-timeout-set-on-JSP)
 Go to <br />
-C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\conf <br />
+C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\webapps\MicroStrategy\WEB-INF\  <br />
 and open 'web.xml' <br />
-![Tomcat_web](/img/20210603_0006/Tomcat_web.png)  
+![Tomcat_web](/img/20210603_0006/Tomcat_web_2.png)  
 
 in it find 
 {% highlight bash %}
@@ -98,7 +98,7 @@ and chenge setting to <br />
 2h   --> 120 <br />  
 
 Then make the same change in 
-C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-X.X.XX\webapps\MicroStrategy\WEB-INF\web.xml 
+
   
 ##### Restart Tomcat - Windows 
 Start services <br />
