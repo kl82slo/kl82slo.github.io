@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microstrategegy partition data
+title: Microstrategy partition data
 tags:
 - Microstrategy
 comments: true
