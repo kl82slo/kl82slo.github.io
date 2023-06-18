@@ -9,9 +9,6 @@ comments: true
 ---
 Dificulty ★★★☆☆
 
-
-# In progress
-
 ### INTRO
 This case shows example how to caclucate dates from database with date from prompt without seperate date table.
 
