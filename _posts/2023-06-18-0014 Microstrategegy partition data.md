@@ -55,7 +55,7 @@ We select the newly added entry. In 'Logical View' we add an attribute through w
 We add the PMT_YEARS to the Year attribute.<br />
 ![Year](/img/20230618_0014/Year.png)
 
-When we register the other attributes, we must be aware that additional filters in the report will only be possible in the <font color='red'>star schema or snowflake</font>. <br />.
+When we register the other attributes, we must be aware that additional filters in the report will only be possible in the <font color='red'>star schema or snowflake</font>. <br />
 
 #### Examples
 
