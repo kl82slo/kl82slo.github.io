@@ -7,9 +7,6 @@ comments: true
 ---
 Dificulty ★★★★☆
 
-
-# In progress
-
 ### INTRO
 If database queries take too long, there is a possibility to divide the data into several tables.<br /> 
 In Microstrategy, however, we read them as from one table.
