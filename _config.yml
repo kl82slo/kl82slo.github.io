@@ -3,7 +3,7 @@ theme: jekyll-theme-slate
 plugins:
   - jekyll-paginate
 
-paginate: 10
+paginate: 20
 paginate_path: "/post/page:num/"
 
 description: kl82slo.github.io
