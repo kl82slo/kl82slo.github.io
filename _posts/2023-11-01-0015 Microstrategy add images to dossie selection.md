@@ -35,7 +35,7 @@ change it to H="http://<font color='red'>localhost</font>/Images/Dossie_Cover/"
 
 and add new images after P=[  <br />
 example <br />
-H="https://<font color='red'>localhost</font>/MicroStrategy/Images/Dossie_Cover/",P=["60.gif","61.jfif","22.jpg","23.jpg", <br />
+H="https://<font color='red'>localhost</font>/MicroStrategy/Images/Dossie_Cover/",P=[<font color='green'>"60.gif","61.jfif",</font>"22.jpg","23.jpg", <br />
 ![Cover2](/img/20231101_0015/s2.png)
 
 for <font color='blue'>Libray</font> the same can be done in file <br />
