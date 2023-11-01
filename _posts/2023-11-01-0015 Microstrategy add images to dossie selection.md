@@ -30,7 +30,8 @@ http://<font color='red'>localhost</font>/Images/Dossie_Cover/23.jpg
 
 For <font color='blue'>Microstrategy web</font> change file (backup first) <br />
 C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-9.0.80\webapps\MicroStrategy\javascript\bundles\html5-vi.js <br />
-and find H="https://demo.microstrategy.com/MicroStrategy/images/Coverpages/16-9/" <br />
+
+find H="https://demo.microstrategy.com/MicroStrategy/images/Coverpages/16-9/" <br />
 change it to H="http://<font color='red'>localhost</font>/Images/Dossie_Cover/"
 
 and add new images after P=[  <br />
