@@ -26,16 +26,16 @@ Download extra images into that folder <br />
 (In this case renamed to 60.gif and 61.jfif)
 
 Test if you can access current images <br />
-http://localhost/Images/Dossie_Cover/23.jpg
+http://<font color='red'>localhost</font>/Images/Dossie_Cover/23.jpg
 
 For web change file (backup first) <br />
 C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-9.0.80\webapps\MicroStrategy\javascript\bundles\html5-vi.js <br />
 and find H="https://demo.microstrategy.com/MicroStrategy/images/Coverpages/16-9/" <br />
-change it to H="http://localhost/Images/Dossie_Cover/"
+change it to H="http://<font color='red'>localhost</font>/Images/Dossie_Cover/"
 
 and add new images after P=[  <br />
 example <br />
-H="https://localhost/MicroStrategy/Images/Dossie_Cover/",P=["60.gif","61.jfif","22.jpg","23.jpg", <br />
+H="https://<font color='red'>localhost</font>/MicroStrategy/Images/Dossie_Cover/",P=["60.gif","61.jfif","22.jpg","23.jpg", <br />
 ![Cover2](/img/20231101_0015/s2.png)
 
 for libray the same can be done in file <br />
