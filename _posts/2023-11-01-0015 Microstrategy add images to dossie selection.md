@@ -41,7 +41,7 @@ H="https://<font color='red'>localhost</font>/MicroStrategy/Images/Dossie_Cover/
 for <font color='blue'>Libray</font> the same can be done in file <br />
 C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-9.0.80\webapps\MicroStrategyLibrary\javascript\bundles\mojo-dossier.js
 
-!note you do not have to restart tomcat in order for this to work but clearing cache or going incognito is a must.
+<font color='red'>!note you do not have to restart tomcat in order for this to work but clearing cache or going incognito is a must.</font>
 
 
 
