@@ -19,7 +19,7 @@ Let's say we want to try adding <br />
 to <br />
 ![Cover](/img/20231101_0015/s1.png)
 
-First add [images](https://github.com/kl82slo/kl82slo.github.io/blob/main/img/20231101_0015/Dossie_Cover.zip) to new folder <br />(you can use other locations)
+First add [images](https://github.com/kl82slo/kl82slo.github.io/blob/main/img/20231101_0015/Dossie_Cover.zip) to new folder <br />(you can use other locations) <br />
 C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-9.0.80\webapps\Images\Dossie_Cover
 
 Download extra images into that folder <br />
