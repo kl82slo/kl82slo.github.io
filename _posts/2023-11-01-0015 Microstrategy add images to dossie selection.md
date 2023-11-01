@@ -13,13 +13,13 @@ If you want to add pictures to dossie covers collection the solution is not as s
 
 #### How to do it
 Let's say we want to try adding <br />
-https://www.pinterest.com/pin/249879479318637219/ <br />
-https://www.pinterest.com/pin/634515034970940369/ <br />
+[https://www.pinterest.com/pin/249879479318637219/](https://www.pinterest.com/pin/249879479318637219/) <br />
+[https://www.pinterest.com/pin/634515034970940369/](https://www.pinterest.com/pin/634515034970940369/) <br />
 
 to <br />
 ![Cover](/img/20231101_0015/s1.png)
 
-First add [images](https://github.com/kl82slo/kl82slo.github.io/blob/main/img/20231101_0015/Dossie_Cover.zip) folder to tomcat <br />(you can use other locations)
+First add [images](https://github.com/kl82slo/kl82slo.github.io/blob/main/img/20231101_0015/Dossie_Cover.zip) to new folder <br />(you can use other locations)
 C:\Program Files (x86)\Common Files\MicroStrategy\Tomcat\apache-tomcat-9.0.80\webapps\Images\Dossie_Cover
 
 Download extra images into that folder <br />
