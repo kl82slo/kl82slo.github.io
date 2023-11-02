@@ -8,25 +8,22 @@ title: Plugins
 
 
 <p align="center">
-Description lala </br>
+<b>Description lala</b></br>
 <img src="/img/Plugins/FrontPage/old.png">
-<img src="/img/Plugins/FrontPage/new.png">  
+<img src="/img/Plugins/FrontPage/new.png">  </br>
+<a href="/img/Plugins/FrontPage/FrontPage.zip">download</a>
 </p>
-[download](img/Plugins/FrontPage/FrontPage.zip)
 
 ---
 
 ## Text Email Subscription
 
-Description lala
-
-![old](/img/Plugins/TextEmailSubscription/old.png)
-
-![new](/img/Plugins/TextEmailSubscription/new.png) 
-
-[download](img/Plugins/TextEmailSubscription/TextEmailSubscription.zip)
 
 <p align="center">
-  <img width="460" height="300" src="https://picsum.photos/460/300">
+<b>Description lala</b></br>
+<img src="/img/Plugins/TextEmailSubscription/old.png" width="49%" >
+<img src="/img/Plugins/TextEmailSubscription/new.png" width="49%" >  </br>
+<a href="/img/Plugins/TextEmailSubscription/TextEmailSubscription">download</a>
 </p>
+
 
