@@ -20,7 +20,7 @@ title: Plugins
 
 
 <p align="center">
-<b>Change number of letters when sending email from 400 to 4000</b></br>
+<b>Increase number of letters when sending scheduled email from 400 to 4000</b></br>
 <img src="/img/Plugins/TextEmailSubscription/old.png" width="49%" >
 <img src="/img/Plugins/TextEmailSubscription/new.png" width="49%" >  </br>
 <a href="/img/Plugins/TextEmailSubscription/TextEmailSubscription">download</a>
