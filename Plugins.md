@@ -1,7 +1,9 @@
+---
+layout: plugins
+title: Plugins
+---
 
-### test 20231102
+![old](/img/Plugins/FrontPage/old.png)
+![new](/img/Plugins/FrontPage/new.png)
+[download](img/Plugins/FrontPage/FrontPage.zip)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
