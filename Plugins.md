@@ -8,7 +8,7 @@ title: Plugins
 
 
 <p align="center">
-<b>Change front page button and input text</b><br/>
+<b>Change front page button and input text background color</b><br/>
 <img src="/img/Plugins/FrontPage/old.png" width="49%">
 <img src="/img/Plugins/FrontPage/new.png" width="49%">  <br/>
 <a href="/img/Plugins/FrontPage/FrontPage.zip">download</a>
