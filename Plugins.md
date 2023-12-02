@@ -40,9 +40,9 @@ title: Plugins
 </p>
 Details 
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
-{% highlight sql %}  
 <col class="nam" style = "width:400px !important;" />
-{% endhighlight %}
+
+
 ---
 
 ## 008 Image In Login
