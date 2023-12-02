@@ -27,3 +27,28 @@ title: Plugins
 </p>
 
 
+---
+
+## 006 Size 
+
+
+<p align="center">
+<b>Increase length of text shown while browsing in View:List
+<img src="/img/Plugins/006_Size/Old.png" width="49%" >
+<img src="/img/Plugins/006_Size/New.png" width="49%" >  <br/>
+<a href="/img/Plugins/006_Size/006_Size.zip">download</a>
+</p>
+
+
+---
+
+## 008 Image In Login
+
+
+<p align="center">
+<b>Add image to front page
+<img src="/img/Plugins/FrontPage/old.png" width="49%">
+<img src="/img/Plugins/008_Image_In_Login/Nov_pogled.png" width="49%" >  <br/>
+<a href="/img/Plugins/008_Image_In_Login/008_Image_In_Login.zip">download</a>
+</p>
+
