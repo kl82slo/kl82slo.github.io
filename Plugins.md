@@ -37,7 +37,7 @@ title: Plugins
 <img src="/img/Plugins/006_Size/New.png" width="49%" >  <br/>
 <a href="/img/Plugins/006_Size/006_Size.zip">download</a>
 
-Details 
+Details <br/>
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
 <img src="/img/Plugins/006_Size/sprememba.png" width="49%" > <br/>
 </p>
@@ -53,7 +53,7 @@ If you want to make change to sizes go to file 'FolderListLayout.xml' and change
 <img src="/img/Plugins/008_Image_In_Login/Nov_pogled.png" width="49%" >  <br/>
 <a href="/img/Plugins/008_Image_In_Login/008_Image_In_Login.zip">download</a>
 
-Details 
+Details <br/>
 Change image in 'Generic_Content.jsp' first line and edit width and height to your needs.
 </p>
 
