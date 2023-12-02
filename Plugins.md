@@ -40,7 +40,7 @@ title: Plugins
 
 Details 
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
-<img src="/img/Plugins/006_Size/sprememba.png" width="49%" align="center">  <br/>
+<src="/img/Plugins/006_Size/sprememba.png" width="49%" >  <br/>
 </p>
 
 ---
