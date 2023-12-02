@@ -33,7 +33,7 @@ title: Plugins
 
 
 <p align="center">
-<b>Increase length of text shown while browsing in View:List
+<b>Increase length of text shown while browsing in View:List</b><br/>
 <img src="/img/Plugins/006_Size/Old.png" width="49%" >
 <img src="/img/Plugins/006_Size/New.png" width="49%" >  <br/>
 <a href="/img/Plugins/006_Size/006_Size.zip">download</a>
@@ -46,7 +46,7 @@ title: Plugins
 
 
 <p align="center">
-<b>Add image to front page
+<b>Add image to front page</b><br/>
 <img src="/img/Plugins/FrontPage/old.png" width="49%">
 <img src="/img/Plugins/008_Image_In_Login/Nov_pogled.png" width="49%" >  <br/>
 <a href="/img/Plugins/008_Image_In_Login/008_Image_In_Login.zip">download</a>
