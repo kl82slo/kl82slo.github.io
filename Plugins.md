@@ -24,7 +24,6 @@ title: Plugins
 <img src="/img/Plugins/TextEmailSubscription/old.png" width="49%" >
 <img src="/img/Plugins/TextEmailSubscription/new.png" width="49%" >  <br/>
 <a href="/img/Plugins/TextEmailSubscription/TextEmailSubscription.zip">download</a>
-</p>
 
 
 ---
@@ -40,7 +39,7 @@ title: Plugins
 
 Details 
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
-<src="/img/Plugins/006_Size/sprememba.png" width="49%" >  <br/>
+<b><src="/img/Plugins/006_Size/sprememba.png" width="49%" > </b> <br/>
 </p>
 
 ---
@@ -53,5 +52,9 @@ If you want to make change to sizes go to file 'FolderListLayout.xml' and change
 <img src="/img/Plugins/FrontPage/old.png" width="49%">
 <img src="/img/Plugins/008_Image_In_Login/Nov_pogled.png" width="49%" >  <br/>
 <a href="/img/Plugins/008_Image_In_Login/008_Image_In_Login.zip">download</a>
+
+Details 
+Change image in 'Generic_Content.jsp' first line and edit width and height to your needs.
 </p>
+
 
