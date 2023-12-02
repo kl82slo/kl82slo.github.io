@@ -58,3 +58,19 @@ Change image in 'Generic_Content.jsp' first line and edit width and height to yo
 </p>
 
 
+
+---
+
+## Uttorrent Dark mode
+
+
+<p align="center">
+<b>Set uttorent to dark mode</b><br/>
+<a href="/img/Plugins/UttorentBlack/uTorrentDarkness.btskin">download</a><br/>
+<br/>
+<b>Set it to normal</b><br/>
+<a href="/img/Plugins/UttorentBlack/uTorrentNormal.btskin">download</a><br/>
+<br/>
+</p>
+
+
