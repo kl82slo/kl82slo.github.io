@@ -35,8 +35,8 @@ title: Plugins
 <b>Increase length of text shown while browsing in View:List</b><br/>
 <img src="/img/Plugins/006_Size/Old.png" width="49%" >
 <img src="/img/Plugins/006_Size/New.png" width="49%" >  <br/>
-<a href="/img/Plugins/006_Size/006_Size.zip">download</a>
-
+<a href="/img/Plugins/006_Size/006_Size.zip">download</a><br/>
+<br/>
 Details <br/>
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
 <img src="/img/Plugins/006_Size/sprememba.png" width="49%" > <br/>
@@ -51,8 +51,8 @@ If you want to make change to sizes go to file 'FolderListLayout.xml' and change
 <b>Add image to front page</b><br/>
 <img src="/img/Plugins/FrontPage/old.png" width="49%">
 <img src="/img/Plugins/008_Image_In_Login/Nov_pogled.png" width="49%" >  <br/>
-<a href="/img/Plugins/008_Image_In_Login/008_Image_In_Login.zip">download</a>
-
+<a href="/img/Plugins/008_Image_In_Login/008_Image_In_Login.zip">download</a><br/>
+<br/>
 Details <br/>
 Change image in 'Generic_Content.jsp' first line and edit width and height to your needs.
 </p>
