@@ -40,7 +40,7 @@ title: Plugins
 </p>
 Details 
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
-<col class="nam" style = "width:400px !important;" />
+<img src="/img/Plugins/006_Size/sprememba.png" width="49%" >  <br/>
 
 
 ---
