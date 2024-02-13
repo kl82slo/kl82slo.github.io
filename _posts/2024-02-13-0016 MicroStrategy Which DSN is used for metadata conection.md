@@ -14,7 +14,7 @@ Sometimes you don't know which metadata connection is currently configured.
 ## WINDOWS 
 open registry and go to <br />
 {% highlight sql %}
-HKEY_LOCAL_MACHINE \ SOFTWARE \ WOW6432Node \ MicroStrategy \ Datasources \ Castor Server <br />
+HKEY_LOCAL_MACHINE / SOFTWARE / WOW6432Node / MicroStrategy / Datasources / Castor Server <br />
 {% endhighlight %}
 DSN in under 'Location' <br />
 [Windows link](https://community.microstrategy.com/s/article/How-to-determine-which-DSN-is-being-used-by-the-Intelligence-Server-on-a-64-bit-Windows-machine?language=en_US) <br />
