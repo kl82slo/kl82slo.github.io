@@ -9,7 +9,7 @@ comments: true
 Dificulty ★☆☆☆☆
 
 ### INTRO
-Sometimes you don't know which metadata conection is currently configured. 
+Sometimes you don't know which metadata connection is currently configured.
 
 ## WINDOWS 
 open registry and go to <br />
