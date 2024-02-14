@@ -25,7 +25,7 @@ In find select what metrics do you want to change<br />
 <br />
 Click 'Update Summary'<br />
 ![Update Summary](/img/20240214_0017/UpdateSummary.png)<br />
-and the list of selected metrics will be shown<br />
+The list of selected metrics will be shown<br />
 <br />
 Then select that you will only change Metric Values and set formating.<br />
 ![Metric Format Fixed](/img/20240214_0017/MetricFormatFixed.png)<br />
