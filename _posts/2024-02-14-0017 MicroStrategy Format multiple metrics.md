@@ -11,8 +11,8 @@ Dificulty ★☆☆☆☆
 ### INTRO
 Sometimes you need to format multiple metrics and you don't want to do it one at the time
 
+### How to use 'Find and Replace' tool<br />
 
-Open 'Find and Replace' tool <br />
 Go to 'Tools' and then 'Find and Replace'<br />
 ![Partition Table](/img/20240214_0017/FindAndReplace.png)<br />
 
