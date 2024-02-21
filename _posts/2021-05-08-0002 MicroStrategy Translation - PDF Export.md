@@ -30,8 +30,7 @@ If you use added transactions you may come across an error where transactions on
 
 5. PDF will export Average as 'Durchschnitt'
 
-
-### SOLUTION
+### SOLUTION 
 1. Stop PDF Exporter in MicroStrategy Service Manager.
 
 2. Open location "C:\Program Files (x86)\MicroStrategy\Export"
@@ -64,3 +63,8 @@ If you use added transactions you may come across an error where transactions on
 9. Replace the PDFExporterService.jar file in installation folder by the updated one.
 
 10. Start PDF Exporter in MicroStrategy Service Manager.
+
+### SOLUTION 2021.12 UPDATE
+Files were moved 
+locales.xml is now in \PDFExporterService.jar\BOOT-INF\classes
+
