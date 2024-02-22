@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MicroStrategy - Cancel subscription
+title: MicroStrategy - Cancel subscription if condition not met
 tags:
 - Microstrategy
 - Distribution service
