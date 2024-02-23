@@ -41,6 +41,7 @@ Details <br/>
 If you want to make change to sizes go to file 'FolderListLayout.xml' and change 
 <img src="/img/Plugins/006_Size/sprememba.png" width="49%" > <br/>
 </p>
+[KB441100](https://community.microstrategy.com/s/article/KB441100-How-to-Change-the-Default-Column-Width-of-Folder-List-Using-MicroStrategy-Web-SDK-10-x?language=ja&_gl=1*xscf3l*_ga*MTc0ODE2MTg3Mi4xNjk1ODEzNzA0*_ga_0C9LVNZBZY*MTcwMDE0MDU1OS44Ni4xLjE3MDAxNDU2MTQuMC4wLjA.) <br />
 
 ---
 
