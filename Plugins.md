@@ -59,6 +59,19 @@ Change image in 'Generic_Content.jsp' first line and edit width and height to yo
 </p>
 
 
+---
+
+## 009 Prefferences in Main Menu
+
+
+<p align="center">
+<b>Add link to preffereces in Main menu</b><br/>
+<img src="/img/Plugins/009_AddingPrefferencesMainMenu/Properties.png" width="49%">
+<a href="/img/Plugins/009_AddingPrefferencesMainMenu/009_AddingPrefferencesMainMenu.zip">download</a><br/>
+<br/>
+
+</p>
+
 
 ---
 
