@@ -66,7 +66,7 @@ Change image in 'Generic_Content.jsp' first line and edit width and height to yo
 
 <p align="center">
 <b>Add link to preffereces in Main menu</b><br/>
-<img src="/img/Plugins/009_AddingPrefferencesMainMenu/Properties.png" width="49%">
+<img src="/img/Plugins/009_AddingPrefferencesMainMenu/Properties.png" width="49%"> <br/>
 <a href="/img/Plugins/009_AddingPrefferencesMainMenu/009_AddingPrefferencesMainMenu.zip">download</a><br/>
 <br/>
 
