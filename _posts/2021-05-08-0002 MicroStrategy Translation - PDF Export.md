@@ -10,7 +10,7 @@ Dificulty ★★★★☆
 
 Microstrategy transactions are separated in multiple categories
 - Interface for WEB 
-- Interface for Library (In version 2021 not yet available)
+- Interface for Library
 - Help links 
 - Names of Metadata objects
 - Report data language
