@@ -178,9 +178,10 @@ Wait few minutes and refresh cubes.
 ### Move data to another Repository
 [repository_administration](https://www2.microstrategy.com/producthelp/Current/InstallConfig/en-us/Content/repository_administration.htm)
 
-### During and installation
+### Configuration 
 During configuration set 'Platform Analytics Configuration' 
 ![Platform_Conection](/img/20240420_0018/platform_conection.png) <br />
+it shud be full computer name and :9092
 
 <p style="display: none;">If you have split inteligence and web setup then edit Topology during instalation
 TO-DO
