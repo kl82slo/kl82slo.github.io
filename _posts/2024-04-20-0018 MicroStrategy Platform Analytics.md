@@ -67,6 +67,15 @@ Info password for Postgre shud be writen in <br />
 'Start / Microstrategy Tools / Install Password File' under 'mstr_pa'<br />
 and default database name in 'platform_analytics_wh'<br />
 
+#### Cube is too big
+If you get error 'Unable to import your data since your remaning in-memory space od 100 MB ...'<br />
+![Cube](/img/20240420_0018/Cube.png)<br />
+
+Change it to bigger number since default is 100MB<br />
+![Cube](/img/20240420_0018/Cube1.png)<br />
+
+#### Cube can’t be created because there’s not too much disk space
+Chek disk space you need at least 10gb of free space to refresh cube.<br />
 
 ### KAFKA > PLATFORM > POSTGRE
 If you have problem that 'Apache Kafka' service is not running then the error is most likly here<br />
@@ -104,7 +113,7 @@ If project dosen't have 'Basic Statistics' set to 'True'. Then run<br />
 ### You can also chek if data is loded by running<br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-health-check.bat' (first run cmd as admin)<br />
 insert id for project and id for report that you will run and change description for it.<br />
-![Year](/img/20240420_0018/HC.png)
+![HC](/img/20240420_0018/HC.png)
 
 
 ### Last chek
