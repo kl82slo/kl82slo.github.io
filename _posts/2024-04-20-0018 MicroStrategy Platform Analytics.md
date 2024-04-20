@@ -10,6 +10,8 @@ Dificulty ★☆☆☆☆
 
 # IN PROGRES
 
+This does not cover cluster setups.
+
 If the folowing tutorial does not resolve your error prepare the folowing files for support<br />
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Intelligence Server\KFKProducerError.log
@@ -149,10 +151,15 @@ chek if <br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml' is correct <br />
 then run <br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-consumer.bat' (first run cmd as admin) <br />
+run it like <br />
+{% highlight sql %} 
+platform-analytics-custom-install.bat -o
+{% endhighlight %}
 if error chek <br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml' <br />
 especially password that you can encrypt in <br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-encryptor.bat'(first run cmd as admin) <br />
+
 
 
 # Extra
@@ -168,3 +175,5 @@ Second one shows how long data is kept in database before deletion. <br />
 In 'Developer' go to Administration > Configuration Managers > Events > (and triger) Load Metadata Object Telemetry<br />
 Wait few minutes and refresh cubes.
 
+### Move data to another Repository
+[repository_administration](https://www2.microstrategy.com/producthelp/Current/InstallConfig/en-us/Content/repository_administration.htm)
