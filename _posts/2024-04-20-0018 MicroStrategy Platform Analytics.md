@@ -55,7 +55,7 @@ WAIT 10s<br />
 -MicroStrategy Platform Analytics consumer<br />
 
 ### POSTGRE > Platform Analytics project
-Lets start from the end if data is not shown in 'Platform Analytics project' even after you republih cubes. <br />
+Lets start from the end if data is not shown in 'Platform Analytics project' even after you republished cubes. <br />
 And there is data in POSTGRE if you run <br />
 {% highlight sql %} select * from platform_analytics_wh.access_transactions order by tran_timestamp DESC limit 10; {% endhighlight %}
 
@@ -97,7 +97,7 @@ If not run <br />
 In 'Command manager' run <br />
 {% highlight sql %} LIST ALL PROPERTIES FOR PASTATISTICS IN PROJECT "your_project_name";{% endhighlight %}<br />
 ![BassicStatistics](/img/20240420_0018/BassicStatistics.png) <br />
-If project dosen't have 'Basic Statistics' set to 'True' by runing<br />
+If project dosen't have 'Basic Statistics' set to 'True'. Then run<br />
 {% highlight sql %} ALTER PASTATISTICS BASICSTATS ENABLED DETAILEDREPJOBS FALSE DETAILEDDOCJOBS FALSE JOBSQL FALSE COLUMNSTABLES FALSE IN PROJECT "your_project_name";{% endhighlight %}
 
 
