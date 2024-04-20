@@ -74,7 +74,7 @@ If you get error 'Unable to import your data since your remaning in-memory space
 ![Cube](/img/20240420_0018/Cube.png)<br />
 
 Change it to bigger number since default is 100MB<br />
-![Cube](/img/20240420_0018/Cube1.png)<br />
+![Cube](/img/20240420_0018/cube1.png)<br />
 
 #### Cube can’t be created because there’s not too much disk space
 Chek disk space you need at least 10gb of free space to refresh cube.<br />
