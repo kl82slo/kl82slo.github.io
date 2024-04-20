@@ -171,9 +171,19 @@ Change <br />
 First one shows how many days is loaded to cubes. <br />
 Second one shows how long data is kept in database before deletion. <br />
 
-### Not all user names are showd after refreshing cube
+### Not all user names are showing after refreshing cube
 In 'Developer' go to Administration > Configuration Managers > Events > (and triger) Load Metadata Object Telemetry<br />
 Wait few minutes and refresh cubes.
 
 ### Move data to another Repository
 [repository_administration](https://www2.microstrategy.com/producthelp/Current/InstallConfig/en-us/Content/repository_administration.htm)
+
+### During and installation
+During configuration set 'Platform Analytics Configuration' 
+![Platform_Conection](/img/20240420_0018/platform_conection.png) <br />
+
+<p style="display: none;">If you have split inteligence and web setup then edit Topology during instalation
+TO-DO
+</p>
+
+
