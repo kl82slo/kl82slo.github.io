@@ -80,7 +80,7 @@ Change it to bigger number since default is 100MB<br />
 Chek disk space you need at least 10gb of free space to refresh cube.<br />
 
 ### KAFKA > PLATFORM > POSTGRE
-If you have problem that 'Apache Kafka' service is not running then the error is most likly here<br />
+If you have problem that 'Apache Kafka' service is not running then the error is most likely here<br />
 Chek 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml'<br />
 if configuration of 'pgWarehouseDbConnection' is correct<br />
 you can try encrypting password with<br />
