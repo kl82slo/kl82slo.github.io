@@ -108,7 +108,7 @@ In 'Command manager' run <br />
 ![BassicStatistics](/img/20240420_0018/BassicStatistics.png) <br />
 If project dosen't have 'Basic Statistics' set to 'True'. Then run<br />
 {% highlight sql %} ALTER PASTATISTICS BASICSTATS ENABLED DETAILEDREPJOBS FALSE DETAILEDDOCJOBS FALSE JOBSQL FALSE COLUMNSTABLES FALSE IN PROJECT "your_project_name";{% endhighlight %}
-
+Hint 'LIST ALL PROJECTS;' retuns names for all projects<br />
 
 ### You can also chek if data is loded by running<br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-health-check.bat' (first run cmd as admin)<br />
@@ -121,16 +121,6 @@ After everything starts working run 'Licence Manager' and go to > Audit > Intell
 In 'Developer' go to Administration > Configuration Managers > Events > (and triger) Load Metadata Object Telemetry<br />
 
 If platform survives loding this 2 than evrything will work.<br />
-
-
-### Change for how long data is stored 
-Edit 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml' <br />
-Change <br />
-  viewCutoffRangeInDays: 666 <br />
-  currentFactDataKeepDays: 999 <br />
-First one shows how many days is loaded to cubes. <br />
-Second one shows how long data is kept in database before deletion. <br />
-
 
 ## Database for 'platform_analytics_wh' dosen't exist 
 For this you will have to log in as POSTGRES user (find tutorial) <br />
@@ -163,4 +153,18 @@ if error chek <br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml' <br />
 especially password that you can encrypt in <br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-encryptor.bat'(first run cmd as admin) <br />
+
+
+# Extra
+### Change for how long data is stored 
+Edit 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml' <br />
+Change <br />
+  viewCutoffRangeInDays: 666 <br />
+  currentFactDataKeepDays: 999 <br />
+First one shows how many days is loaded to cubes. <br />
+Second one shows how long data is kept in database before deletion. <br />
+
+### Not all user names are showd after refreshing cube
+In 'Developer' go to Administration > Configuration Managers > Events > (and triger) Load Metadata Object Telemetry<br />
+Wait few minutes and refresh cubes.
 
