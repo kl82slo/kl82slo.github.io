@@ -10,7 +10,7 @@ Dificulty ★☆☆☆☆
 
 # IN PROGRES
 
-If the folowing tutorial does not resolve your error prepare the folowing files<br />
+If the folowing tutorial does not resolve your error prepare the folowing files for support<br />
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Intelligence Server\KFKProducerError.log
 C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf\PAConsumerConfig.yaml
@@ -39,7 +39,8 @@ Info if this services are running
 {% endhighlight %}
 <br />
 
-We can imagine data flow is like this INTELIGENCE > KAFKA > PLATFORM > POSTGRE > Platform Analytics project<br />
+We can imagine data flow is like this <br />
+INTELIGENCE > KAFKA > PLATFORM > POSTGRE > Platform Analytics project<br />
 During error testing stop services in the folowing order <br />
 -MicroStrategy Platform Analytics consumer<br />
 -MicroStrategy Platform Analytics In-Memory Cache<br />
@@ -54,7 +55,7 @@ WAIT 10s<br />
 -MicroStrategy Platform Analytics consumer<br />
 
 ### POSTGRE > Platform Analytics project
-Lets start from the end in data is not shown in 'Platform Analytics project' even after you republih cubes. <br />
+Lets start from the end if data is not shown in 'Platform Analytics project' even after you republih cubes. <br />
 And there is data in POSTGRE if you run <br />
 {% highlight sql %} select * from platform_analytics_wh.access_transactions order by tran_timestamp DESC limit 10; {% endhighlight %}
 
@@ -85,24 +86,26 @@ ERROR:(Local: Broker transport failure): <font color='red'>inteligence_server</f
 2024-04-16 10:15:25.694+01:00[HOST:<font color='red'>inteligence_server</font>][PID:2932][THR:7080]Rdkafka event 
 {% endhighlight %}
 
-Then inteligence server is not sending data to kafaka you have to run 'Command manager'<br />
+Then inteligence server is not sending data to kafka. In 'Command manager' run<br />
 {% highlight sql %} LIST ALL PROPERTIES FOR SERVER CONFIGURATION;{% endhighlight %}
 and chek if bootstrap.servers:<br />
-have server with kafka. If not run <br />
+have server with kafka. <br />
+If not run <br />
 {% highlight sql %} ALTER SERVER CONFIGURATION ENABLEMESSAGINGSERVICES TRUE CONFIGUREMESSAGINGSERVICES "bootstrap.servers:<font color='red'>Server_With_Kafka</font>:9092/BATCH.num.MESSAGES:5000/queue.buffering.max.ms:2000/MESSAGE.max.BYTES:1000000";{% endhighlight %}
 
 #### Project not collecting data
 In 'Command manager' run <br />
 {% highlight sql %} LIST ALL PROPERTIES FOR PASTATISTICS IN PROJECT "your_project_name";{% endhighlight %}<br />
 ![BassicStatistics](/img/20240420_0018/BassicStatistics.png) <br />
-If project dosen't have 'Basic Statistics' set to 'True' run<br />
+If project dosen't have 'Basic Statistics' set to 'True' by runing<br />
 {% highlight sql %} ALTER PASTATISTICS BASICSTATS ENABLED DETAILEDREPJOBS FALSE DETAILEDDOCJOBS FALSE JOBSQL FALSE COLUMNSTABLES FALSE IN PROJECT "your_project_name";{% endhighlight %}
 
 
-####
-You can also chek if data is loded by running<br />
+### You can also chek if data is loded by running<br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-health-check.bat' (first run cmd as admin)<br />
 insert id for project and id for report that you will run and change description for it.<br />
+![Year](/img/20240420_0018/HC.png)
+
 
 ### Last chek
 After everything starts working run 'Licence Manager' and go to > Audit > Intelligence > Login (admin user and pass)' and press 'AUDIT'<br />
