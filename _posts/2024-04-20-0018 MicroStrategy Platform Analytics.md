@@ -44,7 +44,7 @@ Info if this services are running
 We can imagine data flow is like this <br />
 INTELIGENCE > KAFKA > PLATFORM > POSTGRE > Platform Analytics project<br />
 ![platform_analytics](/img/20240420_0018/platform_analytics.png) <br />
-[image from](https://www2.microstrategy.com/producthelp/Current/PlatformAnalytics/en-us/Content/pa_architecture_and_services.htm)<br />
+[pa_architecture_and_services](https://www2.microstrategy.com/producthelp/Current/PlatformAnalytics/en-us/Content/pa_architecture_and_services.htm)<br />
 
 During error testing stop services in the folowing order <br />
 -MicroStrategy Platform Analytics consumer<br />
