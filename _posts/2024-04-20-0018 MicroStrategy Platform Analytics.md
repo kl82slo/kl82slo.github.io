@@ -43,6 +43,9 @@ Info if this services are running
 
 We can imagine data flow is like this <br />
 INTELIGENCE > KAFKA > PLATFORM > POSTGRE > Platform Analytics project<br />
+![platform_analytics](/img/20240420_0018/platform_analytics.png) <br />
+[image from](https://www2.microstrategy.com/producthelp/Current/PlatformAnalytics/en-us/Content/pa_architecture_and_services.htm)<br />
+
 During error testing stop services in the folowing order <br />
 -MicroStrategy Platform Analytics consumer<br />
 -MicroStrategy Platform Analytics In-Memory Cache<br />
@@ -93,8 +96,8 @@ and chek if it is the same <br />
 If you get error in kafka logs<br />
 
 {% highlight sql %}
-ERROR:(Local: Broker transport failure): <font color='red'>inteligence_server</font>:9092/0: Connect to ipv6#[<font color='red'>xxx</font>]:9092 failed: Unknown error (after 2013ms in state CONNECT)
-2024-04-16 10:15:25.694+01:00[HOST:<font color='red'>inteligence_server</font>][PID:2932][THR:7080]Rdkafka event 
+ERROR:(Local: Broker transport failure): inteligence_server:9092/0: Connect to ipv6#[<font color='red'>xxx</font>]:9092 failed: Unknown error (after 2013ms in state CONNECT)
+2024-04-16 10:15:25.694+01:00[HOST:inteligence_server][PID:2932][THR:7080]Rdkafka event 
 {% endhighlight %}
 
 Then inteligence server is not sending data to kafka. In 'Command manager' run<br />
@@ -102,7 +105,7 @@ Then inteligence server is not sending data to kafka. In 'Command manager' run<b
 and chek if bootstrap.servers:<br />
 have server with kafka. <br />
 If not run <br />
-{% highlight sql %} ALTER SERVER CONFIGURATION ENABLEMESSAGINGSERVICES TRUE CONFIGUREMESSAGINGSERVICES "bootstrap.servers:<font color='red'>Server_With_Kafka</font>:9092/BATCH.num.MESSAGES:5000/queue.buffering.max.ms:2000/MESSAGE.max.BYTES:1000000";{% endhighlight %}
+{% highlight sql %} ALTER SERVER CONFIGURATION ENABLEMESSAGINGSERVICES TRUE CONFIGUREMESSAGINGSERVICES "bootstrap.servers:Server_With_Kafka:9092/BATCH.num.MESSAGES:5000/queue.buffering.max.ms:2000/MESSAGE.max.BYTES:1000000";{% endhighlight %}
 
 #### Project not collecting data
 In 'Command manager' run <br />
