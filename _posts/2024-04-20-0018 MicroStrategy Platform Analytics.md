@@ -6,9 +6,7 @@ tags:
 - Platform Analytics
 comments: true
 ---
-Dificulty ★☆☆☆☆
-
-# IN PROGRES
+Dificulty ★★★★☆
 
 This does not cover cluster setups.
 
