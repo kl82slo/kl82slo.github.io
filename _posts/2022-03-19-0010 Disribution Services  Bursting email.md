@@ -9,8 +9,6 @@ comments: true
 ---
 Dificulty ★★☆☆☆
 
-# In progress
-
 ## Intro
 How to use table as source for emails and filters whithin distribution service.
 
