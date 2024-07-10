@@ -8,8 +8,6 @@ comments: true
 ---
 Dificulty ★☆☆☆☆
 
-In progres
-
 If you have an issue that all your SQL genereted by microstrategy have every colum and table in "
 
 {% highlight sql %} 
