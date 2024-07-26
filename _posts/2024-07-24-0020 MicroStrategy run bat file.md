@@ -116,6 +116,8 @@ and add VLDB option to run procedure from SQL<br />
 Now to activate it user just has to run a report
 ![MSTR_Web](/img/20240726_0020/MSTR_Web.png)<br />
 
+![MSTR_Running](/img/20240726_0020/MSTR_bat_run.png)<br />
+
 And after it is done user will get result (or a timeot) <br />
-![MSTR_Web](/img/20240726_0020/Mstr_web_bat.png)<br />
+![MSTR_Web_bat_run](/img/20240726_0020/Mstr_web_bat.png)<br />
 
