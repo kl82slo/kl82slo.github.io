@@ -50,7 +50,7 @@ C:\ETL_job\Get_Data_2023_0.1<br />
 so the bat file is in location<br />
 C:\ETL_job\Get_Data_2023_0.1\Get_Data_2023\Get_Data_2023_run.bat<br />
 <br />
-the files that BAT file will be using to proces are in loaction <br />
+the files that BAT will be procesing are in loaction <br />
 C:\ETL_STEAM<br />
 
 ## Setting folder permition on SQL server
