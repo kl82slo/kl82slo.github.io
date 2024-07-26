@@ -29,7 +29,7 @@ JAVA_JOME<br />
 C:\Program Files\openlogic-openjdk<br />
 ![JAVA_HOME](/img/20240726_0020/java_home.png)<br />
 
-In Enviroment Varalbes add path to Java bin location<br />
+In Enviroment Varables add path to Java bin location<br />
 ![JAVA path](/img/20240726_0020/java_path.png)<br />
 
 Test JAVA in CMD <br />
