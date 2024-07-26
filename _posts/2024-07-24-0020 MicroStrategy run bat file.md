@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MicroStrategy run bat file
+title: How to run BAT file in MicroStrategy
 tags:
 - Microstrategy
 - SQL
@@ -32,7 +32,7 @@ C:\Program Files\openlogic-openjdk<br />
 In Enviroment Varalbes add path to Java bin location<br />
 ![JAVA path](/img/20240726_0020/java_path.png)<br />
 
-Test in CMD <br />
+Test JAVA in CMD <br />
 Java --version<br />
 ![JAVA test](/img/20240726_0020/java_test.png)<br />
 
@@ -50,17 +50,17 @@ C:\ETL_job\Get_Data_2023_0.1<br />
 so the bat file is in location<br />
 C:\ETL_job\Get_Data_2023_0.1\Get_Data_2023\Get_Data_2023_run.bat<br />
 <br />
-the files that BAT file will be using to proces are in my case in loaction <br />
+the files that BAT file will be using to proces are in loaction <br />
 C:\ETL_STEAM<br />
 
 ## Setting folder permition on SQL server
 On SQL server chek the name of user that is running 'SQL server'<br />
 ![SQL_User](/img/20240726_0020/SQL_restart.png)<br />
 
-Then add it to the folder that will be used to process files<br />
+Then add permiton to the folder that will be used to process files<br />
 ![SQL_Permition](/img/20240726_0020/SQL_Permition.png)<br />
 
-And after set permitions for subfolders<br />
+Than set permitions for subfolders<br />
 ![Windows_Permition](/img/20240726_0020/Windows_permition.png)<br />
 
 
@@ -107,6 +107,7 @@ RECONFIGURE
 
 ## Microstrategy
 In this cases you can use normal report but I preffer freeform<br />
+Where I write what procedure was run<br />
 ![freeform](/img/20240726_0020/freeform.png)<br />
 
 and add VLDB option to run procedure from SQL<br />
@@ -115,6 +116,6 @@ and add VLDB option to run procedure from SQL<br />
 Now to activate it user just has to run a report
 ![MSTR_Web](/img/20240726_0020/MSTR_Web.png)<br />
 
-And after it is done user will get result (or a timeot) 
+And after it is done user will get result (or a timeot) <br />
 ![MSTR_Web](/img/20240726_0020/Mstr_web_bat.png)<br />
 
