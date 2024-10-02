@@ -8,15 +8,15 @@ comments: true
 ---
 Dificulty ★★★☆☆
 
-# In progress
 
 ## Prelog
 Once in a while you want an option to run BAT file directly from MicroStrategy. <br />
 The option that will be discused here is to run it from SQL server.<br />
 While that is an option remember that it is a scurity risk.<br />
 
-## JAVA 
-If you are running BAT file from TALEND then you need to go thru this part otherwise you can skip it.<br />
+
+## JAVA (optional)
+If you created BAT file in TALEND then you need to do this extra step. <br />
 
 On SQL server download <br />
 (JAVA_OpenJDK)[https://www.openlogic.com/openjdk-downloads]
@@ -50,7 +50,7 @@ C:\ETL_job\Get_Data_2023_0.1<br />
 so the bat file is in location<br />
 C:\ETL_job\Get_Data_2023_0.1\Get_Data_2023\Get_Data_2023_run.bat<br />
 <br />
-the files that BAT will be procesing are in loaction <br />
+the files that I will be procesing are in location <br />
 C:\ETL_STEAM<br />
 
 ## Setting folder permition on SQL server
@@ -95,7 +95,7 @@ exec [dbo].kl_run_steam_update
 <br />
 
 if you get an error<br />
-activate the addvaned options and try aggain<br />
+activate the addvanced options and try aggain<br />
 ![SQL Error](/img/20240726_0020/Error.png)<br />
 
 {% highlight sql %} 
@@ -106,8 +106,8 @@ RECONFIGURE
 
 
 ## Microstrategy
-In this cases you can use normal report but I preffer freeform<br />
-Where I write what procedure was run<br />
+You can use normal report but I preffer freeform<br />
+Where I write costum text when procedure was run<br />
 ![freeform](/img/20240726_0020/freeform.png)<br />
 
 and add VLDB option to run procedure from SQL<br />
