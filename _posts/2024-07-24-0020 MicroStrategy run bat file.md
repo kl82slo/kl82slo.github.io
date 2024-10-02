@@ -106,7 +106,7 @@ RECONFIGURE
 
 ## Microstrategy
 You can use a standard report, but I prefer Freeform SQL,<br />
-where I can write custom text to log when the procedure was executed.<br />
+where I can write custom text when the procedure was executed.<br />
 ![freeform](/img/20240726_0020/freeform.png)<br />
 
 and add VLDB option to run procedure from SQL<br />
