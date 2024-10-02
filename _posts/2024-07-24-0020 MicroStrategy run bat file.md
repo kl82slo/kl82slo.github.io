@@ -9,20 +9,19 @@ comments: true
 Dificulty ★★★☆☆
 
 
-## Prelog
-Once in a while you want an option to run BAT file directly from MicroStrategy. <br />
-The option that will be discused here is to run it from SQL server.<br />
-While that is an option remember that it is a scurity risk.<br />
+## Prologue
+Occasionally, you may want to run a BAT file directly from MicroStrategy.<br />
+In this guide, we will discuss how to execute it from an SQL Server.<br />
+While this is a viable option, keep in mind that it poses a security risk.<br />
+
 
 
 ## JAVA (optional)
-If you created BAT file in TALEND then you need to do this extra step. <br />
+If you created the BAT file in Talend, you need to perform an additional step. <br />
 
-On SQL server download <br />
-(JAVA_OpenJDK)[https://www.openlogic.com/openjdk-downloads]
+On the SQL Server, download (OpenJDK)[https://www.openlogic.com/openjdk-downloads]
+, and extract it to the desired location.<br />
 
-extract it to<br />
-![Java_Download](/img/20240726_0020/java.png)<br />
 
 Add system vatiable<br />
 JAVA_JOME<br />
