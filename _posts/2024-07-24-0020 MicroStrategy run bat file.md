@@ -105,18 +105,18 @@ RECONFIGURE
 
 
 ## Microstrategy
-You can use normal report but I preffer freeform<br />
-Where I write costum text when procedure was run<br />
+You can use a standard report, but I prefer Freeform SQL,<br />
+where I can write custom text to log when the procedure was executed.<br />
 ![freeform](/img/20240726_0020/freeform.png)<br />
 
 and add VLDB option to run procedure from SQL<br />
 ![VLDB](/img/20240726_0020/VLDB.png)<br />
 
-Now to activate it user just has to run a report
+Once this setup is complete, the user simply needs to run the report.
 ![MSTR_Web](/img/20240726_0020/MSTR_Web.png)<br />
 
 ![MSTR_Running](/img/20240726_0020/MSTR_bat_run.png)<br />
 
-And after it is done user will get result (or a timeot) <br />
+After the procedure completes, the user will either see the results or experience a timeout<br />
 ![MSTR_Web_bat_run](/img/20240726_0020/Mstr_web_bat.png)<br />
 
