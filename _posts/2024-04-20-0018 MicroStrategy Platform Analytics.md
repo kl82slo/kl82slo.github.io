@@ -113,6 +113,14 @@ If project dosen't have 'Basic Statistics' set to 'True'. Then run<br />
 {% highlight sql %} ALTER PASTATISTICS BASICSTATS ENABLED DETAILEDREPJOBS FALSE DETAILEDDOCJOBS FALSE JOBSQL FALSE COLUMNSTABLES FALSE IN PROJECT "your_project_name";{% endhighlight %}
 Hint 'LIST ALL PROJECTS;' retuns names for all projects<br />
 
+
+#### If kafka shutdowns constatntly and you dont care for missing data 
+Stop all 4 services<br />
+Then you can delete evrything in <br />
+C:\Program Files (x86)\MicroStrategy\Messaging Services\tmp\kafka-logs<br />
+C:\Program Files (x86)\MicroStrategy\Messaging Services\tmp\zookeeper\version-2<br />
+<br />
+
 ### You can also chek if data is loded by running<br />
 'C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin\platform-analytics-health-check.bat' (first run cmd as admin)<br />
 insert id for project and id for report that you will run and change description for it.<br />
