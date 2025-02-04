@@ -78,6 +78,15 @@ button:hover, a:hover {
        </a>
        <!--- DVL --->  
 
+       <a href="https://www.credly.com/badges/57f9e9a8-1575-4f36-8f70-5e6eef20b881/public_url">
+       <img alt="QSDA" src="/img/Info/QSDA.png" style="width=145" height="145"> 
+       </a>
+       <!--- QSDA --->  
+
+       <a href="https://www.credly.com/badges/b78659bc-82ed-4b81-91eb-bc5652d7b476/public_url">
+       <img alt="QSBA" src="/img/Info/QSBA.png" style="width=145" height="145"> 
+       </a>
+       <!--- QSBA --->  
        
      </div>
   <div style="margin: 24px 0;">
