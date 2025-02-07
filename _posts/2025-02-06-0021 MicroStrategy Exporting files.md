@@ -11,7 +11,7 @@ Dificulty ★☆☆☆☆
 
 ## Default settings 
 Default settings are sometimes confusing since they automaticly add datetime even if you have not specifed it<br />
-![JAVA path](/img/20250206_0021/napaka.png)<br />
+![JAVA path](/img/20250206_0021/Napaka.png)<br />
 
 If you want to remove the default date change the setting in 'Device Editor' <br />
 For 'Append timestmap to file name'<br />
