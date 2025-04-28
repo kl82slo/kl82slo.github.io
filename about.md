@@ -87,6 +87,11 @@ button:hover, a:hover {
        <img alt="QSBA" src="/img/Info/QSBA.png" style="width=145" height="145"> 
        </a>
        <!--- QSBA --->  
+
+       <a href="https://www.credential.net/76aff8e9-fbf7-4903-967a-922da4d31da5#acc.21hAGcnY">
+       <img alt="AI" src="/img/Info/AI.png" style="width=145" height="145"> 
+       </a>
+       <!--- AI --->         
        
      </div>
   <div style="margin: 24px 0;">
