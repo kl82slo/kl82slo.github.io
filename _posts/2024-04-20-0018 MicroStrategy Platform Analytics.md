@@ -77,6 +77,12 @@ If you get error 'Unable to import your data since your remaning in-memory space
 Change it to bigger number since default is 100MB<br />
 ![Cube](/img/20240420_0018/cube1.png)<br />
 
+Or if you get err <br />
+Published cube XXXXX (size xxxxx) cannot be loaded because total cube memory usage reaches maximum setting (xxxM). Increase the memory available for cubes for project XXXXX in order to load this cube. Error in Process method of Component: CubeServer, XXXXX, Job xxxxx, Error Code= -2147072551 <br />
+ <br />
+then change <br />
+![platform_analytics](/img/20240420_0018/cube.png) <br />
+
 #### Cube can’t be created because there’s not too much disk space
 Chek disk space you need at least 10gb of free space to refresh cube.<br />
 
