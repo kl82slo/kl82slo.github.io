@@ -204,6 +204,6 @@ TO-DO
 
 
 # Error Dossies show same hour (12 AM) in datetime columns
-Change VLDB setting 
+Change VLDB setting <br />
 ![ODBC_12AM](/img/20240420_0018/ODBC_12AM.png) <br />
 [KB485003]([https://www2.microstrategy.com/producthelp/Current/InstallConfig/en-us/Content/repository_administration.htm](https://community.microstrategy.com/s/article/Platform-Analytics-dossiers-always-show-the-same-hour?language=en_US))
