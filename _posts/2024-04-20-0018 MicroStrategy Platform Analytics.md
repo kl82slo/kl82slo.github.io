@@ -203,7 +203,7 @@ TO-DO
 </p>
 
 
-# Error Dossies show same hour (12 AM) in datetime columns
+## Error Dossies show same hour (12 AM) in datetime columns
 Change VLDB setting <br />
 <br />
 ![ODBC_12AM](/img/20240420_0018/ODBC_12AM.png) <br />
