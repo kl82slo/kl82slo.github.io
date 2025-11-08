@@ -11,7 +11,12 @@ Dificulty ★★★☆☆
 IN PROGRESSS!!
 
 
-In this tutorial i will show you how diffrent variables can interect to hide/show/calculate metric.
+Diffrent variables can interect to hide/show/calculate metric.<br />
+<br />
+STORY:<br />
+We needed to compare different scenarios and calculate the differences between them.<br />
+However, since there can be too many metrics, it’s easy to get overwhelmed.<br />
+That’s why we needed a system to filter them efficiently.<br />
 
 *Note Base scenario and Comparison scenario are Alternative states of same atribute<br />
 ![varables](/img/20251108_0022/10_variables.png) <br />
@@ -64,12 +69,12 @@ WildMatch(vMetricShown, 'Balance', 'All') and WildMatch(vCompareMode, 'Values', 
 in load set the defalt variable state when opening dossie<br />
 ![varables](/img/20251108_0022/9.png) <br />
 {% highlight metric %} 
-SET vMetricShown = 'All';<br />
+SET vMetricShown = 'All';
 SET vCompareMode = 'All';
 {% endhighlight %}
 
 Aditionaly  <br />
-If you want to filter other atriutes normaly don't forget to put '* ?' in metric definition after alternative state. <br />
+If you want to filter other atributes normaly don't forget to put '<font color='red'>* $</font>' in metric definition after alternative state. <br />
 Sum({[Alt BASE scenario] <font color='red'>* $</font> } if(IsNull(MEAS_AMOUNT_01), 0, MEAS_AMOUNT_01))
 
 
