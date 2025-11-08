@@ -6,19 +6,19 @@ tags:
 - Filters
 comments: true
 ---
-Dificulty ★★★☆☆
+Difficulty ★★★☆☆
 
 IN PROGRESSS!!
 
 
-Diffrent variables can interect to hide/show/calculate metric.<br />
+Different variables can interact to hide, show or calculate metrics.<br />
 <br />
 STORY:<br />
 We needed to compare different scenarios and calculate the differences between them.<br />
 However, since there can be too many metrics, it’s easy to get overwhelmed.<br />
 That’s why we needed a system to filter them efficiently.<br />
 
-*Note Base scenario and Comparison scenario are Alternative states of same atribute<br />
+*Note Base scenario and Comparison scenario are Alternative states of same attribute<br />
 ![varables](/img/20251108_0022/10_variables.png) <br />
  <br />
 First filter <br />
@@ -35,10 +35,10 @@ Create new variable that will be used for metric selection<br />
 From object select 'Variable input'  <br />
 ![varables](/img/20251108_0022/2.png) <br />
 
-Give it previusly deffined varable name and select how you want to show it. <br />
+Give it previously defined variable name and select how you want to show it. <br />
 ![varables](/img/20251108_0022/3.png) <br />
 
-Define posible values that you are going to show in filter. <br />
+Define possible values you will display in the filter. <br />
 ![varables](/img/20251108_0022/4.png) <br />
 
 Define filter name <br />
@@ -66,16 +66,16 @@ WildMatch(vMetricShown, 'Balance', 'All') and WildMatch(vCompareMode, 'Values', 
 {% endhighlight %}
 ![varables](/img/20251108_0022/8.png) <br />
 
-*Optional <br />
-in load set the defalt variable state when opening dossie<br />
+*Optional step<br />
+In the load script, set the default variable state when opening the document<br />
 ![varables](/img/20251108_0022/9.png) <br />
 {% highlight metric %} 
 SET vMetricShown = 'All';
 SET vCompareMode = 'All';
 {% endhighlight %}
 
-Aditionaly  <br />
-If you want to filter other atributes normaly don't forget to put '<font color='red'>* $</font>' in metric definition after alternative state. <br />
+Additionally  <br />
+If you want to filter other attributes normally don't forget to put '<font color='red'>* $</font>' in metric definition after alternative state. <br />
 Sum({[Alt BASE scenario] <font color='red'>* $</font> } if(IsNull(MEAS_AMOUNT_01), 0, MEAS_AMOUNT_01))
 
 
