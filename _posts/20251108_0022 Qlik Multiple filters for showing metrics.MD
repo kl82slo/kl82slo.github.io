@@ -13,9 +13,9 @@ IN PROGRESSS!!
 
 In this tutorial i will show you how diffrent variables can interect to hide/show/calculate metric.
 
-![varables](/img/20251108_0022/10 variables.png) <br />
-![varables](/img/20251108_0022/11 values.png) <br />
-![varables](/img/20251108_0022/12 metric variable.png) <br />
+![varables](/img/20251108_0022/10_variables.png) <br />
+![varables](/img/20251108_0022/11_values.png) <br />
+![varables](/img/20251108_0022/12_metric_variable.png) <br />
 *Note Base scenario and Comparison scenario are Alternative states of same atribute<br />
 <br />
 Create new variable that will be used for metric selection<br />
@@ -46,7 +46,7 @@ Create the second variable
 
 Create new 'Variable input' and <br />
 define posible values that you are going to show in filter.<br />
-![varables](/img/20251108_0022/13 Variable 2.png) <br />
+![varables](/img/20251108_0022/13_Variable2.png) <br />
 
 Change the optin 'Show column if' for first metric to 
 {% highlight metric %} 
