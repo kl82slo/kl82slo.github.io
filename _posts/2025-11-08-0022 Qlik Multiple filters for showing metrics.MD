@@ -35,7 +35,7 @@ Create new variable that will be used for metric selection<br />
 From object select 'Variable input'  <br />
 ![varables](/img/20251108_0022/2.png) <br />
 
-give it previusly deffined varable name and select how you want to show it. <br />
+Give it previusly deffined varable name and select how you want to show it. <br />
 ![varables](/img/20251108_0022/3.png) <br />
 
 Define posible values that you are going to show in filter. <br />
@@ -44,9 +44,10 @@ Define posible values that you are going to show in filter. <br />
 Define filter name <br />
 ![varables](/img/20251108_0022/5.png) <br />
 
-Before continuing lets make a small test if evryhing is working <br />
-The definition for fist metric in this case 'Balance' can be show if filter selection is 'Balance' or 'All'<br />
-So change the 'Show column if' setting to<br />
+Before continuing, let’s make a small test to see if everything is working.<br />
+The definition for the first metric, in this case “Balance,” should be shown if the filter selection is “Balance” or “All.”<br />
+So, change the “Show column if” setting to:<br />
+
 {% highlight metric %} 
 WildMatch(vMetricShown, 'Balance', 'All')
 {% endhighlight %}
