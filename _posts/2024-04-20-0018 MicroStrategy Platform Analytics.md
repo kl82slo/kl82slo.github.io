@@ -112,8 +112,9 @@ If not run <br />
 {% highlight sql %} ALTER SERVER CONFIGURATION ENABLEMESSAGINGSERVICES TRUE CONFIGUREMESSAGINGSERVICES "bootstrap.servers:Server_With_Kafka:9092/BATCH.num.MESSAGES:5000/queue.buffering.max.ms:2000/MESSAGE.max.BYTES:1000000";{% endhighlight %}
 
 #### Project not collecting data
-Firts the Database instance - Statistic shud be set to <none>
-![database_Statistics](/img/20240420_0018/Statistic_database_none.png) <br />
+Firts the Database instance - Statistic shud be set to <none> <br />
+![DatabaseStatistics](/img/20240420_0018/Statistic_database_none.png)
+<br />
 
 
 In 'Command manager' run <br />
