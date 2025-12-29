@@ -92,6 +92,13 @@ button:hover, a:hover {
        <img alt="AI" src="/img/Info/AI.png" style="width=145" height="145"> 
        </a>
        <!--- AI --->         
+
+       <a href="https://www.credly.com/badges/95faef90-e3f5-4aa5-870b-c31b9160e68f">
+       <img alt="QDAPC" src="/img/Info/QDAPC.png" style="width=145" height="145"> 
+       </a>
+       <!--- Qlik Data Analytics Presales Certification  --->     
+
+
        
      </div>
   <div style="margin: 24px 0;">
