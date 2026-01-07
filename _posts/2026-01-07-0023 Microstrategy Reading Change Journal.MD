@@ -187,7 +187,7 @@ even after it was deleted
 
 
 Notes:
-The idia I got from 
+The idea I got from 
 [microstrategy-change-journal](https://bestdatasolutions.es/en/blog/microstrategy-change-journal/)
 
 
