@@ -164,29 +164,18 @@ CHANGE_TYPE <> 4		/*if you save a report we dont need folder to be reported as s
 
 ## TESTING<br />
 If you add a new report and don't add notification it will show it as<br />
-
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
-Razvojno okolje Klemen	City	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
+![01](/img/20260107_0023/01.png)
 
 if we chage the name of it shows as<br />
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1<br />
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
+![02](/img/20260107_0023/02.png)
 
 if you just open it and save nothing changes<br />
 
 but if you let's say add another atribute you get<br />
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1<br />
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1<br />
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
+![03](/img/20260107_0023/03.png)
 
 and now when you delete it 
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
-Razvojno okolje Klemen	City2	3	report	Delete Objects	2026-01-07 12:35:22.997	Administrator	KRPAN2	NULL	1	0	0	0<br />
-Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1<br />
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1<br />
-Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
+![04](/img/20260107_0023/04.png)
 
 we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id<br />
 
