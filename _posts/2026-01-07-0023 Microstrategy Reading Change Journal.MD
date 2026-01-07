@@ -186,8 +186,9 @@ we get<br />
 
 
 
-
-
+Notes:
+The idia I got from 
+[microstrategy-change-journal](https://bestdatasolutions.es/en/blog/microstrategy-change-journal/)
 
 
 
