@@ -14,7 +14,7 @@ So a question came up: can we check how many changes a user has made in the curr
 
 I decided to investigate further and came to conclusion to use Change Journal. <br />
 
-and come to conclusion that<br />
+Sources that were used are<br />
 DSSMDJRNOBJD - object was deleted <br />
 DSSMDJRNOBJC - object was changed <br />
 DSSMDJRNOBJS - change type<br />
