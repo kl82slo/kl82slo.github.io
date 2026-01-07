@@ -7,18 +7,18 @@ tags:
 comments: true
 ---
 Difficulty ★★★☆☆
-
+<br />
 #IN PROGRESS
 
-So a question came up: can we check how many changes a user has made in the current year?
+So a question came up: can we check how many changes a user has made in the current year?<br />
 
-I decided to investigate further and came to this conclusion. 
+I decided to investigate further and came to this conclusion. <br />
 
-and come to conclusion that
-DSSMDJRNOBJD - object was deleted 
-DSSMDJRNOBJC - object was changed 
-DSSMDJRNOBJS - change type
-DSSMDJRNINFO - object info (if it's not deleted)
+and come to conclusion that<br />
+DSSMDJRNOBJD - object was deleted <br />
+DSSMDJRNOBJC - object was changed <br />
+DSSMDJRNOBJS - change type<br />
+DSSMDJRNINFO - object info (if it's not deleted)<br />
 
 
 {% highlight sql %} 
@@ -162,33 +162,33 @@ CHANGE_TYPE <> 4		/*if you save a report we dont need folder to be reported as s
 {% endhighlight %}
 <br />
 
-## TESTING
-If you add a new report and don't add notification it will show it as
+## TESTING<br />
+If you add a new report and don't add notification it will show it as<br />
 
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
-Razvojno okolje Klemen	City	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
+Razvojno okolje Klemen	City	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
 
-if we chage the name of it shows as
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+if we chage the name of it shows as<br />
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1<br />
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
 
-if you just open it and save nothing changes
+if you just open it and save nothing changes<br />
 
-but if you let's say add another atribute you get
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+but if you let's say add another atribute you get<br />
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1<br />
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1<br />
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
 
 and now when you delete it 
-Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
-Razvojno okolje Klemen	City2	3	report	Delete Objects	2026-01-07 12:35:22.997	Administrator	KRPAN2	NULL	1	0	0	0
-Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1
-Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1
-Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved<br />
+Razvojno okolje Klemen	City2	3	report	Delete Objects	2026-01-07 12:35:22.997	Administrator	KRPAN2	NULL	1	0	0	0<br />
+Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1<br />
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1<br />
+Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1<br />
 
-we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id
+we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id<br />
 
 
 
