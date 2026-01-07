@@ -178,12 +178,12 @@ and now when you delete it
 
 we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id<br />
 
-if we do the same just use commnets this time<br />
+if we do the same just use comments this time<br />
 ![05](/img/20260107_0023/05.png)
 
 we get<br />
 ![06](/img/20260107_0023/06.png)
-
+even after it was deleted
 
 
 Notes:
