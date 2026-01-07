@@ -14,6 +14,13 @@ So a question came up: can we check how many changes a user has made in the curr
 
 I decided to investigate further and came to this conclusion. 
 
+and come to conclusion that
+DSSMDJRNOBJD - object was deleted 
+DSSMDJRNOBJC - object was changed 
+DSSMDJRNOBJS - change type
+DSSMDJRNINFO - object info (if it's not deleted)
+
+
 {% highlight sql %} 
 
 with Transaction_type as
@@ -148,12 +155,45 @@ LEFT JOIN OBJECT_TYPE							AS ChangedAndDeleted_object_type	--	 object type for
 on  NameOfChangedAndDeletedObject.OBJECT_TYPE = ChangedAndDeleted_object_type.object_type
 where 
 CHANGE_TYPE <> 4		/*if you save a report we dont need folder to be reported as something changing*/
-and d.OBJECT_NAME = 'Razvojno okolje Klemen'		--filter project
-and year(a.TRANSACTION_TIMESTAMP) = 2025			--filter year
+--and d.OBJECT_NAME = 'Razvojno okolje Klemen'		--filter project
+--and year(a.TRANSACTION_TIMESTAMP) = 2025			--filter year
   order by d.OBJECT_NAME, a.TRANSACTION_TIMESTAMP desc
 
 {% endhighlight %}
 <br />
+
+## TESTING
+If you add a new report and don't add notification it will show it as
+
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
+Razvojno okolje Klemen	City	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+
+if we chage the name of it shows as
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+
+if you just open it and save nothing changes
+
+but if you let's say add another atribute you get
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+
+and now when you delete it 
+Project	Objekt	ObjectTypeId	ObjectType	Trans_Desc	Transaction_Timestamp	User_Name	AccesFrom	Change_notification	Count_Deletes	Count_Changes	Count_Created	Count_Saved
+Razvojno okolje Klemen	City2	3	report	Delete Objects	2026-01-07 12:35:22.997	Administrator	KRPAN2	NULL	1	0	0	0
+Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:34:15.877	Administrator	KRPAN2	NULL	0	0	0	1
+Razvojno okolje Klemen	City2	3	report	Save Objects	2026-01-07 12:31:09.300	Administrator	KRPAN2	Object renamed from 'City' to 'City2'	0	1	0	1
+Razvojno okolje Klemen	NULL	NULL	NULL	Save Objects	2026-01-07 12:26:11.433	Administrator	KRPAN2	NULL	0	0	1	1
+
+we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id
+
+
+
+
+
 
 
 
