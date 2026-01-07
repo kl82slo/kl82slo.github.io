@@ -176,7 +176,7 @@ but if you let's say add another atribute you get<br />
 and now when you delete it 
 ![04](/img/20260107_0023/04.png)
 
-we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id<br />
+We can see that something was created and saved, and we know what was changed and what was deleted. However, we can’t say it was the same object, since we can only see the transaction_id and not the object_id.<br />
 
 if we do the same just use comments this time<br />
 ![05](/img/20260107_0023/05.png)
