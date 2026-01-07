@@ -12,7 +12,7 @@ Difficulty ★★★☆☆
 
 So a question came up: can we check how many changes a user has made in the current year?<br />
 
-I decided to investigate further and came to this conclusion. <br />
+I decided to investigate further and came to conclusion to use Change Journal. <br />
 
 and come to conclusion that<br />
 DSSMDJRNOBJD - object was deleted <br />
@@ -170,7 +170,6 @@ if we chage the name of it shows as<br />
 ![02](/img/20260107_0023/02.png)
 
 if you just open it and save nothing changes<br />
-
 but if you let's say add another atribute you get<br />
 ![03](/img/20260107_0023/03.png)
 
@@ -178,6 +177,13 @@ and now when you delete it
 ![04](/img/20260107_0023/04.png)
 
 we can read that something was creted and saved we know what was changed and what was deleted but we can't say it was the same object since we can olny see transaction_id and not object_id<br />
+
+if we do the same just use commnets this time<br />
+![05](/img/20260107_0023/05.png)
+
+we get<br />
+![06](/img/20260107_0023/06.png)
+
 
 
 
