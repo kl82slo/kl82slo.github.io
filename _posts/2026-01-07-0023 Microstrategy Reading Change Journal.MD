@@ -8,7 +8,7 @@ comments: true
 ---
 Difficulty ★★★☆☆
 <br />
-#IN PROGRESS
+
 
 So a question came up: can we check how many changes a user has made in the current year?<br />
 
