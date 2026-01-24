@@ -34,7 +34,7 @@ Under **Tables**, set the **Table Prefix** to your database and schema, separate
 The resulting SQL query, including schema details, looks like this:<br />
 ![schema_table](/img/20260124_0024/schema_table.png) <br />
 
-With this configuration, MicroStrategy will create all temporary tables in your designated database and schema, keeping the source system clean and organized.
+With this configuration, MicroStrategy will create all temporary tables in your designated database and schema, keeping the source system clean and organized.<br />
 
-If you only want to test this on a specific report, change the VLDB Properties for that report to **Permanent Table**.<br />
+As a quick test, if **Permanent Table** isn’t your default setting, you can set the VLDB Properties of a specific report to **Permanent Table** to see how it works.<br />
 ![Report_setting](/img/20260124_0024/Report_setting.png)<br />
