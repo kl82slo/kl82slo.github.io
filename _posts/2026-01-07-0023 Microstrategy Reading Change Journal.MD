@@ -162,6 +162,8 @@ CHANGE_TYPE <> 4		/*if you save a report we dont need folder to be reported as s
 {% endhighlight %}
 <br />
 
+**Note:** "Change" means the report name was changed.<br />
+
 ## TESTING<br />
 If you add a new report and don't add notification it will show it as<br />
 ![01](/img/20260107_0023/01.png)
