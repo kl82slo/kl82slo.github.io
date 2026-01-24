@@ -15,7 +15,7 @@ When working with MicroStrategy, temporary tables are created as part of normal 
 In this tutorial, I’ll show how to configure MicroStrategy to use a dedicated database (or schema) for temporary tables, keeping the source database clean while maintaining full reporting functionality. <br />
 
 First option: If you don’t care about the schema, you can configure the Database Instance to specify which database MicroStrategy should use for temporary tables. <br />
-Warning: If you include a schema in this setting, MicroStrategy will automatically append it using double dots (..). <br />
+**Warning:** If you include a schema in this setting, MicroStrategy will append it incorrectly as 'db_name.schema..' (with double dots `..`). <br />
 
 ![BD_instance](/img/20260124_0024/BD_instance.png) <br />
 
