@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MicroStrategy Custom User statistic
+title: MicroStrategy Custom user statistic
 tags:
 - Microstrategy
 - User statistic
