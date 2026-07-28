@@ -222,12 +222,13 @@ Change VLDB setting <br />
 ### 2026 update
 after update kafka fails to run
 
-delete folder 'kraft-data' in
+in
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\
 {% endhighlight %}
+delete folder 'kraft-data'
 
-run
+then in cmd run
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>kafka-storage.bat random-uuid
 {% endhighlight %}
