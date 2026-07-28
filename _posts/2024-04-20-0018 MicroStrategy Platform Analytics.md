@@ -222,7 +222,11 @@ Change VLDB setting <br />
 ### 2026 update
 after update kafka fails to run
 
-in
+stop srvices
+MicroStrategy Platform Analytics In-Memory Cache
+and MicroStrategy Platform Analytics consumer
+
+then in
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\
 {% endhighlight %}
