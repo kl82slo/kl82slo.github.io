@@ -223,8 +223,9 @@ Change VLDB setting <br />
 after update kafka fails to run<br />
 
 stop services<br />
-MicroStrategy Platform Analytics In-Memory Cache<br />
-and MicroStrategy Platform Analytics consumer<br />
+-Apache Kafka (kafka) - if running <br />
+-MicroStrategy Platform Analytics In-Memory Cache<br />
+-MicroStrategy Platform Analytics consumer<br />
 
 then in<br />
 {% highlight sql %} 
@@ -237,10 +238,14 @@ then in cmd run<br />
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>kafka-storage.bat random-uuid
 {% endhighlight %}
 
-u get a randaom uuid (in this case VMUFRngHTcC6SS2_Y7gBZw) that u use in folowing command<br />
+u get a random uuid (in this case VMUFRngHTcC6SS2_Y7gBZw) that u use in folowing command<br />
 
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>"C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows\kafka-storage.bat" format -t VMUFRngHTcC6SS2_Y7gBZw -c "C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\config\server.properties" --standalone
 {% endhighlight %}
-
-try running kafka now<br />
+note: this version of Kafka uses KRaft mode, so ZooKeeper is no longer required<br />
+start services in order<br />
+-Apache Kafka (kafka)<br />
+WAIT 10s<br />
+-MicroStrategy Platform Analytics In-Memory Cache<br />
+-MicroStrategy Platform Analytics consumer<br />
