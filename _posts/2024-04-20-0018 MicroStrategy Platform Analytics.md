@@ -220,27 +220,27 @@ Change VLDB setting <br />
 
 --------------------
 ### 2026 update
-after update kafka fails to run
+after update kafka fails to run<br />
 
-stop srvices
-MicroStrategy Platform Analytics In-Memory Cache
-and MicroStrategy Platform Analytics consumer
+stop services<br />
+MicroStrategy Platform Analytics In-Memory Cache<br />
+and MicroStrategy Platform Analytics consumer<br />
 
-then in
+then in<br />
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\
 {% endhighlight %}
-delete folder 'kraft-data'
+delete folder 'kraft-data'<br />
 
-then in cmd run
+then in cmd run<br />
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>kafka-storage.bat random-uuid
 {% endhighlight %}
 
-u get a randaom uuid (in this case VMUFRngHTcC6SS2_Y7gBZw) that u use in folowing command
+u get a randaom uuid (in this case VMUFRngHTcC6SS2_Y7gBZw) that u use in folowing command<br />
 
 {% highlight sql %} 
 C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>"C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows\kafka-storage.bat" format -t VMUFRngHTcC6SS2_Y7gBZw -c "C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\config\server.properties" --standalone
 {% endhighlight %}
 
-try running kafka now
+try running kafka now<br />
