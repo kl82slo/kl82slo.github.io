@@ -216,3 +216,26 @@ Change VLDB setting <br />
 [KB485003](https://community.microstrategy.com/s/article/Platform-Analytics-dossiers-always-show-the-same-hour?language=en_US)
 
 <br />
+
+
+--------------------
+### 2026 update
+after update kafka fails to run
+
+delete folder 'kraft-data' in
+{% highlight sql %} 
+C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\
+{% endhighlight %}
+
+run
+{% highlight sql %} 
+C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>kafka-storage.bat random-uuid
+{% endhighlight %}
+
+u get a randaom uuid (in this case VMUFRngHTcC6SS2_Y7gBZw) that u use in folowing command
+
+{% highlight sql %} 
+C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows>"C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\bin\windows\kafka-storage.bat" format -t VMUFRngHTcC6SS2_Y7gBZw -c "C:\Program Files (x86)\MicroStrategy\Messaging Services\Kafka\kafka_2.13-4.2.0\config\server.properties" --standalone
+{% endhighlight %}
+
+try running kafka now
