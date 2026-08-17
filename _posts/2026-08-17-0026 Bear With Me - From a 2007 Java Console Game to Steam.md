@@ -109,5 +109,6 @@ The game is **free** and takes about **20 minutes** to play: [Bear With Me: The 
 
 If you play it, let me know which ending you found first - and which one I forgot to include.
 
-![bear](https://kl82slo.github.io/img/20260817_0026/header_capsule_920x430.png
+![bear](https://kl82slo.github.io/img/20260817_0026/header_capsule_920x430.png)
+
 
