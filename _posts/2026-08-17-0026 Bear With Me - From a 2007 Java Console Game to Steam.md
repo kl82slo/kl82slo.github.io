@@ -1,15 +1,12 @@
 ---
 layout: post
 title: "Bear With Me - From a 2007 Java Console Game to Steam"
-date: 2026-08-17
-description: Dificulty ★★☆☆☆
 ---
+Dificulty ★★☆☆☆
+<br />
+
 
 # Bear With Me - From a 2007 Java Console Game to Steam
-
-17 Aug 2026
-
-Dificulty ★★☆☆☆
 
 This one is not about MicroStrategy or Qlik. This is a side project I finally finished after 17 years.
 
