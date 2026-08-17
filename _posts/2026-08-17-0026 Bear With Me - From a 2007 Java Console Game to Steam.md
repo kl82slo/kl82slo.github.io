@@ -5,9 +5,6 @@ title: "Bear With Me - From a 2007 Java Console Game to Steam"
 Dificulty ★★☆☆☆
 <br />
 
-
-# Bear With Me - From a 2007 Java Console Game to Steam
-
 This one is not about MicroStrategy or Qlik. This is a side project I finally finished after 17 years.
 
 ## Where it started
