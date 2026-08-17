@@ -109,6 +109,5 @@ The game is **free** and takes about **20 minutes** to play: [Bear With Me: The 
 
 If you play it, let me know which ending you found first - and which one I forgot to include.
 
-![bear](https://kl82slo.github.io/img/20260817_0026/header_capsule_920x430.png)
-
+[<img src="https://kl82slo.github.io/img/20260817_0026/header_capsule_920x430.png">](https://store.steampowered.com/app/4913420/Bear_With_Me_The_Pizza_Chronicles_Prequel/)
 
